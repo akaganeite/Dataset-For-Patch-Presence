@@ -1,1 +1,3 @@
-# Dataset-For-Patch-Presence
+- Dataset: Diff files, target function list and testset versions
+- Result: experiment results for the five selected patch presence testing tools
+- More Data including binaries, code for Dataset construction are coming soon...

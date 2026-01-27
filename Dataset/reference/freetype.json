@@ -1,0 +1,383 @@
+[
+  {
+    "CVE": "CVE-2014-9656",
+    "vuln": "CVE-2014-9656-vuln-eca0f0670680-freetype",
+    "patch": "CVE-2014-9656-patch-f0292bb9920a-freetype",
+    "functions": [
+      "tt_sbit_decoder_load_image"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8105",
+    "vuln": "CVE-2017-8105-vuln-913f436d12df-freetype",
+    "patch": "CVE-2017-8105-patch-f958c48ee431-freetype",
+    "functions": [
+      "t1_decoder_parse_charstrings"
+    ]
+  },
+  {
+    "CVE": "CVE-2010-2808",
+    "vuln": "CVE-2010-2808-vuln-223cb1b57c1c-freetype",
+    "patch": "CVE-2010-2808-patch-81f3472c0ba7-freetype",
+    "functions": [
+      "Mac_Read_POST_Resource"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9658",
+    "vuln": "CVE-2014-9658-vuln-73be9f9ab678-freetype",
+    "patch": "CVE-2014-9658-patch-f70d9342e65c-freetype",
+    "functions": [
+      "tt_face_load_kern"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-10328",
+    "vuln": "CVE-2016-10328-vuln-01658be6fbda-freetype",
+    "patch": "CVE-2016-10328-patch-beecf80a6dee-freetype",
+    "functions": [
+      "cff_parser_run"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9657",
+    "vuln": "CVE-2014-9657-vuln-96341dc3785a-freetype",
+    "patch": "CVE-2014-9657-patch-eca0f0670680-freetype",
+    "functions": [
+      "tt_face_load_hdmx"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9662",
+    "vuln": "CVE-2014-9662-vuln-801b35fe81ad-freetype",
+    "patch": "CVE-2014-9662-patch-5f201ab5c24c-freetype",
+    "functions": [
+      "cf2_builder_cubeTo",
+      "cf2_builder_lineTo"
+    ]
+  },
+  {
+    "CVE": "CVE-2010-2497",
+    "vuln": "CVE-2010-2497-vuln-a4124bf088fb-freetype",
+    "patch": "CVE-2010-2497-patch-7d3d2cc4fef7-freetype",
+    "functions": [
+      "cff_decoder_parse_charstrings",
+      "gray_render_cubic"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9667",
+    "vuln": "CVE-2014-9667-vuln-f46add138953-freetype",
+    "patch": "CVE-2014-9667-patch-677ddf4f1dc1-freetype",
+    "functions": [
+      "check_table_dir",
+      "tt_face_load_font_dir"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9746",
+    "vuln": "CVE-2014-9746-vuln-039f049656bf-freetype",
+    "patch": "CVE-2014-9746-patch-8b281f83e851-freetype",
+    "functions": [
+      "cid_parse_font_matrix",
+      "t1_parse_font_matrix",
+      "t42_parse_encoding",
+      "t42_parse_font_matrix"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9674",
+    "vuln": "CVE-2014-9674-vuln-5aff85301bdc-freetype",
+    "patch": "CVE-2014-9674-patch-240c94a185cd-freetype",
+    "functions": [
+      "Mac_Read_POST_Resource"
+    ]
+  },
+  {
+    "CVE": "CVE-2010-3814",
+    "vuln": "CVE-2010-3814-vuln-94d540ef7753-freetype",
+    "patch": "CVE-2010-3814-patch-0edf0986f3be-freetype",
+    "functions": [
+      "Ins_SHZ"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8287",
+    "vuln": "CVE-2017-8287-vuln-f958c48ee431-freetype",
+    "patch": "CVE-2017-8287-patch-3774fc08b502-freetype",
+    "functions": [
+      "t1_builder_close_contour"
+    ]
+  },
+  {
+    "CVE": "CVE-2010-2500",
+    "vuln": "CVE-2010-2500-vuln-0ae6cf214ff1-freetype",
+    "patch": "CVE-2010-2500-patch-6305b869d86f-freetype",
+    "functions": [
+      "ft_smooth_render_generic",
+      "gray_render_span"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9665",
+    "vuln": "CVE-2014-9665-vuln-257c270bd25e-freetype",
+    "patch": "CVE-2014-9665-patch-54abd22891bd-freetype",
+    "functions": [
+      "Load_SBit_Png"
+    ]
+  },
+  {
+    "CVE": "CVE-2009-0946",
+    "vuln": "CVE-2009-0946-vuln-8b819254b9fa-freetype",
+    "patch": "CVE-2009-0946-patch-0545ec1ca36b-freetype",
+    "functions": [
+      "cff_charset_load"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-9381",
+    "vuln": "CVE-2015-9381-vuln-ff7d64040411-freetype",
+    "patch": "CVE-2015-9381-patch-7962a15d64c8-freetype",
+    "functions": [
+      "T1_Get_Private_Dict"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9673",
+    "vuln": "CVE-2014-9673-vuln-240c94a185cd-freetype",
+    "patch": "CVE-2014-9673-patch-35252ae9aa1d-freetype",
+    "functions": [
+      "Mac_Read_POST_Resource"
+    ]
+  },
+  {
+    "CVE": "CVE-2012-5669",
+    "vuln": "CVE-2012-5669-vuln-9b6b5754b57c-freetype",
+    "patch": "CVE-2012-5669-patch-07bdb6e289c7-freetype",
+    "functions": [
+      "_bdf_parse_glyphs"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9745",
+    "vuln": "CVE-2014-9745-vuln-cc9a0c26af5f-freetype",
+    "patch": "CVE-2014-9745-patch-df14e6c0b959-freetype",
+    "functions": [
+      "parse_encoding"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-9290",
+    "vuln": "CVE-2015-9290-vuln-e40e8b33a1e9-freetype",
+    "patch": "CVE-2015-9290-patch-e3058617f384-freetype",
+    "functions": [
+      "T1_Get_Private_Dict"
+    ]
+  },
+  {
+    "CVE": "CVE-2010-2499",
+    "vuln": "CVE-2010-2499-vuln-6fc12943e99b-freetype",
+    "patch": "CVE-2010-2499-patch-c69891a13456-freetype",
+    "functions": [
+      "Mac_Read_POST_Resource"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9660",
+    "vuln": "CVE-2014-9660-vuln-42fcd6693ec7-freetype",
+    "patch": "CVE-2014-9660-patch-af8346172a7b-freetype",
+    "functions": [
+      "_bdf_parse_glyphs"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9669",
+    "vuln": "CVE-2014-9669-vuln-2e73a1b4fdc4-freetype",
+    "patch": "CVE-2014-9669-patch-602040b1112c-freetype",
+    "functions": [
+      "tt_cmap10_validate",
+      "tt_cmap12_validate",
+      "tt_cmap13_validate",
+      "tt_cmap14_validate",
+      "tt_cmap8_validate"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-2241",
+    "vuln": "CVE-2014-2241-vuln-0eae6eb06452-freetype",
+    "patch": "CVE-2014-2241-patch-135c3faebb96-freetype",
+    "functions": [
+      "cf2_initGlobalRegionBuffer",
+      "cf2_initLocalRegionBuffer"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9659",
+    "vuln": "CVE-2014-9659-vuln-8fa69a88d75f-freetype",
+    "patch": "CVE-2014-9659-patch-2cdc4562f873-freetype",
+    "functions": [
+      "cf2_hintmap_build"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-9382",
+    "vuln": "CVE-2015-9382-vuln-19b82cfbed2a-freetype",
+    "patch": "CVE-2015-9382-patch-db5a4a9ae7b0-freetype",
+    "functions": [
+      "ps_parser_skip_PS_token"
+    ]
+  },
+  {
+    "CVE": "CVE-2010-2520",
+    "vuln": "CVE-2010-2520-vuln-c73e160517fa-freetype",
+    "patch": "CVE-2010-2520-patch-888cd1843e93-freetype",
+    "functions": [
+      "Ins_IUP"
+    ]
+  },
+  {
+    "CVE": "CVE-2010-2498",
+    "vuln": "CVE-2010-2498-vuln-3624110cc25c-freetype",
+    "patch": "CVE-2010-2498-patch-8d22746c9e5a-freetype",
+    "functions": [
+      "psh_glyph_find_strong_points"
+    ]
+  },
+  {
+    "CVE": "CVE-2012-5670",
+    "vuln": "CVE-2012-5670-vuln-07bdb6e289c7-freetype",
+    "patch": "CVE-2012-5670-patch-7f2e4f4f553f-freetype",
+    "functions": [
+      "_bdf_parse_glyphs"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9670",
+    "vuln": "CVE-2014-9670-vuln-0e2f5d518c60-freetype",
+    "patch": "CVE-2014-9670-patch-ef1eba75187a-freetype",
+    "functions": [
+      "pcf_get_encodings"
+    ]
+  },
+  {
+    "CVE": "CVE-2010-2519",
+    "vuln": "CVE-2010-2519-vuln-f29f741efbba-freetype",
+    "patch": "CVE-2010-2519-patch-5ef20c8c1d4d-freetype",
+    "functions": [
+      "Mac_Read_POST_Resource"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9671",
+    "vuln": "CVE-2014-9671-vuln-f49a100a6c4b-freetype",
+    "patch": "CVE-2014-9671-patch-0e2f5d518c60-freetype",
+    "functions": [
+      "pcf_read_TOC"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9668",
+    "vuln": "CVE-2014-9668-vuln-602040b1112c-freetype",
+    "patch": "CVE-2014-9668-patch-f46add138953-freetype",
+    "functions": [
+      "woff_open_font"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-7857",
+    "vuln": "CVE-2017-7857-vuln-7d7aae1de3e2-freetype",
+    "patch": "CVE-2017-7857-patch-7bbb91fbf47f-freetype",
+    "functions": [
+      "sfnt_init_face"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-7858",
+    "vuln": "CVE-2017-7858-vuln-27fee7f8c6ae-freetype",
+    "patch": "CVE-2017-7858-patch-779309744222-freetype",
+    "functions": [
+      "sfnt_init_face"
+    ]
+  },
+  {
+    "CVE": "CVE-2010-3855",
+    "vuln": "CVE-2010-3855-vuln-bc4ed48e4133-freetype",
+    "patch": "CVE-2010-3855-patch-59eb9f8cfe7d-freetype",
+    "functions": [
+      "ft_var_readpackedpoints"
+    ]
+  },
+  {
+    "CVE": "CVE-2010-2805",
+    "vuln": "CVE-2010-2805-vuln-32dc43a5cc7b-freetype",
+    "patch": "CVE-2010-2805-patch-45a3c76b5475-freetype",
+    "functions": [
+      "FT_Stream_EnterFrame"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-7864",
+    "vuln": "CVE-2017-7864-vuln-dadc50a4679c-freetype",
+    "patch": "CVE-2017-7864-patch-e6699596af5c-freetype",
+    "functions": [
+      "tt_size_reset"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9666",
+    "vuln": "CVE-2014-9666-vuln-677ddf4f1dc1-freetype",
+    "patch": "CVE-2014-9666-patch-257c270bd25e-freetype",
+    "functions": [
+      "tt_sbit_decoder_init"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9664",
+    "vuln": "CVE-2014-9664-vuln-a7a4207d1087-freetype",
+    "patch": "CVE-2014-9664-patch-73be9f9ab678-freetype",
+    "functions": [
+      "parse_charstrings",
+      "t42_parse_charstrings"
+    ]
+  },
+  {
+    "CVE": "CVE-2012-5668",
+    "vuln": "CVE-2012-5668-vuln-65d6572105c0-freetype",
+    "patch": "CVE-2012-5668-patch-9b6b5754b57c-freetype",
+    "functions": [
+      "_bdf_parse_start"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9663",
+    "vuln": "CVE-2014-9663-vuln-dd89710f0f64-freetype",
+    "patch": "CVE-2014-9663-patch-9bd20b7304aa-freetype",
+    "functions": [
+      "tt_cmap4_validate"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-9383",
+    "vuln": "CVE-2015-9383-vuln-009cc1503516-freetype",
+    "patch": "CVE-2015-9383-patch-57cbb8c14899-freetype",
+    "functions": [
+      "tt_cmap14_validate"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-9661",
+    "vuln": "CVE-2014-9661-vuln-5f201ab5c24c-freetype",
+    "patch": "CVE-2014-9661-patch-3788187e0c39-freetype",
+    "functions": [
+      "T42_Face_Init"
+    ]
+  },
+  {
+    "CVE": "CVE-2010-2806",
+    "vuln": "CVE-2010-2806-vuln-d9b3e39484bb-freetype",
+    "patch": "CVE-2010-2806-patch-c06da1ad3466-freetype",
+    "functions": [
+      "t42_parse_sfnts"
+    ]
+  }
+]

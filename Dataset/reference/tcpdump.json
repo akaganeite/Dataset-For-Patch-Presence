@@ -1,0 +1,933 @@
+[
+  {
+    "CVE": "CVE-2017-13687",
+    "vuln": "CVE-2017-13687-vuln-071190f7a96d-tcpdump",
+    "patch": "CVE-2017-13687-patch-a1eefe986065-tcpdump",
+    "functions": [
+      "chdlc_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12997",
+    "vuln": "CVE-2017-12997-vuln-979dcefd7b25-tcpdump",
+    "patch": "CVE-2017-12997-patch-34cec721d39c-tcpdump",
+    "functions": [
+      "lldp_private_8021_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12894",
+    "vuln": "CVE-2017-12894-vuln-6f5ba2b651cd-tcpdump",
+    "patch": "CVE-2017-12894-patch-730fc35968c5-tcpdump",
+    "functions": [
+      "le64addr_string",
+      "linkaddr_string",
+      "lookup_bytestring",
+      "lookup_emem"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13034",
+    "vuln": "CVE-2017-13034-vuln-fe5ad997c499-tcpdump",
+    "patch": "CVE-2017-13034-patch-da6f1a677bfa-tcpdump",
+    "functions": [
+      "pgm_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13040",
+    "vuln": "CVE-2017-13040-vuln-e0a5a02b0fc1-tcpdump",
+    "patch": "CVE-2017-13040-patch-4c3aee4bb029-tcpdump",
+    "functions": [
+      "mp_capable_print",
+      "mp_join_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13015",
+    "vuln": "CVE-2017-13015-vuln-cc356512f512-tcpdump",
+    "patch": "CVE-2017-13015-patch-985122081165-tcpdump",
+    "functions": [
+      "eap_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13031",
+    "vuln": "CVE-2017-13031-vuln-eb8c0d463636-tcpdump",
+    "patch": "CVE-2017-13031-patch-2d669862df7c-tcpdump",
+    "functions": [
+      "frag6_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16227",
+    "vuln": "CVE-2018-16227-vuln-83a412a5275c-tcpdump",
+    "patch": "CVE-2018-16227-patch-4846b3c5d0a8-tcpdump",
+    "functions": [
+      "ieee802_11_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12895",
+    "vuln": "CVE-2017-12895-vuln-730fc35968c5-tcpdump",
+    "patch": "CVE-2017-12895-patch-2b62d1dda415-tcpdump",
+    "functions": [
+      "icmp_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16230",
+    "vuln": "CVE-2018-16230-vuln-9a6eb2765046-tcpdump",
+    "patch": "CVE-2018-16230-patch-13d52e9c0e7c-tcpdump",
+    "functions": [
+      "bgp_attr_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16300",
+    "vuln": "CVE-2018-16300-vuln-4bfd71eee41a-tcpdump",
+    "patch": "CVE-2018-16300-patch-af2cf04a9394-tcpdump",
+    "functions": [
+      "bgp_attr_get_as_size",
+      "bgp_attr_print",
+      "bgp_update_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13020",
+    "vuln": "CVE-2017-13020-vuln-4601c685e7fd-tcpdump",
+    "patch": "CVE-2017-13020-patch-c5dd7bef5e54-tcpdump",
+    "functions": [
+      "vtp_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13046",
+    "vuln": "CVE-2017-13046-vuln-3b36ec4e713d-tcpdump",
+    "patch": "CVE-2017-13046-patch-d10a0f980fe8-tcpdump",
+    "functions": [
+      "bgp_attr_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13025",
+    "vuln": "CVE-2017-13025-vuln-7d3aba9f0689-tcpdump",
+    "patch": "CVE-2017-13025-patch-5338aac7b8b8-tcpdump",
+    "functions": [
+      "mobility_opt_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13008",
+    "vuln": "CVE-2017-13008-vuln-ca336198e8be-tcpdump",
+    "patch": "CVE-2017-13008-patch-5edf405d7ed9-tcpdump",
+    "functions": [
+      "parse_elements"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13044",
+    "vuln": "CVE-2017-13044-vuln-39582c04cc5e-tcpdump",
+    "patch": "CVE-2017-13044-patch-c2f6833dddec-tcpdump",
+    "functions": [
+      "dhcpv4_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12897",
+    "vuln": "CVE-2017-12897-vuln-f76e7feb41a4-tcpdump",
+    "patch": "CVE-2017-12897-patch-1dcd10aceabb-tcpdump",
+    "functions": [
+      "atm_if_print",
+      "chdlc_print",
+      "ethertype_print",
+      "fr_print",
+      "gre_print_0",
+      "handle_ppp",
+      "isoclns_print",
+      "juniper_atm1_print",
+      "juniper_atm2_print",
+      "juniper_mfr_print",
+      "juniper_mlfr_print",
+      "juniper_mlppp_print",
+      "llc_print",
+      "mpls_print",
+      "null_if_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13054",
+    "vuln": "CVE-2017-13054-vuln-83c64fce3a52-tcpdump",
+    "patch": "CVE-2017-13054-patch-e6511cc1a950-tcpdump",
+    "functions": [
+      "lldp_private_8023_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13045",
+    "vuln": "CVE-2017-13045-vuln-c2f6833dddec-tcpdump",
+    "patch": "CVE-2017-13045-patch-3b36ec4e713d-tcpdump",
+    "functions": [
+      "vqp_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13041",
+    "vuln": "CVE-2017-13041-vuln-4c3aee4bb029-tcpdump",
+    "patch": "CVE-2017-13041-patch-f4b9e24c7384-tcpdump",
+    "functions": [
+      "icmp6_nodeinfo_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14468",
+    "vuln": "CVE-2018-14468-vuln-05a303c84c1c-tcpdump",
+    "patch": "CVE-2018-14468-patch-aa3e54f59438-tcpdump",
+    "functions": [
+      "mfr_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13050",
+    "vuln": "CVE-2017-13050-vuln-289c67202028-tcpdump",
+    "patch": "CVE-2017-13050-patch-83c64fce3a52-tcpdump",
+    "functions": [
+      "indent_string",
+      "rpki_rtr_pdu_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12987",
+    "vuln": "CVE-2017-12987-vuln-d17507ffa3e9-tcpdump",
+    "patch": "CVE-2017-12987-patch-99798bd9a41b-tcpdump",
+    "functions": [
+      "parse_elements"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13036",
+    "vuln": "CVE-2017-13036-vuln-571a6f33f47e-tcpdump",
+    "patch": "CVE-2017-13036-patch-88b2dac837e8-tcpdump",
+    "functions": [
+      "ospf6_decode_v3"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13688",
+    "vuln": "CVE-2017-13688-vuln-26b956739a77-tcpdump",
+    "patch": "CVE-2017-13688-patch-0cb1b8a434b5-tcpdump",
+    "functions": [
+      "olsr_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13023",
+    "vuln": "CVE-2017-13023-vuln-eee0b04bcfda-tcpdump",
+    "patch": "CVE-2017-13023-patch-b8e559afaeb8-tcpdump",
+    "functions": [
+      "mobility_opt_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14462",
+    "vuln": "CVE-2018-14462-vuln-e5ec0d6b59b0-tcpdump",
+    "patch": "CVE-2018-14462-patch-1a1bce0526a7-tcpdump",
+    "functions": [
+      "icmp_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13019",
+    "vuln": "CVE-2017-13019-vuln-26a6799b9ca8-tcpdump",
+    "patch": "CVE-2017-13019-patch-4601c685e7fd-tcpdump",
+    "functions": [
+      "pgm_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12992",
+    "vuln": "CVE-2017-12992-vuln-db24063b01cb-tcpdump",
+    "patch": "CVE-2017-12992-patch-e942fb84fbe3-tcpdump",
+    "functions": [
+      "ripng_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-15166",
+    "vuln": "CVE-2019-15166-vuln-d97e94223720-tcpdump",
+    "patch": "CVE-2019-15166-patch-0b661e0aa618-tcpdump",
+    "functions": [
+      "lmp_print",
+      "lmp_print_data_link_subobjs"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13029",
+    "vuln": "CVE-2017-13029-vuln-29e5470e6ab8-tcpdump",
+    "patch": "CVE-2017-13029-patch-7029d15f148e-tcpdump",
+    "functions": [
+      "print_bacp_config_options",
+      "print_ccp_config_options",
+      "print_ipcp_config_options",
+      "print_lcp_config_options"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14882",
+    "vuln": "CVE-2018-14882-vuln-e01c9bf76740-tcpdump",
+    "patch": "CVE-2018-14882-patch-d7505276842e-tcpdump",
+    "functions": [
+      "icmp6_nodeinfo_print",
+      "icmp6_opt_print",
+      "icmp6_print",
+      "icmp6_rrenum_print",
+      "mldv2_query_print",
+      "mldv2_report_print",
+      "rpl_dao_print",
+      "rpl_daoack_print",
+      "rpl_dio_print",
+      "rpl_dio_printopt",
+      "rpl_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12896",
+    "vuln": "CVE-2017-12896-vuln-a1eefe986065-tcpdump",
+    "patch": "CVE-2017-12896-patch-f76e7feb41a4-tcpdump",
+    "functions": [
+      "isakmp_rfc3948_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14464",
+    "vuln": "CVE-2018-14464-vuln-a152aebfd111-tcpdump",
+    "patch": "CVE-2018-14464-patch-d97e94223720-tcpdump",
+    "functions": [
+      "lmp_print",
+      "lmp_print_data_link_subobjs"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13032",
+    "vuln": "CVE-2017-13032-vuln-0f1735981d7e-tcpdump",
+    "patch": "CVE-2017-13032-patch-1bc78d795cd5-tcpdump",
+    "functions": [
+      "print_attr_string"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12995",
+    "vuln": "CVE-2017-12995-vuln-866c60236c41-tcpdump",
+    "patch": "CVE-2017-12995-patch-3a76fd7c95fc-tcpdump",
+    "functions": [
+      "ns_nprint"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13043",
+    "vuln": "CVE-2017-13043-vuln-d10a0f980fe8-tcpdump",
+    "patch": "CVE-2017-13043-patch-d515b4b4a300-tcpdump",
+    "functions": [
+      "decode_multicast_vpn"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13689",
+    "vuln": "CVE-2017-13689-vuln-0cb1b8a434b5-tcpdump",
+    "patch": "CVE-2017-13689-patch-061e7371a944-tcpdump",
+    "functions": [
+      "ikev1_id_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13001",
+    "vuln": "CVE-2017-13001-vuln-851273488322-tcpdump",
+    "patch": "CVE-2017-13001-patch-7a923447fd49-tcpdump",
+    "functions": [
+      "nfs_printfh"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13049",
+    "vuln": "CVE-2017-13049-vuln-d515b4b4a300-tcpdump",
+    "patch": "CVE-2017-13049-patch-aa0858100096-tcpdump",
+    "functions": [
+      "ubik_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13038",
+    "vuln": "CVE-2017-13038-vuln-3cb7c9ac7907-tcpdump",
+    "patch": "CVE-2017-13038-patch-7335163a6ef8-tcpdump",
+    "functions": [
+      "handle_mlppp"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12899",
+    "vuln": "CVE-2017-12899-vuln-19d25dd87816-tcpdump",
+    "patch": "CVE-2017-12899-patch-c6e0531b5def-tcpdump",
+    "functions": [
+      "decnet_print",
+      "print_decnet_ctlmsg"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16452",
+    "vuln": "CVE-2018-16452-vuln-af2cf04a9394-tcpdump",
+    "patch": "CVE-2018-16452-patch-24182d959f66-tcpdump",
+    "functions": [
+      "smb_fdata"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12999",
+    "vuln": "CVE-2017-12999-vuln-777edc563aac-tcpdump",
+    "patch": "CVE-2017-12999-patch-3b32029db354-tcpdump",
+    "functions": [
+      "isis_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13030",
+    "vuln": "CVE-2017-13030-vuln-7029d15f148e-tcpdump",
+    "patch": "CVE-2017-13030-patch-5dc1860d8267-tcpdump",
+    "functions": [
+      "cisco_autorp_print",
+      "pim_print",
+      "pimv1_join_prune_print",
+      "pimv1_print",
+      "pimv2_addr_print",
+      "pimv2_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13013",
+    "vuln": "CVE-2017-13013-vuln-8509ef02eceb-tcpdump",
+    "patch": "CVE-2017-13013-patch-13ab8d18617d-tcpdump",
+    "functions": [
+      "arp_print",
+      "atmarp_addr_print",
+      "atmarp_print",
+      "isnonzero"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12901",
+    "vuln": "CVE-2017-12901-vuln-7ac73d6cd41e-tcpdump",
+    "patch": "CVE-2017-12901-patch-de981e6070d1-tcpdump",
+    "functions": [
+      "eigrp_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12893",
+    "vuln": "CVE-2017-12893-vuln-c6e0531b5def-tcpdump",
+    "patch": "CVE-2017-12893-patch-6f5ba2b651cd-tcpdump",
+    "functions": [
+      "name_len"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12990",
+    "vuln": "CVE-2017-12990-vuln-50a44b6b8e4f-tcpdump",
+    "patch": "CVE-2017-12990-patch-c2ef693866be-tcpdump",
+    "functions": [
+      "ikev1_n_print",
+      "ikev1_nonce_print",
+      "ikev2_auth_print",
+      "ikev2_n_print",
+      "isakmp_rfc3948_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13052",
+    "vuln": "CVE-2017-13052-vuln-bd4e697ebd6c-tcpdump",
+    "patch": "CVE-2017-13052-patch-5d340a5ca6e4-tcpdump",
+    "functions": [
+      "cfm_network_addr_print",
+      "cfm_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13018",
+    "vuln": "CVE-2017-13018-vuln-11b426ee05eb-tcpdump",
+    "patch": "CVE-2017-13018-patch-26a6799b9ca8-tcpdump",
+    "functions": [
+      "pgm_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13035",
+    "vuln": "CVE-2017-13035-vuln-da6f1a677bfa-tcpdump",
+    "patch": "CVE-2017-13035-patch-571a6f33f47e-tcpdump",
+    "functions": [
+      "isis_print_id"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13055",
+    "vuln": "CVE-2017-13055-vuln-5d340a5ca6e4-tcpdump",
+    "patch": "CVE-2017-13055-patch-5d0d76e88ee2-tcpdump",
+    "functions": [
+      "isis_print_is_reach_subtlv"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12985",
+    "vuln": "CVE-2017-12985-vuln-0318fa8b61bd-tcpdump",
+    "patch": "CVE-2017-12985-patch-66df248b4909-tcpdump",
+    "functions": [
+      "ip6_print",
+      "mobility_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12998",
+    "vuln": "CVE-2017-12998-vuln-3b32029db354-tcpdump",
+    "patch": "CVE-2017-12998-patch-979dcefd7b25-tcpdump",
+    "functions": [
+      "isis_print_extd_ip_reach"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13039",
+    "vuln": "CVE-2017-13039-vuln-7335163a6ef8-tcpdump",
+    "patch": "CVE-2017-13039-patch-e0a5a02b0fc1-tcpdump",
+    "functions": [
+      "ikev1_attrmap_print",
+      "ikev1_n_print",
+      "ikev1_t_print",
+      "ikev2_t_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14469",
+    "vuln": "CVE-2018-14469-vuln-c24922e692a5-tcpdump",
+    "patch": "CVE-2018-14469-patch-396e94ff55a8-tcpdump",
+    "functions": [
+      "ikev1_n_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14467",
+    "vuln": "CVE-2018-14467-vuln-86326e880d31-tcpdump",
+    "patch": "CVE-2018-14467-patch-e3f3b445e2d2-tcpdump",
+    "functions": [
+      "bgp_capabilities_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13012",
+    "vuln": "CVE-2017-13012-vuln-9f0730bee3eb-tcpdump",
+    "patch": "CVE-2017-13012-patch-8509ef02eceb-tcpdump",
+    "functions": [
+      "icmp_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14470",
+    "vuln": "CVE-2018-14470-vuln-aa3e54f59438-tcpdump",
+    "patch": "CVE-2018-14470-patch-12f66f69f7bf-tcpdump",
+    "functions": [
+      "babel_print_v2"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16229",
+    "vuln": "CVE-2018-16229-vuln-4846b3c5d0a8-tcpdump",
+    "patch": "CVE-2018-16229-patch-211124b972e7-tcpdump",
+    "functions": [
+      "dccp_print_option"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12996",
+    "vuln": "CVE-2017-12996-vuln-34cec721d39c-tcpdump",
+    "patch": "CVE-2017-12996-patch-6fca58f5f9c9-tcpdump",
+    "functions": [
+      "pimv2_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13006",
+    "vuln": "CVE-2017-13006-vuln-4e430c6b0d8b-tcpdump",
+    "patch": "CVE-2017-13006-patch-cc4a7391c616-tcpdump",
+    "functions": [
+      "l2tp_avp_print",
+      "l2tp_bearer_cap_print",
+      "l2tp_bearer_type_print",
+      "l2tp_framing_cap_print",
+      "l2tp_packet_proc_delay_print",
+      "l2tp_ppp_discon_cc_print",
+      "l2tp_result_code_print",
+      "print_32bits_val"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13011",
+    "vuln": "CVE-2017-13011-vuln-93493458ca50-tcpdump",
+    "patch": "CVE-2017-13011-patch-9f0730bee3eb-tcpdump",
+    "functions": [
+      "bittok2str_internal"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13033",
+    "vuln": "CVE-2017-13033-vuln-e0d8ee571438-tcpdump",
+    "patch": "CVE-2017-13033-patch-ae83295915d0-tcpdump",
+    "functions": [
+      "vtp_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12898",
+    "vuln": "CVE-2017-12898-vuln-1dcd10aceabb-tcpdump",
+    "patch": "CVE-2017-12898-patch-19d25dd87816-tcpdump",
+    "functions": [
+      "interp_reply",
+      "nfsreq_print_noaddr",
+      "parserep"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13007",
+    "vuln": "CVE-2017-13007-vuln-cc4a7391c616-tcpdump",
+    "patch": "CVE-2017-13007-patch-ca336198e8be-tcpdump",
+    "functions": [
+      "pktap_if_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12989",
+    "vuln": "CVE-2017-12989-vuln-2ecb9d2c67d9-tcpdump",
+    "patch": "CVE-2017-12989-patch-db24063b01cb-tcpdump",
+    "functions": [
+      "resp_get_length"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13000",
+    "vuln": "CVE-2017-13000-vuln-a7e5f58f402e-tcpdump",
+    "patch": "CVE-2017-13000-patch-851273488322-tcpdump",
+    "functions": [
+      "ieee802_15_4_if_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13017",
+    "vuln": "CVE-2017-13017-vuln-c177cb3800a9-tcpdump",
+    "patch": "CVE-2017-13017-patch-11b426ee05eb-tcpdump",
+    "functions": [
+      "dhcp6opt_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13004",
+    "vuln": "CVE-2017-13004-vuln-a25211918f2e-tcpdump",
+    "patch": "CVE-2017-13004-patch-42073d54c53a-tcpdump",
+    "functions": [
+      "juniper_parse_header"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13027",
+    "vuln": "CVE-2017-13027-vuln-b20e1639dbac-tcpdump",
+    "patch": "CVE-2017-13027-patch-a77ff09c4656-tcpdump",
+    "functions": [
+      "lldp_mgmt_addr_tlv_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13051",
+    "vuln": "CVE-2017-13051-vuln-331530a4076c-tcpdump",
+    "patch": "CVE-2017-13051-patch-289c67202028-tcpdump",
+    "functions": [
+      "rsvp_obj_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12902",
+    "vuln": "CVE-2017-12902-vuln-de981e6070d1-tcpdump",
+    "patch": "CVE-2017-12902-patch-d17507ffa3e9-tcpdump",
+    "functions": [
+      "zephyr_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13016",
+    "vuln": "CVE-2017-13016-vuln-985122081165-tcpdump",
+    "patch": "CVE-2017-13016-patch-c177cb3800a9-tcpdump",
+    "functions": [
+      "esis_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12988",
+    "vuln": "CVE-2017-12988-vuln-c2ef693866be-tcpdump",
+    "patch": "CVE-2017-12988-patch-8934a7d63072-tcpdump",
+    "functions": [
+      "telnet_parse"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13042",
+    "vuln": "CVE-2017-13042-vuln-f4b9e24c7384-tcpdump",
+    "patch": "CVE-2017-13042-patch-39582c04cc5e-tcpdump",
+    "functions": [
+      "dhcpv6_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14463",
+    "vuln": "CVE-2018-14463-vuln-bea2686c296b-tcpdump",
+    "patch": "CVE-2018-14463-patch-3de07c772166-tcpdump",
+    "functions": [
+      "vrrp_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14461",
+    "vuln": "CVE-2018-14461-vuln-396e94ff55a8-tcpdump",
+    "patch": "CVE-2018-14461-patch-aa5c6b710dfd-tcpdump",
+    "functions": [
+      "ldp_pdu_print",
+      "ldp_tlv_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13022",
+    "vuln": "CVE-2017-13022-vuln-67c7126062d5-tcpdump",
+    "patch": "CVE-2017-13022-patch-eee0b04bcfda-tcpdump",
+    "functions": [
+      "ip_optprint",
+      "ip_printroute"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12993",
+    "vuln": "CVE-2017-12993-vuln-d3aae7193067-tcpdump",
+    "patch": "CVE-2017-12993-patch-b534e3045685-tcpdump",
+    "functions": [
+      "juniper_atm1_print",
+      "juniper_atm2_print",
+      "juniper_es_print",
+      "juniper_ggsn_print",
+      "juniper_monitor_print",
+      "juniper_parse_header",
+      "juniper_pppoe_atm_print",
+      "juniper_services_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16451",
+    "vuln": "CVE-2018-16451-vuln-689c6e6d0912-tcpdump",
+    "patch": "CVE-2018-16451-patch-96480ab95308-tcpdump",
+    "functions": [
+      "print_trans"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14466",
+    "vuln": "CVE-2018-14466-vuln-e5ae1fd2c5d8-tcpdump",
+    "patch": "CVE-2018-14466-patch-c24922e692a5-tcpdump",
+    "functions": [
+      "rx_cache_find",
+      "rx_cache_insert"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13002",
+    "vuln": "CVE-2017-13002-vuln-7a923447fd49-tcpdump",
+    "patch": "CVE-2017-13002-patch-cbddb98484ea-tcpdump",
+    "functions": [
+      "aodv_extension"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14881",
+    "vuln": "CVE-2018-14881-vuln-3de07c772166-tcpdump",
+    "patch": "CVE-2018-14881-patch-86326e880d31-tcpdump",
+    "functions": [
+      "bgp_capabilities_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14465",
+    "vuln": "CVE-2018-14465-vuln-1a1bce0526a7-tcpdump",
+    "patch": "CVE-2018-14465-patch-bea2686c296b-tcpdump",
+    "functions": [
+      "rsvp_obj_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13690",
+    "vuln": "CVE-2017-13690-vuln-061e7371a944-tcpdump",
+    "patch": "CVE-2017-13690-patch-8dca25d26c7c-tcpdump",
+    "functions": [
+      "ikev1_cert_print",
+      "ikev1_cr_print",
+      "ikev1_hash_print",
+      "ikev1_ke_print",
+      "ikev1_sig_print",
+      "ikev1_sub_print",
+      "ikev1_vid_print",
+      "ikev2_ID_print",
+      "ikev2_auth_print",
+      "ikev2_gen_print",
+      "ikev2_ke_print",
+      "ikev2_p_print",
+      "ikev2_sa_print",
+      "ikev2_sub_print",
+      "ikev2_vid_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-15167",
+    "vuln": "CVE-2019-15167-vuln-09192e07808e-tcpdump",
+    "patch": "CVE-2019-15167-patch-a152aebfd111-tcpdump",
+    "functions": [
+      "vrrp_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13021",
+    "vuln": "CVE-2017-13021-vuln-c5dd7bef5e54-tcpdump",
+    "patch": "CVE-2017-13021-patch-67c7126062d5-tcpdump",
+    "functions": [
+      "icmp6_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16228",
+    "vuln": "CVE-2018-16228-vuln-13d52e9c0e7c-tcpdump",
+    "patch": "CVE-2018-16228-patch-83a412a5275c-tcpdump",
+    "functions": [
+      "print_prefix"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13026",
+    "vuln": "CVE-2017-13026-vuln-2e1f6d9320af-tcpdump",
+    "patch": "CVE-2017-13026-patch-b20e1639dbac-tcpdump",
+    "functions": [
+      "isis_print_mt_capability_subtlv",
+      "isis_print_mt_port_cap_subtlv"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14880",
+    "vuln": "CVE-2018-14880-vuln-5e0aca029f88-tcpdump",
+    "patch": "CVE-2018-14880-patch-e01c9bf76740-tcpdump",
+    "functions": [
+      "ospf6_print_lshdr"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13047",
+    "vuln": "CVE-2017-13047-vuln-3c8a2b0e91d8-tcpdump",
+    "patch": "CVE-2017-13047-patch-331530a4076c-tcpdump",
+    "functions": [
+      "esis_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13024",
+    "vuln": "CVE-2017-13024-vuln-b8e559afaeb8-tcpdump",
+    "patch": "CVE-2017-13024-patch-7d3aba9f0689-tcpdump",
+    "functions": [
+      "mobility_opt_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13005",
+    "vuln": "CVE-2017-13005-vuln-35d146b7a664-tcpdump",
+    "patch": "CVE-2017-13005-patch-b45a9a167ca6-tcpdump",
+    "functions": [
+      "xid_map_enter"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13003",
+    "vuln": "CVE-2017-13003-vuln-cbddb98484ea-tcpdump",
+    "patch": "CVE-2017-13003-patch-a25211918f2e-tcpdump",
+    "functions": [
+      "lmp_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13028",
+    "vuln": "CVE-2017-13028-vuln-a77ff09c4656-tcpdump",
+    "patch": "CVE-2017-13028-patch-29e5470e6ab8-tcpdump",
+    "functions": [
+      "bootp_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13014",
+    "vuln": "CVE-2017-13014-vuln-13ab8d18617d-tcpdump",
+    "patch": "CVE-2017-13014-patch-cc356512f512-tcpdump",
+    "functions": [
+      "wb_prep",
+      "wb_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12991",
+    "vuln": "CVE-2017-12991-vuln-99798bd9a41b-tcpdump",
+    "patch": "CVE-2017-12991-patch-50a44b6b8e4f-tcpdump",
+    "functions": [
+      "bgp_attr_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13037",
+    "vuln": "CVE-2017-13037-vuln-c2f3b23b022a-tcpdump",
+    "patch": "CVE-2017-13037-patch-2c2cfbd2b771-tcpdump",
+    "functions": [
+      "ip_optprint",
+      "ip_printts",
+      "nextproto4_cksum"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13053",
+    "vuln": "CVE-2017-13053-vuln-e6511cc1a950-tcpdump",
+    "patch": "CVE-2017-13053-patch-bd4e697ebd6c-tcpdump",
+    "functions": [
+      "decode_rt_routing_info"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13009",
+    "vuln": "CVE-2017-13009-vuln-5edf405d7ed9-tcpdump",
+    "patch": "CVE-2017-13009-patch-db8c799f6dfc-tcpdump",
+    "functions": [
+      "mobility_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-12994",
+    "vuln": "CVE-2017-12994-vuln-6ec0c6fa6341-tcpdump",
+    "patch": "CVE-2017-12994-patch-ffde45acf334-tcpdump",
+    "functions": [
+      "bgp_attr_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13725",
+    "vuln": "CVE-2017-13725-vuln-66df248b4909-tcpdump",
+    "patch": "CVE-2017-13725-patch-3c4d7c0ee30a-tcpdump",
+    "functions": [
+      "rt6_print"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-13048",
+    "vuln": "CVE-2017-13048-vuln-6283c99a5196-tcpdump",
+    "patch": "CVE-2017-13048-patch-3c8a2b0e91d8-tcpdump",
+    "functions": [
+      "rsvp_obj_print"
+    ]
+  }
+]

@@ -1,0 +1,235 @@
+[
+  {
+    "CVE": "CVE-2020-13434",
+    "vuln": "CVE-2020-13434-vuln-8e50d65-sqlite3",
+    "patch": "CVE-2020-13434-patch-dd6c33d-sqlite3",
+    "functions": [
+      "printfTempBuf",
+      "sqlite3_str_vappendf"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-35525",
+    "vuln": "CVE-2020-35525-vuln-1cfee74-sqlite3",
+    "patch": "CVE-2020-35525-patch-5f69512-sqlite3",
+    "functions": [
+      "multiSelect"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-35527",
+    "vuln": "CVE-2020-35527-vuln-e8c4f03-sqlite3",
+    "patch": "CVE-2020-35527-patch-0990c41-sqlite3",
+    "functions": [
+      "selectExpander"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-6153",
+    "vuln": "CVE-2016-6153-vuln-83b74f2-sqlite3",
+    "patch": "CVE-2016-6153-patch-7694e06-sqlite3",
+    "functions": [
+      "unixGetTempname",
+      "unixTempFileDir"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19646",
+    "vuln": "CVE-2019-19646-vuln-ebd70ee-sqlite3",
+    "patch": "CVE-2019-19646-patch-926f796-sqlite3",
+    "functions": [
+      "sqlite3CreateColumnExpr",
+      "sqlite3Pragma"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19959",
+    "vuln": "CVE-2019-19959-vuln-5f0dfc0-sqlite3",
+    "patch": "CVE-2019-19959-patch-d8f2d46-sqlite3",
+    "functions": [
+      "zipfileStep",
+      "zipfileUpdate"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-8457",
+    "vuln": "CVE-2019-8457-vuln-d0f820a-sqlite3",
+    "patch": "CVE-2019-8457-patch-e41fd72-sqlite3",
+    "functions": [
+      "rtreenode"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-13632",
+    "vuln": "CVE-2020-13632-vuln-3d863b5-sqlite3",
+    "patch": "CVE-2020-13632-patch-219b8e7-sqlite3",
+    "functions": [
+      "fts3ExprLHits"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19242",
+    "vuln": "CVE-2019-19242-vuln-9c9c709-sqlite3",
+    "patch": "CVE-2019-19242-patch-57f7ece-sqlite3",
+    "functions": [
+      "sqlite3ExprCodeTarget",
+      "whereIndexExprTransColumn"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19926",
+    "vuln": "CVE-2019-19926-vuln-6ad0e25-sqlite3",
+    "patch": "CVE-2019-19926-patch-8428b3b-sqlite3",
+    "functions": [
+      "multiSelect"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-13630",
+    "vuln": "CVE-2020-13630-vuln-c484288-sqlite3",
+    "patch": "CVE-2020-13630-patch-becd68b-sqlite3",
+    "functions": [
+      "fts3EvalNextRow"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19880",
+    "vuln": "CVE-2019-19880-vuln-646975c-sqlite3",
+    "patch": "CVE-2019-19880-patch-75e95e1-sqlite3",
+    "functions": [
+      "exprListAppendList"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19645",
+    "vuln": "CVE-2019-19645-vuln-c19e22f-sqlite3",
+    "patch": "CVE-2019-19645-patch-3809696-sqlite3",
+    "functions": [
+      "renameColumnFunc",
+      "renameColumnSelectCb",
+      "renameTableFunc",
+      "renameTableSelectCb",
+      "renameUnmapSelectCb",
+      "sqlite3CreateView"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-46908",
+    "vuln": "CVE-2022-46908-vuln-a81c5b3-sqlite3",
+    "patch": "CVE-2022-46908-patch-8af6d71-sqlite3",
+    "functions": [
+      "safeModeAuth"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-7104",
+    "vuln": "CVE-2023-7104-vuln-0a4c31d-sqlite3",
+    "patch": "CVE-2023-7104-patch-09f1652-sqlite3",
+    "functions": [
+      "sessionReadRecord"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20346",
+    "vuln": "CVE-2018-20346-vuln-c6e519f-sqlite3",
+    "patch": "CVE-2018-20346-patch-29d77dc-sqlite3",
+    "functions": [
+      "fts3ScanInteriorNode",
+      "fts3SegReaderNext",
+      "nodeReaderNext"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-15358",
+    "vuln": "CVE-2020-15358-vuln-86d2de2-sqlite3",
+    "patch": "CVE-2020-15358-patch-b7cbf5c-sqlite3",
+    "functions": [
+      "flattenSubquery",
+      "multiSelect",
+      "sqlite3Select"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19924",
+    "vuln": "CVE-2019-19924-vuln-34ab941-sqlite3",
+    "patch": "CVE-2019-19924-patch-8654186-sqlite3",
+    "functions": [
+      "codeCompare",
+      "sqlite3WindowRewrite",
+      "vdbeVComment"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19923",
+    "vuln": "CVE-2019-19923-vuln-6e1c45e-sqlite3",
+    "patch": "CVE-2019-19923-patch-396afe6-sqlite3",
+    "functions": [
+      "flattenSubquery"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-36690",
+    "vuln": "CVE-2021-36690-vuln-9d41caf-sqlite3",
+    "patch": "CVE-2021-36690-patch-77ea223-sqlite3",
+    "functions": [
+      "idxGetTableInfo"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19244",
+    "vuln": "CVE-2019-19244-vuln-c398c65-sqlite3",
+    "patch": "CVE-2019-19244-patch-e59c562-sqlite3",
+    "functions": [
+      "sqlite3Select"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19317",
+    "vuln": "CVE-2019-19317-vuln-57f7ece-sqlite3",
+    "patch": "CVE-2019-19317-patch-522ebfa-sqlite3",
+    "functions": [
+      "lookupName"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-20218",
+    "vuln": "CVE-2019-20218-vuln-b4b3630-sqlite3",
+    "patch": "CVE-2019-20218-patch-a6c1a71-sqlite3",
+    "functions": [
+      "selectExpander"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-31239",
+    "vuln": "CVE-2021-31239-vuln-204b634-sqlite3",
+    "patch": "CVE-2021-31239-patch-6536c4f-sqlite3",
+    "functions": [
+      "apndOpen"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19925",
+    "vuln": "CVE-2019-19925-vuln-59c5679-sqlite3",
+    "patch": "CVE-2019-19925-patch-54d5010-sqlite3",
+    "functions": [
+      "zipfileUpdate"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-11655",
+    "vuln": "CVE-2020-11655-vuln-4db7ab5-sqlite3",
+    "patch": "CVE-2020-11655-patch-c415d91-sqlite3",
+    "functions": [
+      "resetAccumulator"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-11656",
+    "vuln": "CVE-2020-11656-vuln-91654b2-sqlite3",
+    "patch": "CVE-2020-11656-patch-fb99e38-sqlite3",
+    "functions": [
+      "renameUnmapSelectCb",
+      "unmapColumnIdlistNames"
+    ]
+  }
+]

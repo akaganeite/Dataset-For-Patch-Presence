@@ -1,0 +1,971 @@
+[
+  {
+    "CVE": "CVE-2016-6491",
+    "vuln": "CVE-2016-6491-vuln-ae87d4df671d-magickcore",
+    "patch": "CVE-2016-6491-patch-dd84447b63a7-magickcore",
+    "functions": [
+      "Get8BIMProperty"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-5690",
+    "vuln": "CVE-2016-5690-vuln-88acca623245-magickcore",
+    "patch": "CVE-2016-5690-patch-5511ef530576-magickcore",
+    "functions": [
+      "ReadDCMImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-10649",
+    "vuln": "CVE-2019-10649-vuln-842ec075de3b-magickcore",
+    "patch": "CVE-2019-10649-patch-d3ae9c19125c-magickcore",
+    "functions": [
+      "SVGEndElement"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14174",
+    "vuln": "CVE-2017-14174-vuln-bdbbb13f1fe9-magickcore",
+    "patch": "CVE-2017-14174-patch-04a567494786-magickcore",
+    "functions": [
+      "ReadPSDChannel",
+      "ReadPSDLayersInternal"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-13137",
+    "vuln": "CVE-2019-13137-vuln-fe3066122ef7-magickcore",
+    "patch": "CVE-2019-13137-patch-35ccb468ee2d-magickcore",
+    "functions": [
+      "ReadPSImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-3574",
+    "vuln": "CVE-2021-3574-vuln-74fb410f055f-magickcore",
+    "patch": "CVE-2021-3574-patch-c6ad94fbb7b2-magickcore",
+    "functions": [
+      "ReadTIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-13307",
+    "vuln": "CVE-2019-13307-vuln-d4fc44b58a14-magickcore",
+    "patch": "CVE-2019-13307-patch-025e77fcb2f4-magickcore",
+    "functions": [
+      "AcquirePixelThreadSet"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27763",
+    "vuln": "CVE-2020-27763-vuln-c5fcdea6a6ae-magickcore",
+    "patch": "CVE-2020-27763-patch-43539e67a47d-magickcore",
+    "functions": [
+      "AcquireResizeFilter"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-13136",
+    "vuln": "CVE-2019-13136-vuln-35ccb468ee2d-magickcore",
+    "patch": "CVE-2019-13136-patch-fe5f4b85e6b1-magickcore",
+    "functions": [
+      "TIFFSeekCustomStream"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-25674",
+    "vuln": "CVE-2020-25674-vuln-cfd829bd3581-magickcore",
+    "patch": "CVE-2020-25674-patch-67b871032183-magickcore",
+    "functions": [
+      "WriteOnePNGImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-1906",
+    "vuln": "CVE-2023-1906-vuln-cc00cae94b58-magickcore",
+    "patch": "CVE-2023-1906-patch-d7a8bdd7bb33-magickcore",
+    "functions": [
+      "ReadTIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-10065",
+    "vuln": "CVE-2016-10065-vuln-1bc1fd0ff8c5-magickcore",
+    "patch": "CVE-2016-10065-patch-134463b926fa-magickcore",
+    "functions": [
+      "ImportGrayQuantum",
+      "IsVIFF",
+      "ReadVIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-32545",
+    "vuln": "CVE-2022-32545-vuln-8ed4f9a8d722-magickcore",
+    "patch": "CVE-2022-32545-patch-9c9a84cec4ab-magickcore",
+    "functions": [
+      "ReadPSDChannelPixels"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-3596",
+    "vuln": "CVE-2021-3596-vuln-96ab51687b95-magickcore",
+    "patch": "CVE-2021-3596-patch-43dfb1894761-magickcore",
+    "functions": [
+      "ReadSVGImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-25666",
+    "vuln": "CVE-2020-25666-vuln-a1142af44f61-magickcore",
+    "patch": "CVE-2020-25666-patch-94691f00839d-magickcore",
+    "functions": [
+      "HistogramCompare"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-7515",
+    "vuln": "CVE-2016-7515-vuln-70aa59ba920f-magickcore",
+    "patch": "CVE-2016-7515-patch-2ad6d3349375-magickcore",
+    "functions": [
+      "ReadRLEImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-0284",
+    "vuln": "CVE-2022-0284-vuln-40fd5dbf305e-magickcore",
+    "patch": "CVE-2022-0284-patch-e50f19fd73c7-magickcore",
+    "functions": [
+      "WritePICONImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15277",
+    "vuln": "CVE-2017-15277-vuln-387eb53ff6c9-magickcore",
+    "patch": "CVE-2017-15277-patch-9fd10cf63083-magickcore",
+    "functions": [
+      "ReadGIFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-8895",
+    "vuln": "CVE-2015-8895-vuln-a1f115c91f45-magickcore",
+    "patch": "CVE-2015-8895-patch-0f6fc2d5bf8f-magickcore",
+    "functions": [
+      "AcquireVirtualMemory",
+      "AutoResizeImage",
+      "GetMagickDelegates",
+      "ReadICONImage",
+      "RelinquishVirtualMemory",
+      "WritePICTImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27765",
+    "vuln": "CVE-2020-27765-vuln-1798384373e1-magickcore",
+    "patch": "CVE-2020-27765-patch-a4c89f2a6106-magickcore",
+    "functions": [
+      "Classify",
+      "OptimalTau"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-20309",
+    "vuln": "CVE-2021-20309-vuln-75f6f5032690-magickcore",
+    "patch": "CVE-2021-20309-patch-94174beff065-magickcore",
+    "functions": [
+      "WaveImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-10131",
+    "vuln": "CVE-2019-10131-vuln-0daf227874f1-magickcore",
+    "patch": "CVE-2019-10131-patch-cb1214c124e1-magickcore",
+    "functions": [
+      "format8BIM"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-5691",
+    "vuln": "CVE-2016-5691-vuln-88acca623245-magickcore",
+    "patch": "CVE-2016-5691-patch-5511ef530576-magickcore",
+    "functions": [
+      "ReadDCMImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27769",
+    "vuln": "CVE-2020-27769-vuln-3d71aa8265ff-magickcore",
+    "patch": "CVE-2020-27769-patch-7b058696133c-magickcore",
+    "functions": [
+      "PosterizeImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-25675",
+    "vuln": "CVE-2020-25675-vuln-406da3af9e09-magickcore",
+    "patch": "CVE-2020-25675-patch-64dc80b2e190-magickcore",
+    "functions": [
+      "CropImage",
+      "CropImageToTiles"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-12979",
+    "vuln": "CVE-2019-12979-vuln-f022bb01c07a-magickcore",
+    "patch": "CVE-2019-12979-patch-56a19e7ae07f-magickcore",
+    "functions": [
+      "SetImageProperty"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-8958",
+    "vuln": "CVE-2015-8958-vuln-110fbd73283f-magickcore",
+    "patch": "CVE-2015-8958-patch-1aa0c6dab6dc-magickcore",
+    "functions": [
+      "ReadSUNImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27770",
+    "vuln": "CVE-2020-27770-vuln-1f450bb5ba53-magickcore",
+    "patch": "CVE-2020-27770-patch-be90a5395695-magickcore",
+    "functions": [
+      "SubstituteString"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27829",
+    "vuln": "CVE-2020-27829-vuln-c5542e2e5ea3-magickcore",
+    "patch": "CVE-2020-27829-patch-6ee5059cd3ac-magickcore",
+    "functions": [
+      "ReadTIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-7396",
+    "vuln": "CVE-2019-7396-vuln-f14f66d2a2cc-magickcore",
+    "patch": "CVE-2019-7396-patch-748a03651e5b-magickcore",
+    "functions": [
+      "ReadSIXELImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-7514",
+    "vuln": "CVE-2016-7514-vuln-6cad3f644f0d-magickcore",
+    "patch": "CVE-2016-7514-patch-198fffab4daf-magickcore",
+    "functions": [
+      "ReadPSDImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27752",
+    "vuln": "CVE-2020-27752-vuln-eaa2635305f1-magickcore",
+    "patch": "CVE-2020-27752-patch-a9d563d3d738-magickcore",
+    "functions": [
+      "WriteOnePNGImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-17547",
+    "vuln": "CVE-2019-17547-vuln-492b1e98b1d9-magickcore",
+    "patch": "CVE-2019-17547-patch-ecf7c6b288e1-magickcore",
+    "functions": [
+      "TraceBezier"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-7101",
+    "vuln": "CVE-2016-7101-vuln-e7094d16cd8a-magickcore",
+    "patch": "CVE-2016-7101-patch-7afcf9f71043-magickcore",
+    "functions": [
+      "ReadSGIImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-3195",
+    "vuln": "CVE-2023-3195-vuln-18e15da2dc6c-magickcore",
+    "patch": "CVE-2023-3195-patch-f62034093577-magickcore",
+    "functions": [
+      "ReadTIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-8896",
+    "vuln": "CVE-2015-8896-vuln-a1f115c91f45-magickcore",
+    "patch": "CVE-2015-8896-patch-0f6fc2d5bf8f-magickcore",
+    "functions": [
+      "AcquireVirtualMemory",
+      "AutoResizeImage",
+      "GetMagickDelegates",
+      "ReadICONImage",
+      "RelinquishVirtualMemory",
+      "WritePICTImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-1115",
+    "vuln": "CVE-2022-1115-vuln-ffc2aaae543d-magickcore",
+    "patch": "CVE-2022-1115-patch-c8718305f120-magickcore",
+    "functions": [
+      "ReadTIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-7395",
+    "vuln": "CVE-2019-7395-vuln-748a03651e5b-magickcore",
+    "patch": "CVE-2019-7395-patch-8a43abefb38c-magickcore",
+    "functions": [
+      "WritePSDChannel"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-48541",
+    "vuln": "CVE-2022-48541-vuln-7757754d838d-magickwand",
+    "patch": "CVE-2022-48541-patch-155ebcd89ccb-magickwand",
+    "functions": [
+      "AnimateImageCommand",
+      "CompareImagesCommand",
+      "CompositeImageCommand",
+      "ConjureImageCommand",
+      "ConvertImageCommand",
+      "DisplayImageCommand",
+      "IdentifyImageCommand",
+      "ImportImageCommand",
+      "MogrifyImageCommand",
+      "MontageImageCommand",
+      "StreamImageCommand"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-3428",
+    "vuln": "CVE-2023-3428-vuln-237b8ec91311-magickcore",
+    "patch": "CVE-2023-3428-patch-a531d28e3130-magickcore",
+    "functions": [
+      "ReadTIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20467",
+    "vuln": "CVE-2018-20467-vuln-6a7ac23af498-magickcore",
+    "patch": "CVE-2018-20467-patch-db0add932fb8-magickcore",
+    "functions": [
+      "ReadBMPImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27751",
+    "vuln": "CVE-2020-27751-vuln-31232efe30a1-magickcore",
+    "patch": "CVE-2020-27751-patch-f60d59cc3a7e-magickcore",
+    "functions": [
+      "SetQuantumDepth"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-12974",
+    "vuln": "CVE-2019-12974-vuln-bbd8334ccd62-magickcore",
+    "patch": "CVE-2019-12974-patch-93a9ccc85bd6-magickcore",
+    "functions": [
+      "ReadCAPTIONImage",
+      "ReadLABELImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-13133",
+    "vuln": "CVE-2019-13133-vuln-cdb383749ef7-magickcore",
+    "patch": "CVE-2019-13133-patch-fe3066122ef7-magickcore",
+    "functions": [
+      "ReadBMPImage",
+      "ReadVIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-11472",
+    "vuln": "CVE-2019-11472-vuln-9177b7b3c278-magickcore",
+    "patch": "CVE-2019-11472-patch-ab3e2be9b387-magickcore",
+    "functions": [
+      "ReadXWDImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-12975",
+    "vuln": "CVE-2019-12975-vuln-ee60b346b8fc-magickcore",
+    "patch": "CVE-2019-12975-patch-ca720b5f0fdd-magickcore",
+    "functions": [
+      "WriteDPXImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27758",
+    "vuln": "CVE-2020-27758-vuln-be90a5395695-magickcore",
+    "patch": "CVE-2020-27758-patch-f0a8d407b280-magickcore",
+    "functions": [
+      "ReadTXTImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-3962",
+    "vuln": "CVE-2021-3962-vuln-7fef3c3ac8ef-magickcore",
+    "patch": "CVE-2021-3962-patch-82775af03bbb-magickcore",
+    "functions": [
+      "ReadDCMImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-25676",
+    "vuln": "CVE-2020-25676-vuln-a4c89f2a6106-magickcore",
+    "patch": "CVE-2020-25676-patch-406da3af9e09-magickcore",
+    "functions": [
+      "CatromWeights",
+      "InterpolatePixelChannel",
+      "InterpolatePixelChannels",
+      "InterpolatePixelInfo",
+      "MeshInterpolate"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-15139",
+    "vuln": "CVE-2019-15139-vuln-112760b267f7-magickcore",
+    "patch": "CVE-2019-15139-patch-c78993d138bf-magickcore",
+    "functions": [
+      "ReadXWDImage",
+      "RegisterXWDImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16643",
+    "vuln": "CVE-2018-16643-vuln-c7537dd705e6-magickcore",
+    "patch": "CVE-2018-16643-patch-6b6bff054d56-magickcore",
+    "functions": [
+      "ReadCALSImage",
+      "ReadDCMImage",
+      "ReadPICTImage",
+      "ReadPWPImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-20310",
+    "vuln": "CVE-2021-20310-vuln-4a4f4177ae00-magickcore",
+    "patch": "CVE-2021-20310-patch-75f6f5032690-magickcore",
+    "functions": [
+      "ConvertXYZToJzazbz"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19949",
+    "vuln": "CVE-2019-19949-vuln-243d8f1bb793-magickcore",
+    "patch": "CVE-2019-19949-patch-d17c047f7bff-magickcore",
+    "functions": [
+      "Magick_png_write_raw_profile"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-25663",
+    "vuln": "CVE-2020-25663-vuln-f35eca82b0c2-magickcore",
+    "patch": "CVE-2020-25663-patch-a47e7a994766-magickcore",
+    "functions": [
+      "SetImageAlphaChannel"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27775",
+    "vuln": "CVE-2020-27775-vuln-0c92913ec570-magickcore",
+    "patch": "CVE-2020-27775-patch-a2166bfb1049-magickcore",
+    "functions": [
+      "ApplyEvaluateOperator"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-28463",
+    "vuln": "CVE-2022-28463-vuln-004fc5d725fa-magickcore",
+    "patch": "CVE-2022-28463-patch-ca3654ebf7a4-magickcore",
+    "functions": [
+      "ReadCINImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-12978",
+    "vuln": "CVE-2019-12978-vuln-794ea100a77b-magickcore",
+    "patch": "CVE-2019-12978-patch-18df5773b5ef-magickcore",
+    "functions": [
+      "ReadCAPTIONImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-25667",
+    "vuln": "CVE-2020-25667-vuln-0bbdf0dbc54c-magickcore",
+    "patch": "CVE-2020-25667-patch-986b5dff1734-magickcore",
+    "functions": [
+      "TIFFGetEXIFProperties",
+      "TIFFGetProfiles"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-32546",
+    "vuln": "CVE-2022-32546-vuln-96162ebad2f0-magickcore",
+    "patch": "CVE-2022-32546-patch-f221ea0fa317-magickcore",
+    "functions": [
+      "ReadPCLImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-13134",
+    "vuln": "CVE-2019-13134-vuln-cdb383749ef7-magickcore",
+    "patch": "CVE-2019-13134-patch-fe3066122ef7-magickcore",
+    "functions": [
+      "ReadBMPImage",
+      "ReadVIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27761",
+    "vuln": "CVE-2020-27761-vuln-f60d59cc3a7e-magickcore",
+    "patch": "CVE-2020-27761-patch-db5e12e24f13-magickcore",
+    "functions": [
+      "WritePALMImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-7534",
+    "vuln": "CVE-2016-7534-vuln-5572ef67a813-magickcore",
+    "patch": "CVE-2016-7534-patch-430403b0029b-magickcore",
+    "functions": [
+      "GetQuantumExtent",
+      "ImportCbYCrYQuantum",
+      "SetQuantumPack"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-19667",
+    "vuln": "CVE-2020-19667-vuln-f88232217ed6-magickcore",
+    "patch": "CVE-2020-19667-patch-5462fd472501-magickcore",
+    "functions": [
+      "ReadXPMImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-5341",
+    "vuln": "CVE-2023-5341-vuln-a0b5ea709626-magickcore",
+    "patch": "CVE-2023-5341-patch-aa673b2e4def-magickcore",
+    "functions": [
+      "ReadBMPImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27762",
+    "vuln": "CVE-2020-27762-vuln-a81ca9a1b46a-magickcore",
+    "patch": "CVE-2020-27762-patch-7db3fa20893d-magickcore",
+    "functions": [
+      "WriteHDRImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-11523",
+    "vuln": "CVE-2017-11523-vuln-cd494bc82b4d-magickcore",
+    "patch": "CVE-2017-11523-patch-83e0f8ffd7ee-magickcore",
+    "functions": [
+      "ReadTXTImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9499",
+    "vuln": "CVE-2017-9499-vuln-4e6ac0e67ca1-magickcore",
+    "patch": "CVE-2017-9499-patch-7fd419441bc7-magickcore",
+    "functions": [
+      "ReadMPCImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-12976",
+    "vuln": "CVE-2019-12976-vuln-ee3dae8624e6-magickcore",
+    "patch": "CVE-2019-12976-patch-c0fe488e7052-magickcore",
+    "functions": [
+      "ReadPCLImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27755",
+    "vuln": "CVE-2020-27755-vuln-3f64cfbde386-magickcore",
+    "patch": "CVE-2020-27755-patch-f28e9e56e1b5-magickcore",
+    "functions": [
+      "SetImageExtent"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-20244",
+    "vuln": "CVE-2021-20244-vuln-74f8868c779a-magickcore",
+    "patch": "CVE-2021-20244-patch-329dd528ab79-magickcore",
+    "functions": [
+      "ImplodeImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-7398",
+    "vuln": "CVE-2019-7398-vuln-306c1f0fa575-magickcore",
+    "patch": "CVE-2019-7398-patch-9cf2f738f714-magickcore",
+    "functions": [
+      "WriteDIBImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-20246",
+    "vuln": "CVE-2021-20246-vuln-dd33b451c3e0-magickcore",
+    "patch": "CVE-2021-20246-patch-8d25d94a363b-magickcore",
+    "functions": [
+      "ScaleResampleFilter"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15032",
+    "vuln": "CVE-2017-15032-vuln-c76e4e14db2a-magickcore",
+    "patch": "CVE-2017-15032-patch-241988ca2813-magickcore",
+    "functions": [
+      "ReadYCBCRImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-1289",
+    "vuln": "CVE-2023-1289-vuln-9b2c57f87942-magickcore",
+    "patch": "CVE-2023-1289-patch-c5b23cbf2119-magickcore",
+    "functions": [
+      "DrawPrimitive"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27750",
+    "vuln": "CVE-2020-27750-vuln-07fb0fdd5d4e-magickwand",
+    "patch": "CVE-2020-27750-patch-a81ca9a1b46a-magickwand",
+    "functions": [
+      "PixelSyncIterator"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-3213",
+    "vuln": "CVE-2022-3213-vuln-695b0f58f733-magickcore",
+    "patch": "CVE-2022-3213-patch-30ccf9a0da1f-magickcore",
+    "functions": [
+      "ReadTIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16644",
+    "vuln": "CVE-2018-16644-vuln-5a295f0c160a-magickcore",
+    "patch": "CVE-2018-16644-patch-16916c8979c3-magickcore",
+    "functions": [
+      "ReadDCMImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-17541",
+    "vuln": "CVE-2019-17541-vuln-8de7d660fcff-magickcore",
+    "patch": "CVE-2019-17541-patch-39f226a9c137-magickcore",
+    "functions": [
+      "ReadICCProfile",
+      "ReadIPTCProfile"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-20313",
+    "vuln": "CVE-2021-20313-vuln-b3f6221df63f-magickcore",
+    "patch": "CVE-2021-20313-patch-70aa86f5d5d8-magickcore",
+    "functions": [
+      "EncipherAESBlock",
+      "PasskeyDecipherImage",
+      "PasskeyEncipherImage",
+      "RelinquishVirtualMemory",
+      "TransformsRGBImage",
+      "WriteTHUMBNAILImage",
+      "sRGBTransformImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-9556",
+    "vuln": "CVE-2016-9556-vuln-35a9ba32f0c2-magickcore",
+    "patch": "CVE-2016-9556-patch-ce98a7acbcfc-magickcore",
+    "functions": [
+      "ReadSGIImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-8900",
+    "vuln": "CVE-2015-8900-vuln-44c22978c1f9-magickcore",
+    "patch": "CVE-2015-8900-patch-97aa7d7cfd20-magickcore",
+    "functions": [
+      "ReadHDRImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-11470",
+    "vuln": "CVE-2019-11470-vuln-2b4fee3b265b-magickcore",
+    "patch": "CVE-2019-11470-patch-e3cdce6fe121-magickcore",
+    "functions": [
+      "ReadCINImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27753",
+    "vuln": "CVE-2020-27753-vuln-f28e9e56e1b5-magickcore",
+    "patch": "CVE-2020-27753-patch-bb3acad195de-magickcore",
+    "functions": [
+      "PopRunlengthPacket",
+      "PushRunlengthPacket",
+      "ReadMIFFImage",
+      "WriteMIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-20176",
+    "vuln": "CVE-2021-20176-vuln-81678d592fb3-magickcore",
+    "patch": "CVE-2021-20176-patch-fbd9a963db1a-magickcore",
+    "functions": [
+      "GenerateDifferentialNoise"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-3610",
+    "vuln": "CVE-2021-3610-vuln-28d484cbd0c9-magickcore",
+    "patch": "CVE-2021-3610-patch-930ff0d1a9bc-magickcore",
+    "functions": [
+      "ReadTIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27760",
+    "vuln": "CVE-2020-27760-vuln-9d3c055341bd-magickcore",
+    "patch": "CVE-2020-27760-patch-c5fcdea6a6ae-magickcore",
+    "functions": [
+      "GammaImage",
+      "LevelPixel"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-20311",
+    "vuln": "CVE-2021-20311-vuln-b3f6221df63f-magickcore",
+    "patch": "CVE-2021-20311-patch-70aa86f5d5d8-magickcore",
+    "functions": [
+      "EncipherAESBlock",
+      "PasskeyDecipherImage",
+      "PasskeyEncipherImage",
+      "RelinquishVirtualMemory",
+      "TransformsRGBImage",
+      "WriteTHUMBNAILImage",
+      "sRGBTransformImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9098",
+    "vuln": "CVE-2017-9098-vuln-0375c7318734-magickcore",
+    "patch": "CVE-2017-9098-patch-1c358ffe0049-magickcore",
+    "functions": [
+      "ReadRLEImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-25665",
+    "vuln": "CVE-2020-25665-vuln-43539e67a47d-magickcore",
+    "patch": "CVE-2020-25665-patch-cfd829bd3581-magickcore",
+    "functions": [
+      "WritePALMImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-10714",
+    "vuln": "CVE-2019-10714-vuln-27cf421df4e0-magickcore",
+    "patch": "CVE-2019-10714-patch-07eebcd72f45-magickcore",
+    "functions": [
+      "LocaleLowercase",
+      "LocaleUppercase"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-34474",
+    "vuln": "CVE-2023-34474-vuln-e31343f0153b-magickcore",
+    "patch": "CVE-2023-34474-patch-1061db7f80fd-magickcore",
+    "functions": [
+      "ReadTIM2ImageData",
+      "ReplaceXmpValue"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-34475",
+    "vuln": "CVE-2023-34475-vuln-e31343f0153b-magickcore",
+    "patch": "CVE-2023-34475-patch-1061db7f80fd-magickcore",
+    "functions": [
+      "ReadTIM2ImageData",
+      "ReplaceXmpValue"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27774",
+    "vuln": "CVE-2020-27774-vuln-9a1912c1dd6e-magickcore",
+    "patch": "CVE-2020-27774-patch-29cee9152d1b-magickcore",
+    "functions": [
+      "ApplyEvaluateOperator"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-32547",
+    "vuln": "CVE-2022-32547-vuln-46df30643ab4-magickcore",
+    "patch": "CVE-2022-32547-patch-eac8ce4d873f-magickcore",
+    "functions": [
+      "GetEXIFProperty"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27756",
+    "vuln": "CVE-2020-27756-vuln-91106c1a8063-magickcore",
+    "patch": "CVE-2020-27756-patch-f35eca82b0c2-magickcore",
+    "functions": [
+      "ParseMetaGeometry"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-10650",
+    "vuln": "CVE-2019-10650-vuln-d3ae9c19125c-magickcore",
+    "patch": "CVE-2019-10650-patch-b0fe1aa7c2ed-magickcore",
+    "functions": [
+      "WriteTIFFImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-25664",
+    "vuln": "CVE-2020-25664-vuln-67b871032183-magickcore",
+    "patch": "CVE-2020-25664-patch-1f450bb5ba53-magickcore",
+    "functions": [
+      "WriteOnePNGImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-10060",
+    "vuln": "CVE-2016-10060-vuln-8f012e53de44-magickwand",
+    "patch": "CVE-2016-10060-patch-933e96f01a8c-magickwand",
+    "functions": [
+      "ConcatenateImages",
+      "MagickUsage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27560",
+    "vuln": "CVE-2020-27560-vuln-05cac328e8dc-magickcore",
+    "patch": "CVE-2020-27560-patch-ef59bd764f88-magickcore",
+    "functions": [
+      "OptimizeLayerFrames"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-14981",
+    "vuln": "CVE-2019-14981-vuln-dabba008c570-magickcore",
+    "patch": "CVE-2019-14981-patch-a77d8d97f5a7-magickcore",
+    "functions": [
+      "MeanShiftImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-7175",
+    "vuln": "CVE-2019-7175-vuln-8a43abefb38c-magickcore",
+    "patch": "CVE-2019-7175-patch-1e6a3ace073c-magickcore",
+    "functions": [
+      "DecodeImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-5689",
+    "vuln": "CVE-2016-5689-vuln-88acca623245-magickcore",
+    "patch": "CVE-2016-5689-patch-5511ef530576-magickcore",
+    "functions": [
+      "ReadDCMImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-27772",
+    "vuln": "CVE-2020-27772-vuln-986b5dff1734-magickcore",
+    "patch": "CVE-2020-27772-patch-a1142af44f61-magickcore",
+    "functions": [
+      "WriteBMPImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16645",
+    "vuln": "CVE-2018-16645-vuln-817f6ab6ed5f-magickcore",
+    "patch": "CVE-2018-16645-patch-ecb31dbad39c-magickcore",
+    "functions": [
+      "ReadBMPImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-34153",
+    "vuln": "CVE-2023-34153-vuln-7d5d87092008-magickcore",
+    "patch": "CVE-2023-34153-patch-cc4638de0c98-magickcore",
+    "functions": [
+      "IsVIDEO",
+      "ReadVIDEOImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-16711",
+    "vuln": "CVE-2019-16711-vuln-d19acd3a8226-magickcore",
+    "patch": "CVE-2019-16711-patch-ba0e05ee5a98-magickcore",
+    "functions": [
+      "Huffman2DEncodeImage",
+      "WritePS2Image"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-34152",
+    "vuln": "CVE-2023-34152-vuln-43e2cb6e3004-magickcore",
+    "patch": "CVE-2023-34152-patch-17c4859bf4b1-magickcore",
+    "functions": [
+      "OpenBlob"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-34151",
+    "vuln": "CVE-2023-34151-vuln-17c4859bf4b1-magickcore",
+    "patch": "CVE-2023-34151-patch-3d6d98d8a2be-magickcore",
+    "functions": [
+      "AnnotateImage",
+      "FormatMagickCaption",
+      "ParseMetaGeometry",
+      "ReadCAPTIONImage",
+      "ReadLABELImage",
+      "ReadPCLImage",
+      "RenderMVGContent",
+      "SVGStartElement",
+      "ShadowImage",
+      "ShearRotateImage",
+      "WritePDFImage",
+      "WritePS2Image",
+      "WritePS3Image",
+      "WritePSImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-18853",
+    "vuln": "CVE-2019-18853-vuln-351fd50ab81f-magickcore",
+    "patch": "CVE-2019-18853-patch-ec9c8944af2b-magickcore",
+    "functions": [
+      "ReadSVGImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-20312",
+    "vuln": "CVE-2021-20312-vuln-b3f6221df63f-magickcore",
+    "patch": "CVE-2021-20312-patch-70aa86f5d5d8-magickcore",
+    "functions": [
+      "EncipherAESBlock",
+      "PasskeyDecipherImage",
+      "PasskeyEncipherImage",
+      "RelinquishVirtualMemory",
+      "TransformsRGBImage",
+      "WriteTHUMBNAILImage",
+      "sRGBTransformImage"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-15033",
+    "vuln": "CVE-2017-15033-vuln-c29d15c70d0e-magickcore",
+    "patch": "CVE-2017-15033-patch-ef8f40689ac4-magickcore",
+    "functions": [
+      "ReadYUVImage"
+    ]
+  }
+]

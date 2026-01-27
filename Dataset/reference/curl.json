@@ -1,0 +1,319 @@
+[
+  {
+    "CVE": "CVE-2019-5435",
+    "vuln": "CVE-2019-5435-vuln-2fe2da9f1a6b-curl",
+    "patch": "CVE-2019-5435-patch-5fc28510a466-curl",
+    "functions": [
+      "Curl_setstropt",
+      "curl_url_set",
+      "seturl"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-2629",
+    "vuln": "CVE-2017-2629-vuln-af5fbb14bb4f-curl",
+    "patch": "CVE-2017-2629-patch-ca6ea6d9be51-curl",
+    "functions": [
+      "allocate_conn"
+    ]
+  },
+  {
+    "CVE": "CVE-2013-1944",
+    "vuln": "CVE-2013-1944-vuln-96ffe645fd24-curl",
+    "patch": "CVE-2013-1944-patch-2eb8dcf26cb3-curl",
+    "functions": [
+      "tailmatch"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-8169",
+    "vuln": "CVE-2020-8169-vuln-e2a7a6bb9ee9-curl",
+    "patch": "CVE-2020-8169-patch-600a8cded447-curl",
+    "functions": [
+      "override_login"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-8617",
+    "vuln": "CVE-2016-8617-vuln-3d6460edeee2-curl",
+    "patch": "CVE-2016-8617-patch-efd24d57426b-curl",
+    "functions": [
+      "base64_encode"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-8618",
+    "vuln": "CVE-2016-8618-vuln-ee4f76606cfa-curl",
+    "patch": "CVE-2016-8618-patch-8732ec40db65-curl",
+    "functions": [
+      "alloc_addbyter"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-1000120",
+    "vuln": "CVE-2018-1000120-vuln-d52dc4760f6d-curl",
+    "patch": "CVE-2018-1000120-patch-535432c0adb6-curl",
+    "functions": [
+      "ftp_done",
+      "ftp_parse_url_path",
+      "ftp_state_list"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16840",
+    "vuln": "CVE-2018-16840-vuln-9d8dad1a9d79-curl",
+    "patch": "CVE-2018-16840-patch-81d135d67155-curl",
+    "functions": [
+      "Curl_close"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-5482",
+    "vuln": "CVE-2019-5482-vuln-82f3ba3806a3-curl",
+    "patch": "CVE-2019-5482-patch-facb0e466241-curl",
+    "functions": [
+      "tftp_connect"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-1000301",
+    "vuln": "CVE-2018-1000301-vuln-1b55d270ad3d-curl",
+    "patch": "CVE-2018-1000301-patch-8c7b3737d29e-curl",
+    "functions": [
+      "Curl_http_readwrite_headers"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-1000101",
+    "vuln": "CVE-2017-1000101-vuln-358b2b131ad6-curl",
+    "patch": "CVE-2017-1000101-patch-453e7a7a03a2-curl",
+    "functions": [
+      "glob_range"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-9586",
+    "vuln": "CVE-2016-9586-vuln-60450d507f89-curl",
+    "patch": "CVE-2016-9586-patch-3ab3c16db6a5-curl",
+    "functions": [
+      "dprintf_formatf"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-8625",
+    "vuln": "CVE-2016-8625-vuln-42b650b9ea5f-curl",
+    "patch": "CVE-2016-8625-patch-9c91ec778104-curl",
+    "functions": [
+      "Curl_idn_strerror",
+      "create_conn",
+      "curl_version",
+      "curl_version_info",
+      "fix_hostname",
+      "global_init",
+      "idna_init",
+      "tld_check_name"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-9502",
+    "vuln": "CVE-2017-9502-vuln-5fa028e50805-curl",
+    "patch": "CVE-2017-9502-patch-5d7952f52e41-curl",
+    "functions": [
+      "parseurlandfillconn"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-8621",
+    "vuln": "CVE-2016-8621-vuln-46133aa536f7-curl",
+    "patch": "CVE-2016-8621-patch-96a80b5a262f-curl",
+    "functions": [
+      "parsedate"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-1000007",
+    "vuln": "CVE-2018-1000007-vuln-993dd5651a6c-curl",
+    "patch": "CVE-2018-1000007-patch-af32cd385933-curl",
+    "functions": [
+      "Curl_add_custom_headers",
+      "Curl_http_output_auth",
+      "Curl_vsetopt"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-7407",
+    "vuln": "CVE-2017-7407-vuln-d14563454a5e-curl",
+    "patch": "CVE-2017-7407-patch-8e65877870c1-curl",
+    "functions": [
+      "ourWriteOut"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16839",
+    "vuln": "CVE-2018-16839-vuln-81d135d67155-curl",
+    "patch": "CVE-2018-16839-patch-f3a24d7916b9-curl",
+    "functions": [
+      "Curl_auth_create_plain_message"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-1000300",
+    "vuln": "CVE-2018-1000300-vuln-8c7b3737d29e-curl",
+    "patch": "CVE-2018-1000300-patch-583b42cb3b80-curl",
+    "functions": [
+      "Curl_pp_readresp"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-22898",
+    "vuln": "CVE-2021-22898-vuln-bbb71507b7ba-curl",
+    "patch": "CVE-2021-22898-patch-39ce47f219b0-curl",
+    "functions": [
+      "suboption"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-0500",
+    "vuln": "CVE-2018-0500-vuln-0b4ccc97f263-curl",
+    "patch": "CVE-2018-0500-patch-ba1dbd78e5f1-curl",
+    "functions": [
+      "Curl_smtp_escape_eob"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-46219",
+    "vuln": "CVE-2023-46219-vuln-2692d41c233f-curl",
+    "patch": "CVE-2023-46219-patch-73b65e94f353-curl",
+    "functions": [
+      "Curl_fopen"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8818",
+    "vuln": "CVE-2017-8818-vuln-c79b2ca03d94-curl",
+    "patch": "CVE-2017-8818-patch-9b5e12a5491d-curl",
+    "functions": [
+      "allocate_conn"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-42916",
+    "vuln": "CVE-2022-42916-vuln-809c81b9f509-curl",
+    "patch": "CVE-2022-42916-patch-53bcf55b4538-curl",
+    "functions": [
+      "create_conn",
+      "parseurlandfillconn"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-42915",
+    "vuln": "CVE-2022-42915-vuln-9d0869d234b3-curl",
+    "patch": "CVE-2022-42915-patch-55e1875729f9-curl",
+    "functions": [
+      "Curl_connect_done",
+      "conn_shutdown"
+    ]
+  },
+  {
+    "CVE": "CVE-2013-0249",
+    "vuln": "CVE-2013-0249-vuln-add37cc49f24-curl",
+    "patch": "CVE-2013-0249-patch-f206d6c055d1-curl",
+    "functions": [
+      "Curl_sasl_create_digest_md5_message"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-0015",
+    "vuln": "CVE-2014-0015-vuln-fc0b4b0d3141-curl",
+    "patch": "CVE-2014-0015-patch-8ae35102c43d-curl",
+    "functions": [
+      "ConnectionExists"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8816",
+    "vuln": "CVE-2017-8816-vuln-0b664ba96843-curl",
+    "patch": "CVE-2017-8816-patch-7f2a1df6f5fc-curl",
+    "functions": [
+      "Curl_ntlm_core_mk_ntlmv2_hash"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-8817",
+    "vuln": "CVE-2017-8817-vuln-9b5e12a5491d-curl",
+    "patch": "CVE-2017-8817-patch-0b664ba96843-curl",
+    "functions": [
+      "setcharset"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-8177",
+    "vuln": "CVE-2020-8177-vuln-26d2755d7c31-curl",
+    "patch": "CVE-2020-8177-patch-8236aba58542-curl",
+    "functions": [
+      "getparameter",
+      "tool_header_cb"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-8284",
+    "vuln": "CVE-2020-8284-vuln-abd846c374c5-curl",
+    "patch": "CVE-2020-8284-patch-ec9cc725d598-curl",
+    "functions": [
+      "Curl_init_userdefined",
+      "config_init"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-8624",
+    "vuln": "CVE-2016-8624-vuln-164ee10b0b73-curl",
+    "patch": "CVE-2016-8624-patch-3bb273db7e40-curl",
+    "functions": [
+      "parseurlandfillconn"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-46218",
+    "vuln": "CVE-2023-46218-vuln-006977859dcc-curl",
+    "patch": "CVE-2023-46218-patch-2b0994c29a72-curl",
+    "functions": [
+      "Curl_cookie_add"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-8623",
+    "vuln": "CVE-2016-8623-vuln-fba28277ca17-curl",
+    "patch": "CVE-2016-8623-patch-c5be3d7267c7-curl",
+    "functions": [
+      "Curl_cookie_cleanup",
+      "Curl_cookie_clearall",
+      "Curl_cookie_getlist",
+      "Curl_http",
+      "dup_cookie"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-9594",
+    "vuln": "CVE-2016-9594-vuln-7a01b33c313f-curl",
+    "patch": "CVE-2016-9594-patch-f81b2277a8e7-curl",
+    "functions": [
+      "randit"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-16842",
+    "vuln": "CVE-2018-16842-vuln-e97679a360dd-curl",
+    "patch": "CVE-2018-16842-patch-d530e92f59ae-curl",
+    "functions": [
+      "voutf"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-1000122",
+    "vuln": "CVE-2018-1000122-vuln-ddb879c6ae31-curl",
+    "patch": "CVE-2018-1000122-patch-d52dc4760f6d-curl",
+    "functions": [
+      "readwrite_data"
+    ]
+  }
+]

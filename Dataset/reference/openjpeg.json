@@ -1,0 +1,90 @@
+[
+  {
+    "CVE": "CVE-2016-7163",
+    "vuln": "CVE-2016-7163-vuln-ea320dab8bc4-openjpeg",
+    "patch": "CVE-2016-7163-patch-c16bc057ba3f-openjpeg",
+    "functions": [
+      "opj_pi_create_decode"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14152",
+    "vuln": "CVE-2017-14152-vuln-52d5690a6fcb-openjpeg",
+    "patch": "CVE-2017-14152-patch-4241ae6fbbf1-openjpeg",
+    "functions": [
+      "opj_j2k_set_cinema_parameters"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14039",
+    "vuln": "CVE-2017-14039-vuln-dcac91b8c72f-openjpeg",
+    "patch": "CVE-2017-14039-patch-c535531f0336-openjpeg",
+    "functions": [
+      "opj_j2k_write_sod",
+      "opj_j2k_write_sot",
+      "opj_t2_encode_packet"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-4797",
+    "vuln": "CVE-2016-4797-vuln-44a499f2acf1-openjpeg",
+    "patch": "CVE-2016-4797-patch-8f9cc62b3f9a-openjpeg",
+    "functions": [
+      "opj_tcd_init_tile"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14151",
+    "vuln": "CVE-2017-14151-vuln-0b4c3ce75d11-openjpeg",
+    "patch": "CVE-2017-14151-patch-afb308b9ccbe-openjpeg",
+    "functions": [
+      "opj_tcd_code_block_enc_allocate_data"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-20847",
+    "vuln": "CVE-2018-20847-vuln-42132ed6b561-openjpeg",
+    "patch": "CVE-2018-20847-patch-5d00b719f4b9-openjpeg",
+    "functions": [
+      "opj_get_all_encoding_parameters",
+      "opj_tcd_init_tile"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-14164",
+    "vuln": "CVE-2017-14164-vuln-af760007711b-openjpeg",
+    "patch": "CVE-2017-14164-patch-dcac91b8c72f-openjpeg",
+    "functions": [
+      "opj_j2k_write_all_tile_parts",
+      "opj_j2k_write_first_tile_part",
+      "opj_j2k_write_sot",
+      "opj_j2k_write_tlm"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-10506",
+    "vuln": "CVE-2016-10506-vuln-39e962a0ca5e-openjpeg",
+    "patch": "CVE-2016-10506-patch-d27ccf01c68a-openjpeg",
+    "functions": [
+      "opj_pi_next_cprl",
+      "opj_pi_next_pcrl",
+      "opj_pi_next_rpcl"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-8871",
+    "vuln": "CVE-2015-8871-vuln-c31fb68ccc0e-openjpeg",
+    "patch": "CVE-2015-8871-patch-940100c28ae2-openjpeg",
+    "functions": [
+      "opj_j2k_write_mco"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-10504",
+    "vuln": "CVE-2016-10504-vuln-11445eddad7e-openjpeg",
+    "patch": "CVE-2016-10504-patch-397f62c0a838-openjpeg",
+    "functions": [
+      "opj_tcd_code_block_enc_allocate_data"
+    ]
+  }
+]

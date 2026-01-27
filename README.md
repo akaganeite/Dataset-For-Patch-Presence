@@ -1,3 +1,4 @@
-- Dataset: Diff files, target function list and testset versions
+- Dataset: Metadata of our dataset, includes `Diff files`, `target function lists` ,`reference`, `testset` and patch evolution metadata.
 - Result: experiment results for the five selected patch presence testing tools
-- More Data including binaries, code for Dataset construction are coming soon...
+- scripts: Python scripts of our dataset construction pipeline
+- RQs: data for the four RQs of our paper

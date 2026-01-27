@@ -1,0 +1,313 @@
+[
+  {
+    "CVE": "CVE-2020-21697",
+    "vuln": "CVE-2020-21697-vuln-c9d9c6074689-ffmpeg",
+    "patch": "CVE-2020-21697-patch-cfce16449cb8-ffmpeg",
+    "functions": [
+      "mpeg_mux_write_packet",
+      "remove_decoded_packets"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22024",
+    "vuln": "CVE-2020-22024-vuln-d4d6b7b0355f-ffmpeg",
+    "patch": "CVE-2020-22024-patch-723d69f99cd2-ffmpeg",
+    "functions": [
+      "lagfun_frame16"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22026",
+    "vuln": "CVE-2020-22026-vuln-26876fdb5e73-ffmpeg",
+    "patch": "CVE-2020-22026-patch-58bb9d3a3a6e-ffmpeg",
+    "functions": [
+      "config_input",
+      "filter_frame"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-20446",
+    "vuln": "CVE-2020-20446-vuln-a7a7f32c8ad0-ffmpeg",
+    "patch": "CVE-2020-20446-patch-223b5e8ac9f6-ffmpeg",
+    "functions": [
+      "psy_3gpp_analyze_channel"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-20448",
+    "vuln": "CVE-2020-20448-vuln-bb190ded678a-ffmpeg",
+    "patch": "CVE-2020-20448-patch-8802e329c831-ffmpeg",
+    "functions": [
+      "encode_q_branch",
+      "uninit"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-24020",
+    "vuln": "CVE-2020-24020-vuln-93a435dd4baa-ffmpeg",
+    "patch": "CVE-2020-24020-patch-584f396132aa-ffmpeg",
+    "functions": [
+      "calculate_operand_dims_count",
+      "dnn_execute_layer_conv2d",
+      "dnn_execute_layer_depth2space",
+      "dnn_execute_layer_math_binary",
+      "dnn_execute_layer_math_unary",
+      "dnn_execute_layer_maximum",
+      "dnn_execute_layer_pad",
+      "set_input_output_native"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22036",
+    "vuln": "CVE-2020-22036-vuln-ce764a6c74f3-ffmpeg",
+    "patch": "CVE-2020-22036-patch-8c3166e1c302-ffmpeg",
+    "functions": [
+      "config_props"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22030",
+    "vuln": "CVE-2020-22030-vuln-de598f82f8c3-ffmpeg",
+    "patch": "CVE-2020-22030-patch-e1b89c76f663-ffmpeg",
+    "functions": [
+      "activate"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22044",
+    "vuln": "CVE-2020-22044-vuln-0528adbd85d6-ffmpeg",
+    "patch": "CVE-2020-22044-patch-1d479300cbe0-ffmpeg",
+    "functions": [
+      "nut_write_trailer"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-20453",
+    "vuln": "CVE-2020-20453-vuln-3300625c6f14-ffmpeg",
+    "patch": "CVE-2020-20453-patch-a7a7f32c8ad0-ffmpeg",
+    "functions": [
+      "aac_encode_frame"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22043",
+    "vuln": "CVE-2020-22043-vuln-39d5acbd097b-ffmpeg",
+    "patch": "CVE-2020-22043-patch-b288a7eb3d96-ffmpeg",
+    "functions": [
+      "mpeg_mux_end",
+      "mpeg_mux_init"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-20898",
+    "vuln": "CVE-2020-20898-vuln-365083556ea7-ffmpeg",
+    "patch": "CVE-2020-20898-patch-99f8d32129dd-ffmpeg",
+    "functions": [
+      "filter16_prewitt",
+      "filter16_roberts",
+      "filter16_sobel",
+      "filter_prewitt",
+      "filter_roberts",
+      "filter_sobel"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22038",
+    "vuln": "CVE-2020-22038-vuln-533d6030ca3e-ffmpeg",
+    "patch": "CVE-2020-22038-patch-7c32e9cf93b7-ffmpeg",
+    "functions": [
+      "ff_v4l2_m2m_codec_end",
+      "v4l2_decode_init",
+      "v4l2_m2m_destroy_context"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22021",
+    "vuln": "CVE-2020-22021-vuln-82ad1b76751b-ffmpeg",
+    "patch": "CVE-2020-22021-patch-7971f62120a5-ffmpeg",
+    "functions": [
+      "filter_edges",
+      "filter_edges_16bit"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22017",
+    "vuln": "CVE-2020-22017-vuln-ed78ca41232e-ffmpeg",
+    "patch": "CVE-2020-22017-patch-d4d6b7b0355f-ffmpeg",
+    "functions": [
+      "oscilloscope_filter_frame"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22022",
+    "vuln": "CVE-2020-22022-vuln-99f8d32129dd-ffmpeg",
+    "patch": "CVE-2020-22022-patch-07050d7bdc32-ffmpeg",
+    "functions": [
+      "filter_frame"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-23906",
+    "vuln": "CVE-2020-23906-vuln-79e8d17024e6-ffmpeg",
+    "patch": "CVE-2020-23906-patch-ec59dc73f0cc-ffmpeg",
+    "functions": [
+      "read_packet"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22046",
+    "vuln": "CVE-2020-22046-vuln-6aae32212041-ffmpeg",
+    "patch": "CVE-2020-22046-patch-097c917c1476-ffmpeg",
+    "functions": [
+      "ff_ac3_encode_close",
+      "ff_ac3_encode_init"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-38291",
+    "vuln": "CVE-2021-38291-vuln-35331aa2662d-ffmpeg",
+    "patch": "CVE-2021-38291-patch-e01d306c647b-ffmpeg",
+    "functions": [
+      "av_get_audio_frame_duration",
+      "av_get_audio_frame_duration2"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22034",
+    "vuln": "CVE-2020-22034-vuln-b67af536be10-ffmpeg",
+    "patch": "CVE-2020-22034-patch-1331e001796c-ffmpeg",
+    "functions": [
+      "config_input",
+      "filter_frame"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22035",
+    "vuln": "CVE-2020-22035-vuln-ccf4ab8c9aca-ffmpeg",
+    "patch": "CVE-2020-22035-patch-0749082eb93e-ffmpeg",
+    "functions": [
+      "config_input",
+      "filter_slice"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22020",
+    "vuln": "CVE-2020-22020-vuln-c8f3915f8d39-ffmpeg",
+    "patch": "CVE-2020-22020-patch-ce5274c1385d-ffmpeg",
+    "functions": [
+      "config_input"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22019",
+    "vuln": "CVE-2020-22019-vuln-4c1afa292520-ffmpeg",
+    "patch": "CVE-2020-22019-patch-82ad1b76751b-ffmpeg",
+    "functions": [
+      "ff_vmafmotion_init"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22042",
+    "vuln": "CVE-2020-22042-vuln-95b8df687cc0-ffmpeg",
+    "patch": "CVE-2020-22042-patch-426c16d61a9b-ffmpeg",
+    "functions": [
+      "ffmpeg_cleanup"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22023",
+    "vuln": "CVE-2020-22023-vuln-b62f7e243cf4-ffmpeg",
+    "patch": "CVE-2020-22023-patch-0b5672387418-ffmpeg",
+    "functions": [
+      "filter_frame"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22039",
+    "vuln": "CVE-2020-22039-vuln-02cf2391966a-ffmpeg",
+    "patch": "CVE-2020-22039-patch-a581bb66ea5e-ffmpeg",
+    "functions": [
+      "avi_write_trailer"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22031",
+    "vuln": "CVE-2020-22031-vuln-0b5672387418-ffmpeg",
+    "patch": "CVE-2020-22031-patch-0e68e8c93f90-ffmpeg",
+    "functions": [
+      "config_input"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22029",
+    "vuln": "CVE-2020-22029-vuln-e923e6205eda-ffmpeg",
+    "patch": "CVE-2020-22029-patch-a7fd12797036-ffmpeg",
+    "functions": [
+      "slice_get_derivative"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22015",
+    "vuln": "CVE-2020-22015-vuln-38d18fb57863-ffmpeg",
+    "patch": "CVE-2020-22015-patch-4c1afa292520-ffmpeg",
+    "functions": [
+      "mov_write_video_tag"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22037",
+    "vuln": "CVE-2020-22037-vuln-318e18402271-ffmpeg",
+    "patch": "CVE-2020-22037-patch-7bba0dd6382e-ffmpeg",
+    "functions": [
+      "ff_frame_thread_encoder_init"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22048",
+    "vuln": "CVE-2020-22048-vuln-daf2bef98ded-ffmpeg",
+    "patch": "CVE-2020-22048-patch-fddef964e8aa-ffmpeg",
+    "functions": [
+      "filter_frame"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22041",
+    "vuln": "CVE-2020-22041-vuln-fb7b222b9182-ffmpeg",
+    "patch": "CVE-2020-22041-patch-3488e0977c67-ffmpeg",
+    "functions": [
+      "request_frame"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-1475",
+    "vuln": "CVE-2022-1475-vuln-ec8ff659f577-ffmpeg",
+    "patch": "CVE-2022-1475-patch-757da974b218-ffmpeg",
+    "functions": [
+      "g729_parse"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-20896",
+    "vuln": "CVE-2020-20896-vuln-f2598484b830-ffmpeg",
+    "patch": "CVE-2020-20896-patch-dd01947397b9-ffmpeg",
+    "functions": [
+      "latm_write_packet"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-22027",
+    "vuln": "CVE-2020-22027-vuln-1331e001796c-ffmpeg",
+    "patch": "CVE-2020-22027-patch-e787f8fd7ee9-ffmpeg",
+    "functions": [
+      "filter_slice"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-35965",
+    "vuln": "CVE-2020-35965-vuln-3e5959b3457f-ffmpeg",
+    "patch": "CVE-2020-35965-patch-b0a8b40294ea-ffmpeg",
+    "functions": [
+      "decode_frame"
+    ]
+  }
+]

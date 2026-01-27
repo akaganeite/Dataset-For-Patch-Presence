@@ -1,0 +1,347 @@
+[
+  {
+    "CVE": "CVE-2015-5312",
+    "vuln": "CVE-2015-5312-vuln-6360a31-libxml2",
+    "patch": "CVE-2015-5312-patch-6903071-libxml2",
+    "functions": [
+      "xmlStringLenDecodeEntities__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-8317",
+    "vuln": "CVE-2015-8317-vuln-9aa3758-libxml2",
+    "patch": "CVE-2015-8317-patch-709a952-libxml2",
+    "functions": [
+      "xmlParseEncodingDecl__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-16932",
+    "vuln": "CVE-2017-16932-vuln-fb56f80-libxml2",
+    "patch": "CVE-2017-16932-patch-899a5d9-libxml2",
+    "functions": [
+      "xmlParsePEReference__internal_alias",
+      "xmlPushInput__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7497",
+    "vuln": "CVE-2015-7497-vuln-53ac9c9-libxml2",
+    "patch": "CVE-2015-7497-patch-6360a31-libxml2",
+    "functions": [
+      "xmlDictComputeFastQKey"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-23308",
+    "vuln": "CVE-2022-23308-vuln-d19bab6-libxml2",
+    "patch": "CVE-2022-23308-patch-652dd12-libxml2",
+    "functions": [
+      "xmlAddID__internal_alias",
+      "xmlAddRef__internal_alias",
+      "xmlIsStreaming",
+      "xmlRemoveID__internal_alias",
+      "xmlValidCtxtNormalizeAttributeValue__internal_alias",
+      "xmlValidNormalizeAttributeValue__internal_alias",
+      "xmlValidNormalizeString"
+    ]
+  },
+  {
+    "CVE": "CVE-2013-1969",
+    "vuln": "CVE-2013-1969-vuln-60adeea-libxml2",
+    "patch": "CVE-2013-1969-patch-de0cc20-libxml2",
+    "functions": [
+      "htmlParseChunk__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-28484",
+    "vuln": "CVE-2023-28484-vuln-cb1b8b8-libxml2",
+    "patch": "CVE-2023-28484-patch-e4f85f1-libxml2",
+    "functions": [
+      "xmlSchemaFixupComplexType"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1837",
+    "vuln": "CVE-2016-1837-vuln-4472c3a-libxml2",
+    "patch": "CVE-2016-1837-patch-11ed4a7-libxml2",
+    "functions": [
+      "htmlParseSystemLiteral"
+    ]
+  },
+  {
+    "CVE": "CVE-2013-0338",
+    "vuln": "CVE-2013-0338-vuln-bf058dc-libxml2",
+    "patch": "CVE-2013-0338-patch-23f05e0-libxml2",
+    "functions": [
+      "xmlCtxtReset__internal_alias",
+      "xmlInitParserCtxt__internal_alias",
+      "xmlParseReference__internal_alias",
+      "xmlParserEntityCheck",
+      "xmlStringLenDecodeEntities__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-19956",
+    "vuln": "CVE-2019-19956-vuln-09b6f81-libxml2",
+    "patch": "CVE-2019-19956-patch-5a02583-libxml2",
+    "functions": [
+      "xmlParseBalancedChunkMemoryRecover__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1836",
+    "vuln": "CVE-2016-1836-vuln-a820dbe-libxml2",
+    "patch": "CVE-2016-1836-patch-45752d2-libxml2",
+    "functions": [
+      "xmlParseNCNameComplex"
+    ]
+  },
+  {
+    "CVE": "CVE-2012-5134",
+    "vuln": "CVE-2012-5134-vuln-4ea74a4-libxml2",
+    "patch": "CVE-2012-5134-patch-6a36fbe-libxml2",
+    "functions": [
+      "xmlParseAttValueComplex"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1840",
+    "vuln": "CVE-2016-1840-vuln-40fd6d2-libxml2",
+    "patch": "CVE-2016-1840-patch-cbb2716-libxml2",
+    "functions": [
+      "xmlFAParseCharRange"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-3660",
+    "vuln": "CVE-2014-3660-vuln-f65128f-libxml2",
+    "patch": "CVE-2014-3660-patch-72a46a5-libxml2",
+    "functions": [
+      "xmlParseReference__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-4449",
+    "vuln": "CVE-2016-4449-vuln-45752d2-libxml2",
+    "patch": "CVE-2016-4449-patch-b1d34de-libxml2",
+    "functions": [
+      "xmlStringLenDecodeEntities__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1833",
+    "vuln": "CVE-2016-1833-vuln-0090675-libxml2",
+    "patch": "CVE-2016-1833-patch-0bcd05c-libxml2",
+    "functions": [
+      "xmlNextChar__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-8242",
+    "vuln": "CVE-2015-8242-vuln-f1063fd-libxml2",
+    "patch": "CVE-2015-8242-patch-8fb4a77-libxml2",
+    "functions": [
+      "htmlParseTryOrFinish"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-5130",
+    "vuln": "CVE-2017-5130-vuln-932cc98-libxml2",
+    "patch": "CVE-2017-5130-patch-897dffb-libxml2",
+    "functions": [
+      "xmlMallocLoc__internal_alias",
+      "xmlMemStrdupLoc__internal_alias",
+      "xmlReallocLoc__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-4483",
+    "vuln": "CVE-2016-4483-vuln-886529b-libxml2",
+    "patch": "CVE-2016-4483-patch-c97750d-libxml2",
+    "functions": [
+      "xmlBufAttrSerializeTxtContent"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7499",
+    "vuln": "CVE-2015-7499-vuln-6903071-libxml2",
+    "patch": "CVE-2015-7499-patch-28cd9cb-libxml2",
+    "functions": [
+      "xmlHaltParser",
+      "xmlStopParser__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-7595",
+    "vuln": "CVE-2020-7595-vuln-0815302-libxml2",
+    "patch": "CVE-2020-7595-patch-0e1a49c-libxml2",
+    "functions": [
+      "xmlStringLenDecodeEntities"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-8241",
+    "vuln": "CVE-2015-8241-vuln-18b8988-libxml2",
+    "patch": "CVE-2015-8241-patch-ab2b9a9-libxml2",
+    "functions": [
+      "xmlParseMarkupDecl__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7941",
+    "vuln": "CVE-2015-7941-vuln-a7dfab7-libxml2",
+    "patch": "CVE-2015-7941-patch-9b85123-libxml2",
+    "functions": [
+      "xmlParseConditionalSections"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-4658",
+    "vuln": "CVE-2016-4658-vuln-3f8a910-libxml2",
+    "patch": "CVE-2016-4658-patch-c1d1f71-libxml2",
+    "functions": [
+      "xmlXPtrNewCollapsedRange__internal_alias",
+      "xmlXPtrNewRangeInternal",
+      "xmlXPtrNewRangeNodeObject__internal_alias",
+      "xmlXPtrNewRangeNodePoint__internal_alias",
+      "xmlXPtrNewRangeNodes__internal_alias",
+      "xmlXPtrNewRangePointNode__internal_alias",
+      "xmlXPtrNewRangePoints",
+      "xmlXPtrNewRange__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7500",
+    "vuln": "CVE-2015-7500-vuln-fdfeecc-libxml2",
+    "patch": "CVE-2015-7500-patch-f1063fd-libxml2",
+    "functions": [
+      "xmlParseStartTag2"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1834",
+    "vuln": "CVE-2016-1834-vuln-8f30bdf-libxml2",
+    "patch": "CVE-2016-1834-patch-8fbbf55-libxml2",
+    "functions": [
+      "xmlStrncatNew__internal_alias",
+      "xmlStrncat__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2013-0339",
+    "vuln": "CVE-2013-0339-vuln-baaf03f-libxml2",
+    "patch": "CVE-2013-0339-patch-4629ee0-libxml2",
+    "functions": [
+      "xmlParseReference__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1838",
+    "vuln": "CVE-2016-1838-vuln-cbb2716-libxml2",
+    "patch": "CVE-2016-1838-patch-db07dd6-libxml2",
+    "functions": [
+      "xmlParseEndTag2"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-7375",
+    "vuln": "CVE-2017-7375-vuln-5dca9ee-libxml2",
+    "patch": "CVE-2017-7375-patch-90ccb58-libxml2",
+    "functions": [
+      "xmlParsePEReference__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-40304",
+    "vuln": "CVE-2022-40304-vuln-c846986-libxml2",
+    "patch": "CVE-2022-40304-patch-1b41ec4-libxml2",
+    "functions": [
+      "xmlCreateEntity",
+      "xmlFreeEntity"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-7498",
+    "vuln": "CVE-2015-7498-vuln-ab2b9a9-libxml2",
+    "patch": "CVE-2015-7498-patch-afd27c2-libxml2",
+    "functions": [
+      "xmlParseDocument__internal_alias",
+      "xmlParseXMLDecl__internal_alias",
+      "xmlSwitchEncoding__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-1762",
+    "vuln": "CVE-2016-1762-vuln-6657afe-libxml2",
+    "patch": "CVE-2016-1762-patch-a7a9461-libxml2",
+    "functions": [
+      "xmlParseInternalSubset"
+    ]
+  },
+  {
+    "CVE": "CVE-2017-16931",
+    "vuln": "CVE-2017-16931-vuln-7482f41-libxml2",
+    "patch": "CVE-2017-16931-patch-e266305-libxml2",
+    "functions": [
+      "xmlParseNameComplex"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-14404",
+    "vuln": "CVE-2018-14404-vuln-b7c50b8-libxml2",
+    "patch": "CVE-2018-14404-patch-a436374-libxml2",
+    "functions": [
+      "xmlXPathCompOpEval"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-8710",
+    "vuln": "CVE-2015-8710-vuln-41ac904-libxml2",
+    "patch": "CVE-2015-8710-patch-e724879-libxml2",
+    "functions": [
+      "htmlParseComment"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-29824",
+    "vuln": "CVE-2022-29824-vuln-f687f3e-libxml2",
+    "patch": "CVE-2022-29824-patch-2554a24-libxml2",
+    "functions": [
+      "xmlBufAdd",
+      "xmlBufCCat",
+      "xmlBufCreateSize",
+      "xmlBufGrowInternal",
+      "xmlBufResize",
+      "xmlBufferCCat__internal_alias",
+      "xmlBufferCreateSize__internal_alias",
+      "xmlBufferCreateStatic__internal_alias",
+      "xmlBufferGrow__internal_alias",
+      "xmlBufferResize__internal_alias"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-40303",
+    "vuln": "CVE-2022-40303-vuln-8d908c6-libxml2",
+    "patch": "CVE-2022-40303-patch-c846986-libxml2",
+    "functions": [
+      "xmlFatalErr",
+      "xmlParseAttValueComplex",
+      "xmlParseAttValueInternal",
+      "xmlParseCDSect",
+      "xmlParseComment",
+      "xmlParseCommentComplex",
+      "xmlParseEntityValue",
+      "xmlParseNCName",
+      "xmlParseNCNameComplex",
+      "xmlParseName",
+      "xmlParseNameComplex",
+      "xmlParseNmtoken",
+      "xmlParsePI",
+      "xmlParsePubidLiteral",
+      "xmlParseStringName",
+      "xmlParseSystemLiteral"
+    ]
+  }
+]

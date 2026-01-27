@@ -1,0 +1,1321 @@
+[
+    {
+        "project": "openjpeg",
+        "cve_id": "CVE-2016-7163",
+        "commits": [
+            "22eb737d5d5d25947cec",
+            "80818c39f5bfbac37768",
+            "774889a328abd5d3c280",
+            "fb9eae5d637d06209a6c"
+        ]
+    },
+    {
+        "project": "openjpeg",
+        "cve_id": "CVE-2018-20847",
+        "commits": [
+            "29313eb5f1b2c01c7493",
+            "22eb737d5d5d25947cec",
+            "774889a328abd5d3c280",
+            "1d358f25c8eabbc7c274"
+        ]
+    },
+    {
+        "project": "openjpeg",
+        "cve_id": "CVE-2016-10506",
+        "commits": [
+            "2d606701e8b7aa83f657"
+        ]
+    },
+    {
+        "project": "openjpeg",
+        "cve_id": "CVE-2017-14039",
+        "commits": [
+            "5dd75f62e20efff9f094",
+            "1d358f25c8eabbc7c274",
+            "aaff099b49365cfecfc4"
+        ]
+    },
+    {
+        "project": "openjpeg",
+        "cve_id": "CVE-2015-8871",
+        "commits": [
+            "28d2eabca79d06378843"
+        ]
+    },
+    {
+        "project": "openjpeg",
+        "cve_id": "CVE-2017-14164",
+        "commits": [
+            "5dd75f62e20efff9f094",
+            "4e5501b3c72a98b3117e",
+            "c28965f255c711a7b2f8",
+            "4f447c6e18444a4182f7"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2015-7497",
+        "commits": [
+            "547edbf1cbdccd46b2e8",
+            "8c2e508b5ea80e980d88"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2015-7500",
+        "commits": [
+            "04d1bedd8c3fc5d9e41d",
+            "5f440d8cadea9f0d87fd",
+            "b75976e02999c453ae80",
+            "b48226f78c626a0fdbae"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2015-7499",
+        "commits": [
+            "2099441f329c1c4638d8",
+            "9a6ca816124d73a96886",
+            "b4d46cee80b577f74e21",
+            "56cc2211bcfad496c346"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2015-5312",
+        "commits": [
+            "463bbeeca1805b5c4828",
+            "7e3f469be9abf85de67b",
+            "0e1a49c8907645d2e155",
+            "2a350ee9b47ad4cf251f"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2015-8241",
+        "commits": [
+            "f61b8a62332dd8491010",
+            "2a350ee9b47ad4cf251f"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2015-7941",
+        "commits": [
+            "c1035664f989c2ac7ca3",
+            "4472c3a5a5b516aaf59b",
+            "2a350ee9b47ad4cf251f",
+            "e3b1597421ad7cbeb593"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2016-1834",
+        "commits": [
+            "2cac626976ac6f5883b3",
+            "c7260a47f19e01f4f663",
+            "6010a5369f55dab2b724"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2013-0339",
+        "commits": [
+            "3e7b4f37aaaf920e6b81",
+            "a3c8b1805ecf61e0d4ec",
+            "a28bc7515819bcf86382",
+            "ce76ebfd1312459951d5"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2017-5130",
+        "commits": [
+            "ed48d65b4d6c5cec7be0",
+            "65d381f32c0d2cb23610",
+            "9dbf137455211701db49",
+            "2e9aeecb4e5f965727f5"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2016-1838",
+        "commits": [
+            "ce00c36e654f0a5291d4"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2016-4449",
+        "commits": [
+            "463bbeeca1805b5c4828",
+            "c3fd8c429591e06eb847",
+            "0e1a49c8907645d2e155",
+            "2a350ee9b47ad4cf251f"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2015-7498",
+        "commits": [
+            "a19fa11e1d6c2b824f87",
+            "aab584dc3127edf383c3",
+            "921796b06bde4927ddf1",
+            "7fbd454d9f70f0f0c0a0"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2017-16932",
+        "commits": [
+            "bc18f4a67cf4a62df372"
+        ]
+    },
+    {
+        "project": "libxml2",
+        "cve_id": "CVE-2013-0338",
+        "commits": [
+            "d320a683d14669cd2426",
+            "66e9fd66e8fbc2306364",
+            "7fbd454d9f70f0f0c0a0",
+            "ce76ebfd1312459951d5"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2015-8900",
+        "commits": [
+            "c18375b6df8287c9f85b",
+            "b2eaec135972c582335f",
+            "686c45509c81d3ecae9c",
+            "06b627a07ff44e1ff93e"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2016-7101",
+        "commits": [
+            "b2eaec135972c582335f",
+            "d843df088db5833ed019",
+            "81bfff2759854654bf07",
+            "f2dc1dd093421015b042"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2015-8958",
+        "commits": [
+            "69967f4161bd14d8e03e",
+            "f4e4ebab852ac9d52366",
+            "932ffb4af45476d68e6e",
+            "6cad3f644f0dc0ebcff9"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2016-7514",
+        "commits": [
+            "c07194a63d417c92e2e9",
+            "bea57c9fe2b2908c2f67",
+            "0dadfa75c7fa54f57d77",
+            "f2dc1dd093421015b042"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2016-10060",
+        "commits": [
+            "2ef7c3652e780d8f4a13",
+            "cd80a8a842d983c2805e",
+            "56fba375ff6f83abe439",
+            "9f96fe801a5df298de2c"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2016-5690",
+        "commits": [
+            "6fc767d6574451eea839",
+            "94933146cb2d9d95889a",
+            "fcce81295235f39aace8",
+            "7c8d19b19d7f97a6e1d5"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2016-9556",
+        "commits": [
+            "d843df088db5833ed019",
+            "b2eaec135972c582335f",
+            "24ed32b8c21045139897",
+            "7ba113a0d26b6d2b008c"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2016-10065",
+        "commits": [
+            "f9e7a09d8c2a1f24cfab",
+            "fe3066122ef72c824158",
+            "54ce5d9f40253902d426",
+            "79e5c00f636f02294a7f"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2016-7534",
+        "commits": [
+            "427e4434bdf990728607",
+            "f2dc1dd093421015b042",
+            "312aaf9e11934899ffed",
+            "901d1c1a8f432f773a29"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2015-8896",
+        "commits": [
+            "c35e4fefb875274ef838",
+            "d50c8c51f33dab6ea644",
+            "2f78c1d4ff5e3e6115ba",
+            "f2dc1dd093421015b042"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2017-11523",
+        "commits": [
+            "8ea06c4f702884030814",
+            "95ab38988cbf47325b85",
+            "b8fcb59e9e1d1189caf2",
+            "0897510362611886bfe2"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2017-15032",
+        "commits": [
+            "0b866d493b306c74e4be",
+            "d9fe4da559264a4ace41",
+            "67c2457c9a09c5276d4f",
+            "654a0fdd31cb34e34bfd"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2016-6491",
+        "commits": [
+            "f2dc1dd093421015b042",
+            "a5abceec48dfc6dd2211",
+            "9e7d67541600f669b8be",
+            "1309276c99076f897315"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2017-15033",
+        "commits": [
+            "a017a0f0ea9a6311177b",
+            "b2eaec135972c582335f",
+            "f2dc1dd093421015b042",
+            "7ba113a0d26b6d2b008c"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2016-5689",
+        "commits": [
+            "6fc767d6574451eea839",
+            "94933146cb2d9d95889a",
+            "fcce81295235f39aace8",
+            "7c8d19b19d7f97a6e1d5"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2017-9098",
+        "commits": [
+            "80bd592dd20d4a128784",
+            "7ba113a0d26b6d2b008c",
+            "d3267035346a479d15d6",
+            "ac28e5143cd1f9e8337a"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2015-8895",
+        "commits": [
+            "c35e4fefb875274ef838",
+            "d50c8c51f33dab6ea644",
+            "2f78c1d4ff5e3e6115ba",
+            "f2dc1dd093421015b042"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2017-15277",
+        "commits": [
+            "dfbf466c79608daf2ed4",
+            "7ba113a0d26b6d2b008c",
+            "2537827ce5ed9c197d49",
+            "f2dc1dd093421015b042"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2018-16644",
+        "commits": [
+            "4b0377467fb3e1864ccd",
+            "a0eac20ff7a8c0d8143e",
+            "647d1294b47f6b79a536",
+            "cf00632d1d21b27545d9"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2016-5691",
+        "commits": [
+            "6fc767d6574451eea839",
+            "94933146cb2d9d95889a",
+            "fcce81295235f39aace8",
+            "7c8d19b19d7f97a6e1d5"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2019-11470",
+        "commits": [
+            "c5d3358acc7cb76b9321",
+            "6e0765d987feb5e9b16d",
+            "ca3654ebf7a439dc736f",
+            "dc244bebee6571e9836f"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2018-20467",
+        "commits": [
+            "31176f90be5bb143302d",
+            "b215d851689e26ec76fe",
+            "6c7d62f7dc40862730c2",
+            "285c84a86dacdc4ebee2"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2018-16645",
+        "commits": [
+            "19e5e6298e8571d3240a",
+            "fe3066122ef72c824158",
+            "a8cd168786dacaa3c311",
+            "285c84a86dacdc4ebee2"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2017-9499",
+        "commits": [
+            "2506070875222aa50841",
+            "645ed1311a2dfe86a3c6",
+            "688b19a560a3d4fa213b",
+            "409701b58ec91f8a13b2"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2016-7515",
+        "commits": [
+            "14be5f727addf7f32404",
+            "73aad72d1d28170b3801",
+            "f6240ee77847787f6d76",
+            "86cb33143c5b21912187"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2018-16643",
+        "commits": [
+            "0000f6d490b5fddb54a8",
+            "a0eac20ff7a8c0d8143e",
+            "616fe7839d1dbc7bcf1f",
+            "0ec3f1586cecfe5aa84b"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2019-7396",
+        "commits": [
+            "4ba2bbc3447ec38eb5e1",
+            "adbc1855ec4768bd6069",
+            "2b10479483641a0dd309",
+            "7ba113a0d26b6d2b008c"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2019-13307",
+        "commits": [
+            "427e4434bdf990728607",
+            "0c33fe5984950fdb104d",
+            "a564acf287b19b000ab2",
+            "5775664a028c8fdd9fe9"
+        ]
+    },
+    {
+        "project": "imagemagick",
+        "cve_id": "CVE-2017-14174",
+        "commits": [
+            "1f88c48278095badd89d",
+            "ae12904cc15142086867",
+            "d90c06fef6df2b44b906",
+            "63cfa542ab3d2d15eb06"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12901",
+        "commits": [
+            "e150c713a2ea333e9ab1",
+            "59d37c7ec5a7ce949db0",
+            "ee68aa36460d7efeca48",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12989",
+        "commits": [
+            "29517faf6cf8d1a2cdcf",
+            "abc8c2d61c65757011d9",
+            "ee68aa36460d7efeca48",
+            "03a2d9c4c1e360def4f9"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13000",
+        "commits": [
+            "8512734883227c11568b",
+            "10dd76aef1d2b2b6563b",
+            "6313179f4be2da576d60",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12995",
+        "commits": [
+            "e2877011a1fcb750fd16",
+            "6bb25b4b4c84e5015bdc",
+            "f853e73acf39658125ce",
+            "3e3e6d2ef4c1b1200773"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12993",
+        "commits": [
+            "3712d818767d26ddecba",
+            "21b12733b62cd4ec2cbe",
+            "61c422a88caefe986c2b",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12997",
+        "commits": [
+            "577621026df8d4a33a34",
+            "dc36fbcfb329504ace44",
+            "da20bc56d6100b5275d6",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12987",
+        "commits": [
+            "cb9b66505924ae735e5e",
+            "39c8c55aa9ff84244cf5",
+            "ee68aa36460d7efeca48",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12895",
+        "commits": [
+            "577621026df8d4a33a34",
+            "d7efbc8f63e907171bd7",
+            "7a5c4fb6100582e01df8",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12985",
+        "commits": [
+            "2055e39f2af0aba1ab39",
+            "db7a7633e65ea66dacb4",
+            "ca71c847281b80fd6d9d",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12902",
+        "commits": [
+            "29973d83e8cecbb3bc94",
+            "676778970d1c3023a325",
+            "546558eabd81cfc36a81",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12893",
+        "commits": [
+            "3a7639e545c0543bcec1",
+            "1ac29c4be46a81c9a95c",
+            "dcca20dd391f15c5c63d",
+            "b3171b9a9f504db2a870"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13002",
+        "commits": [
+            "ef5323efe6c03aaa50ea",
+            "d526e47658b691c4b5ca",
+            "8186bd1a769306ea938b",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12988",
+        "commits": [
+            "abc8c2d61c65757011d9",
+            "56d8c43b671a98e14b4a",
+            "ba8936b39b0ce2ff02f3",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12996",
+        "commits": [
+            "577621026df8d4a33a34",
+            "f68c3e3ec0113a70c35d",
+            "034c2fc03a6ba26f10ef",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12999",
+        "commits": [
+            "6e15ad4b99382ef8223d",
+            "b09710dfcdd50251efd4",
+            "77a49fcb6ee80c8a107d",
+            "3e3e6d2ef4c1b1200773"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12899",
+        "commits": [
+            "8bbad56e3761827d46b2",
+            "5c2027db88176ff4073d",
+            "ee68aa36460d7efeca48",
+            "bef667db65b15c89ec6f"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13003",
+        "commits": [
+            "577621026df8d4a33a34",
+            "46efa1bc471eb50b7356",
+            "84ef17ac0eecb3efc11a",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13009",
+        "commits": [
+            "f68c3e3ec0113a70c35d",
+            "39c8c55aa9ff84244cf5",
+            "306c2a0384af923a73bf",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12896",
+        "commits": [
+            "4dee61760d291060f08e",
+            "6288c273b66fa124b58a",
+            "ee68aa36460d7efeca48",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13005",
+        "commits": [
+            "577621026df8d4a33a34",
+            "0ee15606e2bd246fdffc",
+            "224629731a826fd85a8b",
+            "da20bc56d6100b5275d6"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13015",
+        "commits": [
+            "5cea2703185c6af1616d",
+            "61d5da84a02a24cafa3b",
+            "e10fe19f4578b8215587",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13019",
+        "commits": [
+            "a95802aa0d8731412a9b",
+            "51e180c4fb05a88ad668",
+            "57caa8d3383f9836adde",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12998",
+        "commits": [
+            "1ed63b5d0630a4b5b4a8",
+            "abc8c2d61c65757011d9",
+            "3db38df8ed9dcd819143",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13017",
+        "commits": [
+            "40ae3ad744d9f71079b4",
+            "f6a0369dfc998ccdb698",
+            "ee68aa36460d7efeca48",
+            "3e3e6d2ef4c1b1200773"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13011",
+        "commits": [
+            "857656d29151f99a1c5d",
+            "63610e417b2d1bd99cb4"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13004",
+        "commits": [
+            "3712d818767d26ddecba",
+            "480af1cdceda69d49bbc",
+            "57be4eb7ed4974965910",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13023",
+        "commits": [
+            "f68c3e3ec0113a70c35d",
+            "abc8c2d61c65757011d9",
+            "1a90fd99d279d6324241",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12991",
+        "commits": [
+            "f9c2c905b118b69a0b10",
+            "24df77f09e26a72f662a",
+            "756d0a1356a49efbd1a9",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13025",
+        "commits": [
+            "f68c3e3ec0113a70c35d",
+            "abc8c2d61c65757011d9",
+            "1a90fd99d279d6324241",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13020",
+        "commits": [
+            "57ff158eb0b55157bb92",
+            "abc8c2d61c65757011d9",
+            "40ae3ad744d9f71079b4",
+            "3e3e6d2ef4c1b1200773"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12992",
+        "commits": [
+            "57b0a999a9fafc936e2a",
+            "59d37c7ec5a7ce949db0",
+            "efc775d05163ac3591b3",
+            "ff2bbd6ffe2ba25884e3"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13024",
+        "commits": [
+            "f68c3e3ec0113a70c35d",
+            "abc8c2d61c65757011d9",
+            "1a90fd99d279d6324241",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13018",
+        "commits": [
+            "a95802aa0d8731412a9b",
+            "51e180c4fb05a88ad668",
+            "57caa8d3383f9836adde",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13031",
+        "commits": [
+            "2e943ce0c94720d8bf8c",
+            "d7a661b5d3e76f60388b",
+            "d526e47658b691c4b5ca",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13033",
+        "commits": [
+            "577621026df8d4a33a34",
+            "3c8f3e13b03380742c24",
+            "40ae3ad744d9f71079b4",
+            "3e3e6d2ef4c1b1200773"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12994",
+        "commits": [
+            "577621026df8d4a33a34",
+            "abc8c2d61c65757011d9",
+            "c376b499aed0b943a3ff",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13013",
+        "commits": [
+            "84ef17ac0eecb3efc11a",
+            "1af20c3adc4dfef93de4",
+            "306c2a0384af923a73bf",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13012",
+        "commits": [
+            "1ed63b5d0630a4b5b4a8",
+            "6d3b0e4599c5aa922bba",
+            "7a5c4fb6100582e01df8",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13034",
+        "commits": [
+            "a95802aa0d8731412a9b",
+            "abc8c2d61c65757011d9",
+            "bff53faf16b80f109f1b",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13021",
+        "commits": [
+            "6e15ad4b99382ef8223d",
+            "98440166f7d77a7a8481",
+            "01c04c916b3dd9f9c17f",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13032",
+        "commits": [
+            "ba8936b39b0ce2ff02f3",
+            "5cea2703185c6af1616d",
+            "03a2d9c4c1e360def4f9",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13016",
+        "commits": [
+            "228f225ca02da1ee61f1",
+            "1dbc62cb8386ef2ebc63",
+            "306c2a0384af923a73bf",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13014",
+        "commits": [
+            "d526e47658b691c4b5ca",
+            "0dad1934af3db3f97d43",
+            "306c2a0384af923a73bf",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13028",
+        "commits": [
+            "ea0d29f7436f5a919d16",
+            "2a1c7a3975cd4999a281",
+            "306c2a0384af923a73bf",
+            "3e3e6d2ef4c1b1200773"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13045",
+        "commits": [
+            "e10fe19f4578b8215587",
+            "f3882ea37f0400775d3e",
+            "546558eabd81cfc36a81",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12894",
+        "commits": [
+            "db3f9f277f4283318a76",
+            "f477e59db0ccc87707e8",
+            "3059f3581287981d50bc",
+            "d8bf24c8743edcd257e2"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13035",
+        "commits": [
+            "1ed63b5d0630a4b5b4a8",
+            "c499612a7f1024a183d0",
+            "1af20c3adc4dfef93de4",
+            "ee68aa36460d7efeca48"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12990",
+        "commits": [
+            "e9b059b7a948ca89d729",
+            "d526e47658b691c4b5ca",
+            "794a259a335c367d8529",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13037",
+        "commits": [
+            "64677b0d78ff168d98c3",
+            "6bb65331a5f9d3518623",
+            "ee68aa36460d7efeca48",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13051",
+        "commits": [
+            "226c6a8d0f906493a5d4",
+            "7ceb3ae2a66ca4cbabc3",
+            "32d1d15c5412b3a708ae",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13036",
+        "commits": [
+            "6e15ad4b99382ef8223d",
+            "5791511faa591df91038",
+            "ee68aa36460d7efeca48",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13049",
+        "commits": [
+            "5cea2703185c6af1616d",
+            "ee68aa36460d7efeca48",
+            "3c8f3e13b03380742c24",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13041",
+        "commits": [
+            "00b189d27cd235c95849",
+            "0cced4fcdcad0c011cb1",
+            "180fae3dc2cd43daf047",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13047",
+        "commits": [
+            "d526e47658b691c4b5ca",
+            "74d0778d0ce7f2b87efb",
+            "228f225ca02da1ee61f1",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13688",
+        "commits": [
+            "577621026df8d4a33a34",
+            "07a7f33ba3ff346b9ce3",
+            "40ae3ad744d9f71079b4",
+            "3e3e6d2ef4c1b1200773"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13026",
+        "commits": [
+            "0fa0692de376611b29ba",
+            "51e180c4fb05a88ad668",
+            "2f6c71013128c8fd03fa",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13038",
+        "commits": [
+            "f9dbcc9615275370677b",
+            "ee68aa36460d7efeca48",
+            "3c8f3e13b03380742c24",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13022",
+        "commits": [
+            "00b189d27cd235c95849",
+            "39c8c55aa9ff84244cf5",
+            "c98ea428912fa6b8518d",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13050",
+        "commits": [
+            "577621026df8d4a33a34",
+            "abc8c2d61c65757011d9",
+            "3ed92cd021a619c8dbff",
+            "3e3e6d2ef4c1b1200773"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13029",
+        "commits": [
+            "ff1c209392b2226b1f43",
+            "84ef17ac0eecb3efc11a",
+            "ee68aa36460d7efeca48",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12897",
+        "commits": [
+            "6e1fdd00a653e1c89868",
+            "1a04b92e365f5ed01ca3",
+            "ee68aa36460d7efeca48",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13052",
+        "commits": [
+            "e10fe19f4578b8215587",
+            "b1e5f800b368548e4cd4",
+            "4a28df231d469d78763d",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13055",
+        "commits": [
+            "7217abf41a060c9e9b5c",
+            "0b3880c91e169db7cfbd",
+            "eebb3f48e30f2cb31c3f",
+            "3e3e6d2ef4c1b1200773"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13048",
+        "commits": [
+            "577621026df8d4a33a34",
+            "b5068d5380c73e02bc35",
+            "07cb281e4ed578c1ccf5",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13006",
+        "commits": [
+            "577621026df8d4a33a34",
+            "cfa9ab5f80dd9a1024e1",
+            "ee68aa36460d7efeca48",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13043",
+        "commits": [
+            "1ed63b5d0630a4b5b4a8",
+            "1a859e9f5ce9c94bee91",
+            "51e180c4fb05a88ad668",
+            "07a7f33ba3ff346b9ce3"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13689",
+        "commits": [
+            "3db38df8ed9dcd819143",
+            "d526e47658b691c4b5ca",
+            "ee68aa36460d7efeca48",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13687",
+        "commits": [
+            "40ae3ad744d9f71079b4",
+            "84ef17ac0eecb3efc11a",
+            "5e9a51fdd559721eab88",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13046",
+        "commits": [
+            "f9c2c905b118b69a0b10",
+            "abc8c2d61c65757011d9",
+            "3b8ff4bf0d8f389e00c1",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13053",
+        "commits": [
+            "577621026df8d4a33a34",
+            "07ac438e08e5ffed3539",
+            "9c965fd16f876115497c",
+            "e83dfd9b161eeb2bde1a"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13039",
+        "commits": [
+            "f68c3e3ec0113a70c35d",
+            "abc8c2d61c65757011d9",
+            "a5bb53dd7407207c012d",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13040",
+        "commits": [
+            "1c75daed55fcbff08e46",
+            "3ebae8948826d18e00e7",
+            "afb52045ddc84e46035a",
+            "bf8990f63b15a1b613d8"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13030",
+        "commits": [
+            "577621026df8d4a33a34",
+            "8c8d5ecba44077f742b6",
+            "315fe447eadb6e03484c",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-12898",
+        "commits": [
+            "577621026df8d4a33a34",
+            "21b12733b62cd4ec2cbe",
+            "279bd14fc59ef9d84f35",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13690",
+        "commits": [
+            "84ef17ac0eecb3efc11a",
+            "d526e47658b691c4b5ca",
+            "9a6a6502413e657277e7",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "tcpdump",
+        "cve_id": "CVE-2017-13725",
+        "commits": [
+            "7755951df76e2d618300",
+            "7ae15799542662cb1e86",
+            "ee68aa36460d7efeca48",
+            "e2982e7f6f0b624a773e"
+        ]
+    },
+    {
+        "project": "openssl",
+        "cve_id": "CVE-2015-1788",
+        "commits": [
+            "5cbd2ea3f94aa8adec9b",
+            "2934be91349b365f1350",
+            "0dae8bafceabc8966383"
+        ]
+    },
+    {
+        "project": "openssl",
+        "cve_id": "CVE-2014-3572",
+        "commits": [
+            "389ebcecae2575188a4f",
+            "329428708d6836676f6a",
+            "0f113f3ee4d629ef9a4a",
+            "75ebbd9aa411c5b8b19d"
+        ]
+    },
+    {
+        "project": "openssl",
+        "cve_id": "CVE-2015-0206",
+        "commits": [
+            "daa48704cc04c61cf8f3",
+            "17dd65e6e1f888b4561d",
+            "fd865cadcb603918bdcf",
+            "35a1cc90bc1795e8893c"
+        ]
+    },
+    {
+        "project": "openssl",
+        "cve_id": "CVE-2015-0205",
+        "commits": [
+            "25aaa98aa249d26391c1",
+            "e27f234a4147a7bd621d",
+            "8ba708e5166b02ab61f2",
+            "ade44dcb16141c8a30ca"
+        ]
+    },
+    {
+        "project": "openssl",
+        "cve_id": "CVE-2016-2109",
+        "commits": [
+            "3e73111d133dda63ec42",
+            "9311d0c471ca2eaa259e",
+            "e077455e9e57ed4ee467",
+            "afecd85db1359b5a62c0"
+        ]
+    },
+    {
+        "project": "openssl",
+        "cve_id": "CVE-2015-1790",
+        "commits": [
+            "8d9fec1781751d2106d8",
+            "ed576acdf591d4164905",
+            "6eebe6c0238178356114",
+            "ad57a13bb86949a9e9ad"
+        ]
+    },
+    {
+        "project": "openssl",
+        "cve_id": "CVE-2016-2106",
+        "commits": [
+            "a8bf2f8f24bda57c860e",
+            "30af356df487b2dad571",
+            "1832bb0f02e519a48f06",
+            "df05f2ce6d496232f3c8"
+        ]
+    },
+    {
+        "project": "openssl",
+        "cve_id": "CVE-2015-1789",
+        "commits": [
+            "2a4ad6a5d48de69b7f8b",
+            "cdf63a3736a91a534bd3",
+            "657489e8128431979f47",
+            "c633b973f669948a22bb"
+        ]
+    },
+    {
+        "project": "openssl",
+        "cve_id": "CVE-2015-1791",
+        "commits": [
+            "389ebcecae2575188a4f",
+            "4842a27b902660b672d7",
+            "708cf593587e2fda67da",
+            "1bb829300a9a941b75e8"
+        ]
+    }
+]

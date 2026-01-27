@@ -1,0 +1,498 @@
+[
+  {
+    "CVE": "CVE-2021-23840",
+    "vuln": "CVE-2021-23840-vuln-481a88f13c44-libcrypto",
+    "patch": "CVE-2021-23840-patch-6a51b9e1d0cf-libcrypto",
+    "functions": [
+      "EVP_DecryptUpdate",
+      "evp_EncryptDecryptUpdate"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-5678",
+    "vuln": "CVE-2023-5678-vuln-b37871cd0a42-libcrypto",
+    "patch": "CVE-2023-5678-patch-db925ae2e65d-libcrypto",
+    "functions": [
+      "DH_check_pub_key_ex",
+      "generate_key",
+      "ossl_dh_compute_key"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-1788",
+    "vuln": "CVE-2015-1788-vuln-59302b600e8d-openssl",
+    "patch": "CVE-2015-1788-patch-4924b37ee01f-openssl",
+    "functions": [
+      "BN_GF2m_mod_inv"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-1559",
+    "vuln": "CVE-2019-1559-vuln-c81f16952bca-openssl",
+    "patch": "CVE-2019-1559-patch-e9bbefbf0f24-openssl",
+    "functions": [
+      "dtls1_read_bytes",
+      "ssl3_read_bytes",
+      "ssl3_send_alert"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-2106",
+    "vuln": "CVE-2016-2106-vuln-05aef4bbdbc1-openssl",
+    "patch": "CVE-2016-2106-patch-3f3582139fbb-openssl",
+    "functions": [
+      "EVP_EncryptUpdate"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-0797",
+    "vuln": "CVE-2016-0797-vuln-29305f4edc88-openssl",
+    "patch": "CVE-2016-0797-patch-c17530840785-openssl",
+    "functions": [
+      "BN_dec2bn",
+      "BN_hex2bn"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-1543",
+    "vuln": "CVE-2019-1543-vuln-c62896c2c0cb-libcrypto",
+    "patch": "CVE-2019-1543-patch-ee22257b1418-libcrypto",
+    "functions": [
+      "chacha20_poly1305_ctrl"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-1343",
+    "vuln": "CVE-2022-1343-vuln-ae3ece03a61e-libcrypto",
+    "patch": "CVE-2022-1343-patch-2eda98790c5c-libcrypto",
+    "functions": [
+      "ocsp_verify_signer"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-3196",
+    "vuln": "CVE-2015-3196-vuln-f8f75a7e4a77-openssl",
+    "patch": "CVE-2015-3196-patch-3c66a669dfc7-openssl",
+    "functions": [
+      "ssl3_get_client_key_exchange",
+      "ssl3_get_key_exchange",
+      "ssl3_send_client_key_exchange"
+    ]
+  },
+  {
+    "CVE": "CVE-2014-3572",
+    "vuln": "CVE-2014-3572-vuln-b5526482ef81-openssl",
+    "patch": "CVE-2014-3572-patch-b15f8769644b-openssl",
+    "functions": [
+      "ssl3_get_key_exchange"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-0209",
+    "vuln": "CVE-2015-0209-vuln-6d4655c27e4b-openssl",
+    "patch": "CVE-2015-0209-patch-1b4a8df38fc9-openssl",
+    "functions": [
+      "d2i_ECPrivateKey"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-0288",
+    "vuln": "CVE-2015-0288-vuln-437b14b533fe-openssl",
+    "patch": "CVE-2015-0288-patch-28a00bcd8e31-openssl",
+    "functions": [
+      "X509_to_X509_REQ"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-0702",
+    "vuln": "CVE-2016-0702-vuln-bc38a7d2d3c6-openssl",
+    "patch": "CVE-2016-0702-patch-708dc2f1291e-openssl",
+    "functions": [
+      "BN_mod_exp_mont_consttime",
+      "MOD_EXP_CTIME_COPY_TO_PREBUF",
+      "bn_get_bits"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-3195",
+    "vuln": "CVE-2015-3195-vuln-fb4f46763fed-openssl",
+    "patch": "CVE-2015-3195-patch-cc598f321fba-openssl",
+    "functions": [
+      "ASN1_item_ex_d2i",
+      "asn1_template_noexp_d2i"
+    ]
+  },
+  {
+    "CVE": "CVE-2024-0727",
+    "vuln": "CVE-2024-0727-vuln-8c30857e8fe9-libcrypto",
+    "patch": "CVE-2024-0727-patch-775acfdbd0c6-libcrypto",
+    "functions": [
+      "PKCS12_unpack_authsafes",
+      "PKCS12_unpack_p7encdata",
+      "SMIME_write_PKCS7",
+      "newpass_p12",
+      "pkcs12_gen_mac"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-0206",
+    "vuln": "CVE-2015-0206-vuln-1421e0c584ae-openssl",
+    "patch": "CVE-2015-0206-patch-103b171d8fc2-openssl",
+    "functions": [
+      "dtls1_buffer_record",
+      "dtls1_get_record",
+      "dtls1_process_buffered_records",
+      "dtls1_read_bytes"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-0705",
+    "vuln": "CVE-2016-0705-vuln-c575ceffdbc3-openssl",
+    "patch": "CVE-2016-0705-patch-6c88c71b4e48-openssl",
+    "functions": [
+      "dsa_priv_decode"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-0205",
+    "vuln": "CVE-2015-0205-vuln-a7a44ba55cb4-openssl",
+    "patch": "CVE-2015-0205-patch-1421e0c584ae-openssl",
+    "functions": [
+      "ssl3_get_cert_verify"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-2177",
+    "vuln": "CVE-2016-2177-vuln-f792c663048f-openssl",
+    "patch": "CVE-2016-2177-patch-a004e72b9583-openssl",
+    "functions": [
+      "ssl3_get_client_hello",
+      "ssl_check_for_safari",
+      "ssl_get_prev_session",
+      "ssl_scan_clienthello_custom_tlsext",
+      "ssl_scan_clienthello_tlsext",
+      "ssl_scan_serverhello_tlsext",
+      "tls1_process_ticket"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-2176",
+    "vuln": "CVE-2016-2176-vuln-56ea22458f3f-openssl",
+    "patch": "CVE-2016-2176-patch-2919516136a4-openssl",
+    "functions": [
+      "X509_NAME_oneline"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-1791",
+    "vuln": "CVE-2015-1791-vuln-8c2b1d872b25-openssl",
+    "patch": "CVE-2015-1791-patch-98ece4eebfb6-openssl",
+    "functions": [
+      "SSL_SESSION_new",
+      "ssl3_get_new_session_ticket"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-3602",
+    "vuln": "CVE-2022-3602-vuln-4bae06d47ae2-libcrypto",
+    "patch": "CVE-2022-3602-patch-fe3b639dc19b-libcrypto",
+    "functions": [
+      "ossl_punycode_decode"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-6306",
+    "vuln": "CVE-2016-6306-vuln-515a0105652a-openssl",
+    "patch": "CVE-2016-6306-patch-52e623c4cb06-openssl",
+    "functions": [
+      "ssl3_get_certificate_request",
+      "ssl3_get_client_certificate",
+      "ssl3_get_server_certificate"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-3197",
+    "vuln": "CVE-2015-3197-vuln-3665fa25436f-openssl",
+    "patch": "CVE-2015-3197-patch-d81a1600588b-openssl",
+    "functions": [
+      "get_client_hello",
+      "get_client_master_key"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-7052",
+    "vuln": "CVE-2016-7052-vuln-f15a7e39a1f7-openssl",
+    "patch": "CVE-2016-7052-patch-6e629b5be45f-openssl",
+    "functions": [
+      "get_crl_sk"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-3358",
+    "vuln": "CVE-2022-3358-vuln-9f0867da4cbf-libcrypto",
+    "patch": "CVE-2022-3358-patch-5485c56679d7-libcrypto",
+    "functions": [
+      "evp_cipher_init_internal",
+      "evp_md_init_internal"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-0798",
+    "vuln": "CVE-2016-0798-vuln-64333004a41a-openssl",
+    "patch": "CVE-2016-0798-patch-259b664f950c-openssl",
+    "functions": [
+      "SRP_VBASE_init",
+      "SRP_user_pwd_set_sv_BN",
+      "init_ssl_connection",
+      "rev_body",
+      "ssl_srp_server_param_cb",
+      "sv_body",
+      "t_tob64",
+      "www_body"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-0216",
+    "vuln": "CVE-2023-0216-vuln-f596ec8a6f9f-libcrypto",
+    "patch": "CVE-2023-0216-patch-934a04f0e775-libcrypto",
+    "functions": [
+      "PKCS7_add_signature",
+      "ossl_pkcs7_resolve_libctx",
+      "pkcs7_get_signer_certs"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-4203",
+    "vuln": "CVE-2022-4203-vuln-36d85b02cef2-libcrypto",
+    "patch": "CVE-2022-4203-patch-c927a3492698-libcrypto",
+    "functions": [
+      "do_i2r_name_constraints",
+      "nc_match"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-1789",
+    "vuln": "CVE-2015-1789-vuln-708cf593587e-openssl",
+    "patch": "CVE-2015-1789-patch-f48b83b4fb7d-openssl",
+    "functions": [
+      "X509_cmp_time"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-2105",
+    "vuln": "CVE-2016-2105-vuln-2919516136a4-openssl",
+    "patch": "CVE-2016-2105-patch-5b814481f357-openssl",
+    "functions": [
+      "EVP_EncodeUpdate"
+    ]
+  },
+  {
+    "CVE": "CVE-2021-4044",
+    "vuln": "CVE-2021-4044-vuln-8e78289c4e6f-libssl",
+    "patch": "CVE-2021-4044-patch-758754966791-libssl",
+    "functions": [
+      "ssl_cert_set_cert_cb",
+      "ssl_verify_cert_chain",
+      "tls_post_process_server_certificate"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-2109",
+    "vuln": "CVE-2016-2109-vuln-ddc606c914e7-libcrypto",
+    "patch": "CVE-2016-2109-patch-c62981390d6c-libcrypto",
+    "functions": [
+      "ASN1_item_d2i_fp",
+      "asn1_d2i_read_bio"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-0732",
+    "vuln": "CVE-2018-0732-vuln-bd45a8d1ef33-openssl",
+    "patch": "CVE-2018-0732-patch-3984ef0b7283-openssl",
+    "functions": [
+      "generate_key"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-1790",
+    "vuln": "CVE-2015-1790-vuln-f48b83b4fb7d-openssl",
+    "patch": "CVE-2015-1790-patch-59302b600e8d-openssl",
+    "functions": [
+      "PKCS7_dataDecode"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-2975",
+    "vuln": "CVE-2023-2975-vuln-175fa8469fc7-libcrypto",
+    "patch": "CVE-2023-2975-patch-00e2f5eea299-libcrypto",
+    "functions": [
+      "siv_cipher"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-0215",
+    "vuln": "CVE-2023-0215-vuln-cbafa34b5a05-libcrypto",
+    "patch": "CVE-2023-0215-patch-8818064ce3c3-libcrypto",
+    "functions": [
+      "BIO_new_NDEF",
+      "ndef_suffix"
+    ]
+  },
+  {
+    "CVE": "CVE-2018-0737",
+    "vuln": "CVE-2018-0737-vuln-e4fa7cc3fb99-libcrypto",
+    "patch": "CVE-2018-0737-patch-6939eab03a6e-libcrypto",
+    "functions": [
+      "rsa_builtin_keygen"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-1473",
+    "vuln": "CVE-2022-1473-vuln-af5b3af7bd48-libcrypto",
+    "patch": "CVE-2022-1473-patch-64c85430f952-libcrypto",
+    "functions": [
+      "OPENSSL_LH_flush"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-0799",
+    "vuln": "CVE-2016-0799-vuln-259b664f950c-openssl",
+    "patch": "CVE-2016-0799-patch-578b956fe741-openssl",
+    "functions": [
+      "BIO_vprintf",
+      "BIO_vsnprintf",
+      "_dopr",
+      "doapr_outch",
+      "fmtfp",
+      "fmtint",
+      "roundv"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-5363",
+    "vuln": "CVE-2023-5363-vuln-742e766f0e19-libcrypto",
+    "patch": "CVE-2023-5363-patch-5f69f5c65e48-libcrypto",
+    "functions": [
+      "evp_cipher_init_internal"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-2650",
+    "vuln": "CVE-2023-2650-vuln-3ecfc9e6b611-openssl",
+    "patch": "CVE-2023-2650-patch-423a2bc737a9-openssl",
+    "functions": [
+      "OBJ_obj2txt"
+    ]
+  },
+  {
+    "CVE": "CVE-2023-0401",
+    "vuln": "CVE-2023-0401-vuln-2f7530077e0e-libcrypto",
+    "patch": "CVE-2023-0401-patch-d3b6dfd70db8-libcrypto",
+    "functions": [
+      "PKCS7_dataDecode",
+      "pkcs7_bio_add_digest"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-6304",
+    "vuln": "CVE-2016-6304-vuln-151adf2e5cc2-openssl",
+    "patch": "CVE-2016-6304-patch-2c0d295e2630-openssl",
+    "functions": [
+      "ssl_parse_clienthello_tlsext"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-2842",
+    "vuln": "CVE-2016-2842-vuln-259b664f950c-openssl",
+    "patch": "CVE-2016-2842-patch-578b956fe741-openssl",
+    "functions": [
+      "BIO_vprintf",
+      "BIO_vsnprintf",
+      "_dopr",
+      "doapr_outch",
+      "fmtfp",
+      "fmtint",
+      "roundv"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-3996",
+    "vuln": "CVE-2022-3996-vuln-9a5c884999a5-libcrypto",
+    "patch": "CVE-2022-3996-patch-7725e7bfe6f2-libcrypto",
+    "functions": [
+      "ossl_policy_cache_set_mapping"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-2108",
+    "vuln": "CVE-2016-2108-vuln-4159f311671c-openssl",
+    "patch": "CVE-2016-2108-patch-f5da52e308a6-openssl",
+    "functions": [
+      "ASN1_TYPE_cmp",
+      "asn1_ex_c2i",
+      "asn1_ex_i2c"
+    ]
+  },
+  {
+    "CVE": "CVE-2019-1563",
+    "vuln": "CVE-2019-1563-vuln-7ff84d880362-libcrypto",
+    "patch": "CVE-2019-1563-patch-08229ad838c5-libcrypto",
+    "functions": [
+      "CMS_decrypt",
+      "PKCS7_dataDecode",
+      "cms_RecipientInfo_ktri_decrypt",
+      "pkcs7_decrypt_rinfo",
+      "pkcs7_encode_rinfo"
+    ]
+  },
+  {
+    "CVE": "CVE-2020-1967",
+    "vuln": "CVE-2020-1967-vuln-64eef86733fd-libssl",
+    "patch": "CVE-2020-1967-patch-eb563247aef3-libssl",
+    "functions": [
+      "tls1_check_sig_alg"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-3194",
+    "vuln": "CVE-2015-3194-vuln-b29ffa392e83-openssl",
+    "patch": "CVE-2015-3194-patch-d8541d7e9e63-openssl",
+    "functions": [
+      "rsa_pss_decode"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-3786",
+    "vuln": "CVE-2022-3786-vuln-fe3b639dc19b-libcrypto",
+    "patch": "CVE-2022-3786-patch-c42165b5706e-libcrypto",
+    "functions": [
+      "ossl_a2ulabel",
+      "ossl_punycode_decode"
+    ]
+  },
+  {
+    "CVE": "CVE-2015-1793",
+    "vuln": "CVE-2015-1793-vuln-cb6e0ed17a61-openssl",
+    "patch": "CVE-2015-1793-patch-9a0db453ba01-openssl",
+    "functions": [
+      "X509_verify_cert"
+    ]
+  },
+  {
+    "CVE": "CVE-2022-2274",
+    "vuln": "CVE-2022-2274-vuln-eea820f3e239-libcrypto",
+    "patch": "CVE-2022-2274-patch-4d8a88c134df-libcrypto",
+    "functions": [
+      "ossl_rsaz_mod_exp_avx512_x2"
+    ]
+  },
+  {
+    "CVE": "CVE-2016-2107",
+    "vuln": "CVE-2016-2107-vuln-643e8e972e54-openssl",
+    "patch": "CVE-2016-2107-patch-68595c0c2886-openssl",
+    "functions": [
+      "aesni_cbc_hmac_sha1_cipher",
+      "aesni_cbc_hmac_sha256_cipher"
+    ]
+  }
+]

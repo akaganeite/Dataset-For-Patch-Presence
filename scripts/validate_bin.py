@@ -31,11 +31,11 @@ def get_symbols(bin_path):
 
 def parse_details_file(filepath):
     """
-    解析 details.json 文件，返回 CVE 到 详细信息(commit, date) 的映射。
+    Parse details.json file, return mapping from CVE to detailed info (commit, date).
     """
     cve_details = {}
     if not filepath.exists():
-        print(f"错误: 未找到 details 文件: {filepath}")
+        print(f"Error: details file not found: {filepath}")
         return cve_details
         
     try:
@@ -49,27 +49,27 @@ def parse_details_file(filepath):
             if cve and commit:
                 cve_details[cve] = {"commit": commit, "date": date}
     except json.JSONDecodeError:
-        print(f"错误: 无法解析 JSON 文件: {filepath}")
+        print(f"Error: Unable to parse JSON file: {filepath}")
     except Exception as e:
-        print(f"错误: 读取 details 文件时发生错误: {e}")
+        print(f"Error: An error occurred while reading details file: {e}")
 
     return cve_details
 
 def normalize_code_line(line):
-    """移除行中的空格和圆括号"""
+    """Remove spaces and parentheses from the line"""
     return line.replace(" ", "").replace("(", "").replace(")", "")
 
 def analyze_diff(diff_content, function_name):
     """
-    在 diff 内容中找到指定函数的 hunk，并比较其 +/- 行。
-    如果标准化后的 +/- 行完全一致，返回 True (no code changes)，否则返回 False。
+    Find the hunk for the specified function in the diff content and compare its +/- lines.
+    Returns True if summarized +/- lines are identical (no code changes), otherwise False.
     """
-    # 正则表达式匹配 hunk header，可能包含函数上下文
+    # Regex to match hunk header, possibly containing function context
     hunk_header_pattern = re.compile(r'@@ .*? @@.*?' + re.escape(function_name), re.DOTALL)
     hunks = diff_content.split('@@')
     
     relevant_hunk = ""
-    # 找到包含函数名的 hunk
+    # Find the hunk containing the function name
     for i in range(1, len(hunks), 2):
         header_and_body = hunks[i] + hunks[i+1] if i+1 < len(hunks) else hunks[i]
         if function_name in header_and_body:
@@ -77,7 +77,7 @@ def analyze_diff(diff_content, function_name):
             break
 
     if not relevant_hunk:
-        return False # 无法确认，保守地认为有变化
+        return False # Cannot confirm, conservatively assume there are changes
 
     plus_lines = []
     minus_lines = []
@@ -91,7 +91,7 @@ def analyze_diff(diff_content, function_name):
             if line_content.strip():
                 minus_lines.append(line_content)
 
-    # 如果过滤后没有 +/- 行，说明变化只是空行，我们认为这不算实质性变更
+    # If no +/- lines after filtering, changes are only empty lines, not considered substantive
     if not plus_lines and not minus_lines:
         return True
 
@@ -103,7 +103,7 @@ def analyze_diff(diff_content, function_name):
 def parse_source_diff(filepath, project):
     """Reads source_diff.json."""
     if not filepath.exists():
-        print(f"警告: 未找到源码 diff 文件: {filepath}")
+        print(f"Warning: source diff file not found: {filepath}")
         return {}, {}
     with open(filepath, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -139,7 +139,7 @@ def parse_source_diff(filepath, project):
 def parse_bin_diff(filepath):
     """Reads bin_diff.json."""
     if not filepath.exists():
-        print(f"警告: 未找到二进制 diff 文件: {filepath}")
+        print(f"Warning: binary diff file not found: {filepath}")
         return {}
     with open(filepath, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -245,8 +245,8 @@ def main():
                         if is_signature_only:
                             # If no code change, it's non-sec, discard it (don't add to valid)
                             # But add to non-sec report? 
-                            # User said: "non_sec_parsed中的不要，其余的留下"
-                            # "其余的" means if it HAS changes (is_signature_only=False), we KEEP it.
+                            # User said: "Discard non_sec_parsed, keep the rest"
+                            # "The rest" means if it HAS changes (is_signature_only=False), we KEEP it.
                             non_sec_funcs.append(func) # Report as discarded non-sec
                         else:
                             kept_source_only_funcs.add(func)

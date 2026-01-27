@@ -1,6 +1,7 @@
 - common_failure_patterns.json: Failure patterns analysis for `Figure 5 Classification and distribution of failure patterns.`
 - cwe_mapping.json: CWE classification for `Table 7. Accuracy on Different CWE Categories`
 - semantic_patterns.json: semantic classification of patches for `Table 6. Accuracy Across Different Semantic Complexity and Categories` 
+- patch_evolution.json: patch evolution dataset for `Fig. 6. The Impact of Patch Evolution on Patch Presence Testing Tools.`
 - patch/function size.pkl: For `Figure 3. Accuracy Across Different Function and Patch Size`
     - Format of `function_size.pkl`
     ```json

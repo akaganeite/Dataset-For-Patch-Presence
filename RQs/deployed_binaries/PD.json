@@ -1,0 +1,4664 @@
+{
+  "tool": "PD",
+  "projects": {
+    "curl": {
+      "CVE-2016-8617": {
+        "7.58.0-2ubuntu1": {
+          "base64_encode": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2016-8618": {
+        "7.58.0-2ubuntu1": {
+          "alloc_addbyter": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2016-8619": {
+        "7.58.0-2ubuntu1": {
+          "read_data": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2016-8621": {
+        "7.58.0-2ubuntu1": {
+          "parsedate": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2016-8623": {
+        "7.58.0-2ubuntu1": {
+          "Curl_cookie_cleanup": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "Curl_cookie_clearall": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "Curl_cookie_freelist": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "Curl_cookie_getlist": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "Curl_http": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "dup_cookie": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2016-8624": {
+        "7.58.0-2ubuntu1": {
+          "parseurlandfillconn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2016-9586": {
+        "7.58.0-2ubuntu1": {
+          "_string_check": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "_strlen_check": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "dprintf_formatf": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "string_check": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "test": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "test_float_formatting": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-1000101": {
+        "7.58.0-2ubuntu1": {
+          "glob_range": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-2629": {
+        "7.58.0-2ubuntu1": {
+          "allocate_conn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-7407": {
+        "7.58.0-2ubuntu1": {
+          "ourWriteOut": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-8816": {
+        "7.58.0-2ubuntu1": {
+          "Curl_ntlm_core_mk_ntlmv2_hash": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-8817": {
+        "7.58.0-2ubuntu1": {
+          "setcharset": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-8818": {
+        "7.58.0-2ubuntu1": {
+          "allocate_conn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-0500": {
+        "7.58.0-2ubuntu1": {
+          "Curl_smtp_escape_eob": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3.1": {
+          "Curl_smtp_escape_eob": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3.12": {
+          "Curl_smtp_escape_eob": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "7.58.0-2ubuntu3.2": {
+          "Curl_smtp_escape_eob": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "7.58.0-2ubuntu3.24": {
+          "Curl_smtp_escape_eob": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "7.61.0-1": {
+          "Curl_smtp_escape_eob": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-1000007": {
+        "7.58.0-2ubuntu1": {
+          "Curl_add_custom_headers": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "Curl_http_output_auth": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "Curl_vsetopt": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-1000120": {
+        "7.58.0-2ubuntu2": {
+          "ftp_done": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "ftp_parse_url_path": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "ftp_state_list": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3": {
+          "ftp_done": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "ftp_parse_url_path": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "ftp_state_list": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.61.0-1": {
+          "ftp_done": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "ftp_parse_url_path": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "ftp_state_list": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-1000121": {
+        "7.58.0-2ubuntu2": {
+          "ldap_recv": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3": {
+          "ldap_recv": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "7.61.0-1": {
+          "ldap_recv": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-1000122": {
+        "7.58.0-2ubuntu2": {
+          "readwrite_data": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3": {
+          "readwrite_data": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.61.0-1": {
+          "readwrite_data": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-1000300": {
+        "7.58.0-2ubuntu1": {
+          "Curl_pp_readresp": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3": {
+          "Curl_pp_readresp": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3.1": {
+          "Curl_pp_readresp": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "7.58.0-2ubuntu3.12": {
+          "Curl_pp_readresp": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "7.58.0-2ubuntu3.24": {
+          "Curl_pp_readresp": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "7.61.0-1": {
+          "Curl_pp_readresp": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-1000301": {
+        "7.58.0-2ubuntu3": {
+          "Curl_http_readwrite_headers": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3.1": {
+          "Curl_http_readwrite_headers": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "7.61.0-1": {
+          "Curl_http_readwrite_headers": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-16839": {
+        "7.58.0-2ubuntu3.3": {
+          "Curl_auth_create_plain_message": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3.5": {
+          "Curl_auth_create_plain_message": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "7.61.0-1": {
+          "Curl_auth_create_plain_message": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "7.62.0-1": {
+          "Curl_auth_create_plain_message": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-16840": {
+        "7.61.0-1": {
+          "Curl_close": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "7.62.0-1": {
+          "Curl_close": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "7.68.0-1ubuntu2.11": {
+          "Curl_close": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "7.68.0-1ubuntu2.25": {
+          "Curl_close": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-16842": {
+        "7.61.0-1": {
+          "voutf": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.62.0-1": {
+          "voutf": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.68.0-1ubuntu2.11": {
+          "voutf": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.68.0-1ubuntu2.25": {
+          "voutf": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-5435": {
+        "7.63.0-1": {
+          "Curl_setstropt": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "curl_url_set": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "seturl": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "test": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-5481": {
+        "7.58.0-2ubuntu3.6": {
+          "read_data": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3.8": {
+          "read_data": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "7.63.0-1": {
+          "read_data": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "7.68.0-1ubuntu1": {
+          "read_data": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-5482": {
+        "7.58.0-2ubuntu3.6": {
+          "tftp_connect": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3.8": {
+          "tftp_connect": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "7.63.0-1": {
+          "tftp_connect": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "7.68.0-1ubuntu1": {
+          "tftp_connect": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2020-8169": {
+        "7.61.0-1": {
+          "override_login": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.68.0-1ubuntu2": {
+          "override_login": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.68.0-1ubuntu2.1": {
+          "override_login": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.68.0-1ubuntu2.11": {
+          "override_login": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.68.0-1ubuntu2.25": {
+          "override_login": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.80.0-3": {
+          "override_login": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2020-8177": {
+        "7.58.0-2ubuntu3.8": {
+          "getparameter": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "tool_header_cb": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3.9": {
+          "getparameter": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "tool_header_cb": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.68.0-1ubuntu2": {
+          "getparameter": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "tool_header_cb": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.68.0-1ubuntu2.1": {
+          "getparameter": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "tool_header_cb": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.80.0-3": {
+          "getparameter": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "tool_header_cb": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2020-8284": {
+        "7.58.0-2ubuntu3.10": {
+          "Curl_init_userdefined": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "config_init": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3.12": {
+          "Curl_init_userdefined": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "config_init": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.68.0-1ubuntu2.2": {
+          "Curl_init_userdefined": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "config_init": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.68.0-1ubuntu2.4": {
+          "Curl_init_userdefined": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "config_init": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.80.0-3": {
+          "Curl_init_userdefined": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "config_init": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2021-22898": {
+        "7.58.0-2ubuntu1": {
+          "suboption": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3.12": {
+          "suboption": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.58.0-2ubuntu3.13": {
+          "suboption": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.58.0-2ubuntu3.14": {
+          "suboption": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.58.0-2ubuntu3.24": {
+          "suboption": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.68.0-1ubuntu2.5": {
+          "suboption": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.68.0-1ubuntu2.6": {
+          "suboption": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.80.0-3": {
+          "suboption": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2022-42915": {
+        "7.80.0-3": {
+          "Curl_connect_done": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "conn_shutdown": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.81.0-1ubuntu1.11": {
+          "Curl_connect_done": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "conn_shutdown": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.81.0-1ubuntu1.23": {
+          "Curl_connect_done": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "conn_shutdown": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.81.0-1ubuntu1.4": {
+          "Curl_connect_done": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "conn_shutdown": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.81.0-1ubuntu1.6": {
+          "Curl_connect_done": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "conn_shutdown": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.85.0-1": {
+          "Curl_connect_done": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "conn_shutdown": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.86.0-1": {
+          "Curl_connect_done": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "conn_shutdown": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2022-42916": {
+        "7.80.0-3": {
+          "create_conn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "parseurlandfillconn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.81.0-1ubuntu1.11": {
+          "create_conn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "parseurlandfillconn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.81.0-1ubuntu1.23": {
+          "create_conn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "parseurlandfillconn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.81.0-1ubuntu1.4": {
+          "create_conn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "parseurlandfillconn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.81.0-1ubuntu1.6": {
+          "create_conn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "parseurlandfillconn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "7.85.0-1": {
+          "create_conn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "parseurlandfillconn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "7.86.0-1": {
+          "create_conn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "parseurlandfillconn": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2023-46218": {
+        "7.61.0-1": {
+          "Curl_cookie_add": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "7.68.0-1ubuntu2.11": {
+          "Curl_cookie_add": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "7.68.0-1ubuntu2.20": {
+          "Curl_cookie_add": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "7.68.0-1ubuntu2.21": {
+          "Curl_cookie_add": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "7.68.0-1ubuntu2.25": {
+          "Curl_cookie_add": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "7.81.0-1ubuntu1.14": {
+          "Curl_cookie_add": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "7.81.0-1ubuntu1.15": {
+          "Curl_cookie_add": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "7.87.0-1": {
+          "Curl_cookie_add": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2023-46219": {
+        "7.87.0-1": {
+          "Curl_fopen": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "dirslash": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        }
+      }
+    },
+    "freetype": {
+      "CVE-2009-0946": {
+        "2.6.1-0.1ubuntu1": {
+          "cff_charset_load": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2010-2497": {
+        "2.6.1-0.1ubuntu1": {
+          "cff_decoder_parse_charstrings": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "gray_render_cubic": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2010-2498": {
+        "2.6.1-0.1ubuntu1": {
+          "psh_glyph_find_strong_points": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2010-2499": {
+        "2.6.1-0.1ubuntu1": {
+          "Mac_Read_POST_Resource": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2010-2500": {
+        "2.6.1-0.1ubuntu1": {
+          "ft_smooth_render_generic": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "gray_render_span": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2010-2519": {
+        "2.6.1-0.1ubuntu1": {
+          "Mac_Read_POST_Resource": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2010-2520": {
+        "2.6.1-0.1ubuntu1": {
+          "Ins_IUP": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2010-3814": {
+        "2.6.1-0.1ubuntu1": {
+          "Ins_SHZ": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2010-3855": {
+        "2.6.1-0.1ubuntu1": {
+          "ft_var_readpackedpoints": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2012-5668": {
+        "2.6.1-0.1ubuntu1": {
+          "_bdf_parse_start": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2012-5669": {
+        "2.6.1-0.1ubuntu1": {
+          "_bdf_parse_glyphs": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2012-5670": {
+        "2.6.1-0.1ubuntu1": {
+          "_bdf_parse_glyphs": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-2241": {
+        "2.6.1-0.1ubuntu1": {
+          "cf2_initGlobalRegionBuffer": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "cf2_initLocalRegionBuffer": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9656": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_sbit_decoder_load_image": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9657": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_face_load_hdmx": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9658": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_face_load_kern": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9659": {
+        "2.6.1-0.1ubuntu1": {
+          "cf2_hintmap_build": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "cf2_interpT2CharString": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9660": {
+        "2.6.1-0.1ubuntu1": {
+          "_bdf_parse_glyphs": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9661": {
+        "2.6.1-0.1ubuntu1": {
+          "T42_Open_Face": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "t42_parse_sfnts": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9662": {
+        "2.6.1-0.1ubuntu1": {
+          "cf2_builder_cubeTo": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "cf2_builder_lineTo": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9663": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_cmap4_validate": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9664": {
+        "2.6.1-0.1ubuntu1": {
+          "parse_charstrings": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "t42_parse_charstrings": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9665": {
+        "2.6.1-0.1ubuntu1": {
+          "Load_SBit_Png": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9666": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_sbit_decoder_init": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9667": {
+        "2.6.1-0.1ubuntu1": {
+          "check_table_dir": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "tt_face_load_font_dir": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9668": {
+        "2.6.1-0.1ubuntu1": {
+          "woff_open_font": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9669": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_cmap12_validate": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "tt_cmap13_validate": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "tt_cmap14_validate": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9670": {
+        "2.6.1-0.1ubuntu1": {
+          "pcf_get_encodings": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9671": {
+        "2.6.1-0.1ubuntu1": {
+          "pcf_read_TOC": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9672": {
+        "2.6.1-0.1ubuntu1": {
+          "parse_fond": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9673": {
+        "2.6.1-0.1ubuntu1": {
+          "Mac_Read_POST_Resource": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9674": {
+        "2.6.1-0.1ubuntu1": {
+          "Mac_Read_POST_Resource": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2014-9675": {
+        "2.6.1-0.1ubuntu1": {
+          "_bdf_add_property": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "_bdf_parse_glyphs": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "_bdf_parse_properties": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "_bdf_parse_start": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2015-9383": {
+        "2.6.1-0.1ubuntu2.3": {
+          "tt_cmap14_validate": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2016-10328": {
+        "2.6.1-0.1ubuntu2.1": {
+          "cff_parser_run": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "2.8.1-2ubuntu1": {
+          "cff_parser_run": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-7857": {
+        "2.8.1-2ubuntu1": {
+          "sfnt_init_face": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-7858": {
+        "2.8.1-2ubuntu1": {
+          "sfnt_init_face": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-7864": {
+        "2.8.1-2ubuntu1": {
+          "tt_size_reset": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-8105": {
+        "2.6.1-0.1ubuntu2.1": {
+          "t1_decoder_parse_charstrings": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "2.6.1-0.1ubuntu2.3": {
+          "t1_decoder_parse_charstrings": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "2.8.1-2ubuntu1": {
+          "t1_decoder_parse_charstrings": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-8287": {
+        "2.6.1-0.1ubuntu2.1": {
+          "t1_builder_close_contour": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "2.6.1-0.1ubuntu2.3": {
+          "t1_builder_close_contour": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "2.8.1-2ubuntu1": {
+          "t1_builder_close_contour": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      }
+    },
+    "imagemagick": {
+      "CVE-2017-14174": {
+        "8_6.9.7.4+dfsg-16ubuntu6": {
+          "ReadPSDChannel": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "ReadPSDLayersInternal": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        }
+      },
+      "CVE-2017-15032": {
+        "8_6.9.7.4+dfsg-16ubuntu6": {
+          "ReadYCBCRImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        }
+      },
+      "CVE-2017-15033": {
+        "8_6.9.7.4+dfsg-16ubuntu6": {
+          "ReadYUVImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        }
+      },
+      "CVE-2017-15277": {
+        "8_6.9.7.4+dfsg-16ubuntu6": {
+          "ReadGIFImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        }
+      },
+      "CVE-2019-10649": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "SVGEndElement": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "SVGEndElement": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-11470": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "ReadCINImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "ReadCINImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-11472": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "ReadXWDImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "ReadXWDImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-12974": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "ReadCAPTIONImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "ReadLABELImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "ReadCAPTIONImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "ReadLABELImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-12975": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "WriteDPXImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "WriteDPXImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-12976": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "ReadPCLImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "ReadPCLImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-12978": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "ReadCAPTIONImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "ReadCAPTIONImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-12979": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "SetImageProperty": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "SetImageProperty": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-13137": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "ReadPSImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "ReadPSImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-13307": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "AcquirePixelThreadSet": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "AcquirePixelThreadSet": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-14981": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "MeanShiftImage": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "MeanShiftImage": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-15139": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "ReadXWDImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "RegisterXWDImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "ReadXWDImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "RegisterXWDImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-16711": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "Huffman2DEncodeImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "WritePS2Image": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "Huffman2DEncodeImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "WritePS2Image": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-19949": {
+        "8_6.9.10.23+dfsg-2.1ubuntu11": {
+          "Magick_png_write_raw_profile": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        }
+      },
+      "CVE-2019-7175": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "DecodeImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "DecodeImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-7395": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "WritePSDChannel": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "WritePSDChannel": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-7396": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "ReadSIXELImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "ReadSIXELImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-7398": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "WriteDIBImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "WriteDIBImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2020-27756": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "ParseMetaGeometry": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2023-1289": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "DrawPrimitive": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2023-34151": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "AnnotateImage": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "FormatMagickCaption": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "ParseMetaGeometry": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "ReadCAPTIONImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "ReadLABELImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "ReadPCLImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "RenderMVGContent": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "SVGStartElement": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "ShadowImage": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "ShearRotateImage": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "WritePDFImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "WritePS2Image": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "WritePS3Image": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "WritePSImage": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      }
+    },
+    "libxml2": {
+      "CVE-2016-4658": {
+        "2.9.4+dfsg1-2": {
+          "xmlXPtrNewCollapsedRange": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlXPtrNewRange": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangeInternal": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangeNodeObject": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangeNodePoint": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangeNodes": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangePointNode": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangePoints": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlXPtrNewCollapsedRange": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlXPtrNewRange": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangeInternal": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangeNodeObject": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangeNodePoint": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangeNodes": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangePointNode": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlXPtrNewRangePoints": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2017-16932": {
+        "2.9.4+dfsg1-6.1ubuntu1": {
+          "xmlParsePEReference": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          },
+          "xmlPushInput": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.2": {
+          "xmlParsePEReference": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlPushInput": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlParsePEReference": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlPushInput": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14404": {
+        "2.9.4+dfsg1-6.1ubuntu1": {
+          "xmlXPathCompOpEval": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.2": {
+          "xmlXPathCompOpEval": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlXPathCompOpEval": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-19956": {
+        "2.9.4+dfsg1-6.1ubuntu1.2": {
+          "xmlParseBalancedChunkMemoryRecover": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.3": {
+          "xmlParseBalancedChunkMemoryRecover": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlParseBalancedChunkMemoryRecover": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2020-7595": {
+        "2.9.4+dfsg1-6.1ubuntu1.2": {
+          "xmlStringLenDecodeEntities": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.3": {
+          "xmlStringLenDecodeEntities": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlStringLenDecodeEntities": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2022-23308": {
+        "2.9.4+dfsg1-6.1ubuntu1.4": {
+          "xmlAddID": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlAddRef": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlIsStreaming": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "xmlRemoveID": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlValidCtxtNormalizeAttributeValue": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlValidNormalizeAttributeValue": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlValidNormalizeString": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "2.9.10+dfsg-5ubuntu0.20.04.1": {
+          "xmlAddID": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlAddRef": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlIsStreaming": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          },
+          "xmlRemoveID": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlValidCtxtNormalizeAttributeValue": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlValidNormalizeAttributeValue": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          },
+          "xmlValidNormalizeString": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlAddID": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlAddRef": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlIsStreaming": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "xmlRemoveID": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlValidCtxtNormalizeAttributeValue": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlValidNormalizeAttributeValue": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlValidNormalizeString": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2022-29824": {
+        "2.9.4+dfsg1-6.1ubuntu1.4": {
+          "xmlBufAdd": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufCCat": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufCreateSize": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufGrowInternal": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          },
+          "xmlBufResize": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferCCat": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferCreateSize": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          },
+          "xmlBufferCreateStatic": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferGrow": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferResize": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.6": {
+          "xmlBufAdd": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlBufCCat": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlBufCreateSize": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlBufGrowInternal": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "xmlBufResize": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlBufferCCat": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlBufferCreateSize": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlBufferCreateStatic": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlBufferGrow": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlBufferResize": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "2.9.10+dfsg-5ubuntu0.20.04.2": {
+          "xmlBufAdd": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufCCat": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufCreateSize": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufGrowInternal": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          },
+          "xmlBufResize": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferCCat": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferCreateSize": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferCreateStatic": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferGrow": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferResize": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "2.9.13+dfsg-1build1": {
+          "xmlBufAdd": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufCCat": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufCreateSize": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufGrowInternal": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          },
+          "xmlBufResize": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferCCat": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferCreateSize": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferCreateStatic": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferGrow": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlBufferResize": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlBufAdd": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlBufCCat": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlBufCreateSize": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlBufGrowInternal": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "xmlBufResize": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlBufferCCat": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlBufferCreateSize": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlBufferCreateStatic": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlBufferGrow": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "xmlBufferResize": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2022-40303": {
+        "2.9.4+dfsg1-6.1ubuntu1.7": {
+          "xmlFatalErr": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseAttValueComplex": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseAttValueInternal": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseCDSect": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseComment": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseCommentComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseEntityValue": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseNCName": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseNCNameComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseName": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseNameComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseNmtoken": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParsePI": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParsePubidLiteral": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseStringName": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseSystemLiteral": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.8": {
+          "xmlFatalErr": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseAttValueComplex": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseAttValueInternal": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "xmlParseCDSect": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseComment": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseCommentComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "xmlParseEntityValue": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseNCName": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseNCNameComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "xmlParseName": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseNameComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "xmlParseNmtoken": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParsePI": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParsePubidLiteral": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseStringName": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseSystemLiteral": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "2.9.10+dfsg-5ubuntu0.20.04.4": {
+          "xmlFatalErr": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseAttValueComplex": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseAttValueInternal": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseCDSect": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseComment": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseCommentComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseEntityValue": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseNCName": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseNCNameComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseName": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseNameComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseNmtoken": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParsePI": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParsePubidLiteral": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseStringName": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseSystemLiteral": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "2.9.13+dfsg-1ubuntu0.1": {
+          "xmlFatalErr": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseAttValueComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseAttValueInternal": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseCDSect": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseComment": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseCommentComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseEntityValue": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseNCName": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseNCNameComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseName": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseNameComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlParseNmtoken": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParsePI": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParsePubidLiteral": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseStringName": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlParseSystemLiteral": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlFatalErr": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseAttValueComplex": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseAttValueInternal": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "xmlParseCDSect": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseComment": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseCommentComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "xmlParseEntityValue": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseNCName": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseNCNameComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "xmlParseName": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseNameComplex": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "xmlParseNmtoken": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParsePI": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParsePubidLiteral": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseStringName": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "xmlParseSystemLiteral": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2022-40304": {
+        "2.9.4+dfsg1-6.1ubuntu1.7": {
+          "xmlCreateEntity": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "xmlFreeEntity": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.8": {
+          "xmlCreateEntity": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "xmlFreeEntity": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "2.9.10+dfsg-5ubuntu0.20.04.4": {
+          "xmlCreateEntity": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlFreeEntity": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "2.9.13+dfsg-1ubuntu0.1": {
+          "xmlCreateEntity": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "xmlFreeEntity": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlCreateEntity": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "xmlFreeEntity": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2023-28484": {
+        "2.9.4+dfsg1-6.1ubuntu1.8": {
+          "xmlSchemaFixupComplexType": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlSchemaFixupComplexType": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "2.9.10+dfsg-5ubuntu0.20.04.4": {
+          "xmlSchemaFixupComplexType": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "2.9.13+dfsg-1ubuntu0.2": {
+          "xmlSchemaFixupComplexType": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        }
+      }
+    },
+    "sqlite": {
+      "CVE-2018-20346": {
+        "3.22.0-1ubuntu0.1": {
+          "fts3ScanInteriorNode": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "fts3SegReaderNext": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "nodeReaderNext": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.22.0-1ubuntu0.4": {
+          "fts3ScanInteriorNode": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "fts3SegReaderNext": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "nodeReaderNext": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "3.22.0-1ubuntu0.7": {
+          "fts3ScanInteriorNode": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "fts3SegReaderNext": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "nodeReaderNext": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-19244": {
+        "3.30.1-1": {
+          "sqlite3Select": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.27.2-3": {
+          "sqlite3Select": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "3.29.0-2": {
+          "sqlite3Select": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "3.31.1-3": {
+          "sqlite3Select": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "3.31.1-4ubuntu0.7": {
+          "sqlite3Select": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-19923": {
+        "3.22.0-1ubuntu0.2": {
+          "flattenSubquery": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "3.22.0-1ubuntu0.3": {
+          "flattenSubquery": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.30.1-1": {
+          "flattenSubquery": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.22.0-1ubuntu0.6": {
+          "flattenSubquery": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.22.0-1ubuntu0.7": {
+          "flattenSubquery": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.27.2-3": {
+          "flattenSubquery": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "3.29.0-2": {
+          "flattenSubquery": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "3.31.1-3": {
+          "flattenSubquery": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "3.31.1-4ubuntu0.7": {
+          "flattenSubquery": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-19924": {
+        "3.22.0-1ubuntu0.2": {
+          "codeCompare": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          },
+          "vdbeVComment": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "3.22.0-1ubuntu0.3": {
+          "codeCompare": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "vdbeVComment": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.30.1-1": {
+          "codeCompare": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "vdbeVComment": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.22.0-1ubuntu0.6": {
+          "codeCompare": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "vdbeVComment": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.22.0-1ubuntu0.7": {
+          "codeCompare": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "vdbeVComment": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.27.2-3": {
+          "codeCompare": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "vdbeVComment": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "3.29.0-2": {
+          "codeCompare": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "vdbeVComment": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "3.31.1-3": {
+          "codeCompare": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "vdbeVComment": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.31.1-4ubuntu0.7": {
+          "codeCompare": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "vdbeVComment": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-19925": {
+        "3.22.0-1ubuntu0.2": {
+          "zipfileUpdate": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "3.22.0-1ubuntu0.3": {
+          "zipfileUpdate": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.30.1-1": {
+          "zipfileUpdate": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.22.0-1ubuntu0.6": {
+          "zipfileUpdate": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.22.0-1ubuntu0.7": {
+          "zipfileUpdate": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.27.2-3": {
+          "zipfileUpdate": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "3.29.0-2": {
+          "zipfileUpdate": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "3.31.1-3": {
+          "zipfileUpdate": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.31.1-4ubuntu0.7": {
+          "zipfileUpdate": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-20218": {
+        "3.22.0-1ubuntu0.2": {
+          "selectExpander": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "3.22.0-1ubuntu0.3": {
+          "selectExpander": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.22.0-1ubuntu0.6": {
+          "selectExpander": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "3.22.0-1ubuntu0.7": {
+          "selectExpander": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2020-11655": {
+        "3.31.1-4": {
+          "resetAccumulator": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "3.31.1-4ubuntu0.1": {
+          "resetAccumulator": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.31.1-5": {
+          "resetAccumulator": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.31.1-1": {
+          "resetAccumulator": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "3.31.1-4ubuntu0.4": {
+          "resetAccumulator": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "3.31.1-4ubuntu0.7": {
+          "resetAccumulator": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "3.32.1-1": {
+          "resetAccumulator": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "3.37.2-2ubuntu0.5": {
+          "resetAccumulator": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2020-11656": {
+        "3.31.1-5": {
+          "renameUnmapSelectCb": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          },
+          "unmapColumnIdlistNames": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "3.32.0-1": {
+          "renameUnmapSelectCb": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "unmapColumnIdlistNames": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.32.1-2": {
+          "renameUnmapSelectCb": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "unmapColumnIdlistNames": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.37.2-2ubuntu0.5": {
+          "renameUnmapSelectCb": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "unmapColumnIdlistNames": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2020-15358": {
+        "3.31.1-4ubuntu0.1": {
+          "flattenSubquery": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          },
+          "multiSelect": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          },
+          "sqlite3Select": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "3.31.1-4ubuntu0.2": {
+          "flattenSubquery": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "multiSelect": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          },
+          "sqlite3Select": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.31.1-4ubuntu0.5": {
+          "flattenSubquery": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "multiSelect": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "sqlite3Select": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "3.31.1-4ubuntu0.7": {
+          "flattenSubquery": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "multiSelect": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "sqlite3Select": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2021-36690": {
+        "3.22.0-1ubuntu0.4": {
+          "idxGetTableInfo": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "3.22.0-1ubuntu0.5": {
+          "idxGetTableInfo": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.31.1-4ubuntu0.2": {
+          "idxGetTableInfo": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "-1"
+          }
+        },
+        "3.31.1-4ubuntu0.3": {
+          "idxGetTableInfo": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.36.0-2": {
+          "idxGetTableInfo": {
+            "result": "fail, missing patch/vuln pickle",
+            "status": "fail gen",
+            "truth": "1"
+          }
+        },
+        "3.22.0-1ubuntu0.1": {
+          "idxGetTableInfo": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "3.22.0-1ubuntu0.7": {
+          "idxGetTableInfo": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.31.1-3": {
+          "idxGetTableInfo": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "3.31.1-4ubuntu0.6": {
+          "idxGetTableInfo": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.31.1-4ubuntu0.7": {
+          "idxGetTableInfo": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.31.1-5": {
+          "idxGetTableInfo": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "3.34.1-2": {
+          "idxGetTableInfo": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "3.37.1-1": {
+          "idxGetTableInfo": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "3.37.2-2ubuntu0.5": {
+          "idxGetTableInfo": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      }
+    },
+    "tcpdump": {
+      "CVE-2018-14461": {
+        "4.7.4-1ubuntu1": {
+          "ldp_pdu_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "ldp_tlv_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "ldp_pdu_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "ldp_tlv_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "ldp_pdu_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "ldp_tlv_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "ldp_pdu_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "ldp_tlv_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14462": {
+        "4.7.4-1ubuntu1": {
+          "icmp_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "icmp_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "icmp_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "icmp_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14463": {
+        "4.7.4-1ubuntu1": {
+          "vrrp_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "vrrp_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "vrrp_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "vrrp_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14464": {
+        "4.7.4-1ubuntu1": {
+          "lmp_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "lmp_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "lmp_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "lmp_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14465": {
+        "4.7.4-1ubuntu1": {
+          "rsvp_obj_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "rsvp_obj_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "rsvp_obj_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "rsvp_obj_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14466": {
+        "4.7.4-1ubuntu1": {
+          "rx_cache_find": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "rx_cache_insert": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "rx_cache_find": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "rx_cache_insert": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "rx_cache_find": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "rx_cache_insert": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "rx_cache_find": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "rx_cache_insert": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14467": {
+        "4.7.4-1ubuntu1": {
+          "bgp_capabilities_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "bgp_capabilities_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "bgp_capabilities_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "bgp_capabilities_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14468": {
+        "4.7.4-1ubuntu1": {
+          "mfr_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "mfr_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "mfr_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "mfr_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14469": {
+        "4.7.4-1ubuntu1": {
+          "ikev1_n_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "ikev1_n_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "ikev1_n_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "ikev1_n_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14470": {
+        "4.7.4-1ubuntu1": {
+          "babel_print_v2": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "babel_print_v2": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "babel_print_v2": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "babel_print_v2": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14880": {
+        "4.7.4-1ubuntu1": {
+          "ospf6_print_lshdr": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "ospf6_print_lshdr": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "ospf6_print_lshdr": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "ospf6_print_lshdr": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14881": {
+        "4.7.4-1ubuntu1": {
+          "bgp_capabilities_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "bgp_capabilities_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "bgp_capabilities_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "bgp_capabilities_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-14882": {
+        "4.7.4-1ubuntu1": {
+          "icmp6_opt_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "icmp6_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "icmp6_rrenum_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "mldv2_query_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "mldv2_report_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "rpl_dao_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "rpl_daoack_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "rpl_dio_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "rpl_dio_printopt": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "rpl_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "icmp6_opt_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "icmp6_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "icmp6_rrenum_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "mldv2_query_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "mldv2_report_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "rpl_dao_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "rpl_daoack_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "rpl_dio_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          },
+          "rpl_dio_printopt": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "rpl_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "icmp6_opt_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "icmp6_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "icmp6_rrenum_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "mldv2_query_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "mldv2_report_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "rpl_dao_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "rpl_daoack_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "rpl_dio_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "rpl_dio_printopt": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "rpl_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "icmp6_opt_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "icmp6_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "icmp6_rrenum_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "mldv2_query_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "mldv2_report_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "rpl_dao_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "rpl_daoack_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "rpl_dio_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          },
+          "rpl_dio_printopt": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "rpl_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-16227": {
+        "4.7.4-1ubuntu1": {
+          "ieee802_11_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "ieee802_11_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "ieee802_11_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "ieee802_11_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-16228": {
+        "4.7.4-1ubuntu1": {
+          "print_prefix": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "print_prefix": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "print_prefix": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "print_prefix": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-16229": {
+        "4.7.4-1ubuntu1": {
+          "dccp_print_option": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "dccp_print_option": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "dccp_print_option": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "dccp_print_option": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-16230": {
+        "4.7.4-1ubuntu1": {
+          "bgp_attr_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "bgp_attr_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "bgp_attr_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "bgp_attr_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-16300": {
+        "4.7.4-1ubuntu1": {
+          "bgp_attr_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "bgp_update_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "bgp_attr_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "bgp_update_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "bgp_attr_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "bgp_update_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "bgp_attr_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          },
+          "bgp_update_print": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-16451": {
+        "4.7.4-1ubuntu1": {
+          "print_trans": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "print_trans": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "print_trans": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "print_trans": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2018-16452": {
+        "4.7.4-1ubuntu1": {
+          "smb_fdata": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "smb_fdata": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "smb_fdata": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "smb_fdata": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-15166": {
+        "4.7.4-1ubuntu1": {
+          "lmp_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "function not found",
+            "status": "not found",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "lmp_print": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "lmp_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "lmp_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        }
+      },
+      "CVE-2019-15167": {
+        "4.7.4-1ubuntu1": {
+          "vrrp_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "vrrp_print": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "vrrp_print": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "vrrp_print": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1"
+          }
+        }
+      }
+    }
+  },
+  "project_order": [
+    "curl",
+    "freetype",
+    "imagemagick",
+    "libxml2",
+    "sqlite",
+    "tcpdump"
+  ]
+}

@@ -1,3 +1,5 @@
+- extened_testset.json: The reulst of our `expansion analysis for robustness of chronological test-set selrction strategy.`
+- deployed_binaries: This directory contains results for `Figure 7 Performance in Real-world Deployment Scenarios`
 - common_failure_patterns.json: Failure patterns analysis for `Figure 5 Classification and distribution of failure patterns.`
 - cwe_mapping.json: CWE classification for `Table 7. Accuracy on Different CWE Categories`
 - semantic_patterns.json: semantic classification of patches for `Table 6. Accuracy Across Different Semantic Complexity and Categories` 

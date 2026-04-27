@@ -1,0 +1,5001 @@
+{
+  "tool": "BXR",
+  "projects": {
+    "curl": {
+      "CVE-2016-8617": {
+        "7.58.0-2ubuntu1": {
+          "base64_encode": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2016-8618": {
+        "7.58.0-2ubuntu1": {
+          "alloc_addbyter": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2016-8619": {
+        "7.58.0-2ubuntu1": {
+          "read_data": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-8619+read_data.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-8619+read_data.sig"
+          }
+        }
+      },
+      "CVE-2016-8621": {
+        "7.58.0-2ubuntu1": {
+          "parsedate": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2016-8623": {
+        "7.58.0-2ubuntu1": {
+          "dup_cookie": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-8623+dup_cookie.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-8623+dup_cookie.sig"
+          },
+          "Curl_cookie_cleanup": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "Curl_cookie_clearall": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "Curl_cookie_freelist": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "Curl_cookie_getlist": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "Curl_http": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2016-8624": {
+        "7.58.0-2ubuntu1": {
+          "parseurlandfillconn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2016-9586": {
+        "7.58.0-2ubuntu1": {
+          "_string_check": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-9586+_string_check.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-9586+_string_check.sig"
+          },
+          "_strlen_check": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-9586+_strlen_check.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-9586+_strlen_check.sig"
+          },
+          "test_float_formatting": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-9586+test_float_formatting.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-9586+test_float_formatting.sig"
+          },
+          "string_check": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-9586+string_check.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-9586+string_check.sig"
+          },
+          "dprintf_formatf": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "test": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-9586+test.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2016-9586+test.sig"
+          }
+        }
+      },
+      "CVE-2017-1000101": {
+        "7.58.0-2ubuntu1": {
+          "glob_range": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2017-2629": {
+        "7.58.0-2ubuntu1": {
+          "allocate_conn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2017-7407": {
+        "7.58.0-2ubuntu1": {
+          "ourWriteOut": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2017-8816": {
+        "7.58.0-2ubuntu1": {
+          "Curl_ntlm_core_mk_ntlmv2_hash": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2017-8817": {
+        "7.58.0-2ubuntu1": {
+          "setcharset": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2017-8818": {
+        "7.58.0-2ubuntu1": {
+          "allocate_conn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-0500": {
+        "7.58.0-2ubuntu3.1": {
+          "Curl_smtp_escape_eob": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.61.0-1": {
+          "Curl_smtp_escape_eob": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.58.0-2ubuntu1": {
+          "Curl_smtp_escape_eob": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.58.0-2ubuntu3.12": {
+          "Curl_smtp_escape_eob": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.58.0-2ubuntu3.2": {
+          "Curl_smtp_escape_eob": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.58.0-2ubuntu3.24": {
+          "Curl_smtp_escape_eob": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2018-1000007": {
+        "7.58.0-2ubuntu1": {
+          "Curl_add_custom_headers": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "Curl_http_output_auth": {
+            "result": "fail",
+            "status": "N VP no diff",
+            "truth": "1",
+            "raw_result": "N VP no diff"
+          },
+          "Curl_vsetopt": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2018-1000120": {
+        "7.58.0-2ubuntu2": {
+          "ftp_done": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "ftp_parse_url_path": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "ftp_state_list": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.58.0-2ubuntu3": {
+          "ftp_done": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "ftp_parse_url_path": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "ftp_state_list": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.61.0-1": {
+          "ftp_done": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "ftp_parse_url_path": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "ftp_state_list": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-1000121": {
+        "7.58.0-2ubuntu2": {
+          "ldap_recv": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2018-1000121+ldap_recv.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2018-1000121+ldap_recv.sig"
+          }
+        },
+        "7.58.0-2ubuntu3": {
+          "ldap_recv": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2018-1000121+ldap_recv.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2018-1000121+ldap_recv.sig"
+          }
+        },
+        "7.61.0-1": {
+          "ldap_recv": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2018-1000121+ldap_recv.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2018-1000121+ldap_recv.sig"
+          }
+        }
+      },
+      "CVE-2018-1000122": {
+        "7.58.0-2ubuntu2": {
+          "readwrite_data": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.58.0-2ubuntu3": {
+          "readwrite_data": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.61.0-1": {
+          "readwrite_data": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-1000300": {
+        "7.58.0-2ubuntu3": {
+          "Curl_pp_readresp": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.58.0-2ubuntu1": {
+          "Curl_pp_readresp": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.58.0-2ubuntu3.12": {
+          "Curl_pp_readresp": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.58.0-2ubuntu3.1": {
+          "Curl_pp_readresp": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.61.0-1": {
+          "Curl_pp_readresp": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.58.0-2ubuntu3.24": {
+          "Curl_pp_readresp": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2018-1000301": {
+        "7.58.0-2ubuntu3": {
+          "Curl_http_readwrite_headers": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.58.0-2ubuntu3.1": {
+          "Curl_http_readwrite_headers": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.61.0-1": {
+          "Curl_http_readwrite_headers": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2018-16839": {
+        "7.58.0-2ubuntu3.3": {
+          "Curl_auth_create_plain_message": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.61.0-1": {
+          "Curl_auth_create_plain_message": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.58.0-2ubuntu3.5": {
+          "Curl_auth_create_plain_message": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.62.0-1": {
+          "Curl_auth_create_plain_message": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2018-16840": {
+        "7.61.0-1": {
+          "Curl_close": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.68.0-1ubuntu2.11": {
+          "Curl_close": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.62.0-1": {
+          "Curl_close": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.68.0-1ubuntu2.25": {
+          "Curl_close": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2018-16842": {
+        "7.61.0-1": {
+          "voutf": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.68.0-1ubuntu2.11": {
+          "voutf": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.62.0-1": {
+          "voutf": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.68.0-1ubuntu2.25": {
+          "voutf": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-5435": {
+        "7.63.0-1": {
+          "test": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2019-5435+test.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2019-5435+test.sig"
+          },
+          "Curl_setstropt": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "curl_url_set": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "seturl": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2019-5481": {
+        "7.58.0-2ubuntu3.6": {
+          "read_data": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2019-5481+read_data.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2019-5481+read_data.sig"
+          }
+        },
+        "7.63.0-1": {
+          "read_data": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2019-5481+read_data.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2019-5481+read_data.sig"
+          }
+        },
+        "7.58.0-2ubuntu3.8": {
+          "read_data": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2019-5481+read_data.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2019-5481+read_data.sig"
+          }
+        },
+        "7.68.0-1ubuntu1": {
+          "read_data": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2019-5481+read_data.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2019-5481+read_data.sig"
+          }
+        }
+      },
+      "CVE-2019-5482": {
+        "7.58.0-2ubuntu3.6": {
+          "tftp_connect": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.63.0-1": {
+          "tftp_connect": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.58.0-2ubuntu3.8": {
+          "tftp_connect": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.68.0-1ubuntu1": {
+          "tftp_connect": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1",
+            "raw_result": "V 0.10320010931561212/0.07679094950711923 17/17"
+          }
+        }
+      },
+      "CVE-2020-8169": {
+        "7.68.0-1ubuntu2": {
+          "override_login": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.61.0-1": {
+          "override_login": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.68.0-1ubuntu2.11": {
+          "override_login": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.68.0-1ubuntu2.1": {
+          "override_login": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.80.0-3": {
+          "override_login": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.68.0-1ubuntu2.25": {
+          "override_login": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2020-8177": {
+        "7.58.0-2ubuntu3.8": {
+          "getparameter": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "tool_header_cb": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.68.0-1ubuntu2": {
+          "getparameter": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "tool_header_cb": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.58.0-2ubuntu3.9": {
+          "getparameter": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "tool_header_cb": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.68.0-1ubuntu2.1": {
+          "getparameter": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "tool_header_cb": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.80.0-3": {
+          "getparameter": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "tool_header_cb": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2020-8284": {
+        "7.58.0-2ubuntu3.10": {
+          "Curl_init_userdefined": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "config_init": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.68.0-1ubuntu2.2": {
+          "Curl_init_userdefined": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "config_init": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.80.0-3": {
+          "Curl_init_userdefined": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "config_init": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.58.0-2ubuntu3.12": {
+          "Curl_init_userdefined": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "config_init": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.68.0-1ubuntu2.4": {
+          "Curl_init_userdefined": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "config_init": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2021-22898": {
+        "7.58.0-2ubuntu3.13": {
+          "suboption": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.68.0-1ubuntu2.5": {
+          "suboption": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.80.0-3": {
+          "suboption": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.58.0-2ubuntu1": {
+          "suboption": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.58.0-2ubuntu3.12": {
+          "suboption": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.58.0-2ubuntu3.14": {
+          "suboption": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.68.0-1ubuntu2.6": {
+          "suboption": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "7.58.0-2ubuntu3.24": {
+          "suboption": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2022-42915": {
+        "7.81.0-1ubuntu1.4": {
+          "Curl_connect_done": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "conn_shutdown": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.85.0-1": {
+          "Curl_connect_done": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "conn_shutdown": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.80.0-3": {
+          "Curl_connect_done": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "conn_shutdown": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.81.0-1ubuntu1.11": {
+          "Curl_connect_done": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "conn_shutdown": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.81.0-1ubuntu1.6": {
+          "Curl_connect_done": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "conn_shutdown": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.86.0-1": {
+          "Curl_connect_done": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "conn_shutdown": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.81.0-1ubuntu1.23": {
+          "Curl_connect_done": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "conn_shutdown": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2022-42916": {
+        "7.81.0-1ubuntu1.4": {
+          "create_conn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "parseurlandfillconn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.85.0-1": {
+          "create_conn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "parseurlandfillconn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.80.0-3": {
+          "create_conn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "parseurlandfillconn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.81.0-1ubuntu1.11": {
+          "create_conn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "parseurlandfillconn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.81.0-1ubuntu1.6": {
+          "create_conn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "parseurlandfillconn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.86.0-1": {
+          "create_conn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "parseurlandfillconn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.81.0-1ubuntu1.23": {
+          "create_conn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "parseurlandfillconn": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2023-46218": {
+        "7.68.0-1ubuntu2.20": {
+          "Curl_cookie_add": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.81.0-1ubuntu1.14": {
+          "Curl_cookie_add": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.87.0-1": {
+          "Curl_cookie_add": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "7.61.0-1": {
+          "Curl_cookie_add": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.68.0-1ubuntu2.11": {
+          "Curl_cookie_add": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.68.0-1ubuntu2.21": {
+          "Curl_cookie_add": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.81.0-1ubuntu1.15": {
+          "Curl_cookie_add": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "7.68.0-1ubuntu2.25": {
+          "Curl_cookie_add": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2023-46219": {
+        "7.87.0-1": {
+          "dirslash": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2023-46219+dirslash.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/curl/sigs/CVE-2023-46219+dirslash.sig"
+          },
+          "Curl_fopen": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1",
+            "raw_result": "V 0.1342472409160749/0.12107863336645866 18/18"
+          }
+        }
+      }
+    },
+    "freetype": {
+      "CVE-2009-0946": {
+        "2.6.1-0.1ubuntu1": {
+          "cff_charset_load": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2010-2497": {
+        "2.6.1-0.1ubuntu1": {
+          "cff_decoder_parse_charstrings": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "gray_render_cubic": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2010-2498": {
+        "2.6.1-0.1ubuntu1": {
+          "psh_glyph_find_strong_points": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2010-2499": {
+        "2.6.1-0.1ubuntu1": {
+          "Mac_Read_POST_Resource": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2010-2500": {
+        "2.6.1-0.1ubuntu1": {
+          "ft_smooth_render_generic": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "gray_render_span": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2010-2519": {
+        "2.6.1-0.1ubuntu1": {
+          "Mac_Read_POST_Resource": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2010-2520": {
+        "2.6.1-0.1ubuntu1": {
+          "Ins_IUP": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2010-3814": {
+        "2.6.1-0.1ubuntu1": {
+          "Ins_SHZ": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2010-3855": {
+        "2.6.1-0.1ubuntu1": {
+          "ft_var_readpackedpoints": {
+            "result": "V",
+            "status": "FN",
+            "truth": "1",
+            "raw_result": "V 0.25861060126492647/0.0 18/18"
+          }
+        }
+      },
+      "CVE-2012-5668": {
+        "2.6.1-0.1ubuntu1": {
+          "_bdf_parse_start": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2012-5669": {
+        "2.6.1-0.1ubuntu1": {
+          "_bdf_parse_glyphs": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2012-5670": {
+        "2.6.1-0.1ubuntu1": {
+          "_bdf_parse_glyphs": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2014-2241": {
+        "2.6.1-0.1ubuntu1": {
+          "cf2_initGlobalRegionBuffer": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "cf2_initLocalRegionBuffer": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2014-9656": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_sbit_decoder_load_image": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2014-9657": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_face_load_hdmx": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2014-9658": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_face_load_kern": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2014-9659": {
+        "2.6.1-0.1ubuntu1": {
+          "cf2_hintmap_build": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "cf2_interpT2CharString": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2014-9660": {
+        "2.6.1-0.1ubuntu1": {
+          "_bdf_parse_glyphs": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2014-9661": {
+        "2.6.1-0.1ubuntu1": {
+          "T42_Open_Face": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "t42_parse_sfnts": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2014-9662": {
+        "2.6.1-0.1ubuntu1": {
+          "cf2_builder_cubeTo": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "cf2_builder_lineTo": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2014-9663": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_cmap4_validate": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2014-9664": {
+        "2.6.1-0.1ubuntu1": {
+          "parse_charstrings": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "t42_parse_charstrings": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2014-9665": {
+        "2.6.1-0.1ubuntu1": {
+          "Load_SBit_Png": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2014-9666": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_sbit_decoder_init": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2014-9667": {
+        "2.6.1-0.1ubuntu1": {
+          "check_table_dir": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "tt_face_load_font_dir": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2014-9668": {
+        "2.6.1-0.1ubuntu1": {
+          "woff_open_font": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2014-9669": {
+        "2.6.1-0.1ubuntu1": {
+          "tt_cmap12_validate": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "tt_cmap13_validate": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "tt_cmap14_validate": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2014-9670": {
+        "2.6.1-0.1ubuntu1": {
+          "pcf_get_encodings": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2014-9671": {
+        "2.6.1-0.1ubuntu1": {
+          "pcf_read_TOC": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2014-9672": {
+        "2.6.1-0.1ubuntu1": {
+          "parse_fond": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/freetype/sigs/CVE-2014-9672+parse_fond.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/freetype/sigs/CVE-2014-9672+parse_fond.sig"
+          }
+        }
+      },
+      "CVE-2014-9673": {
+        "2.6.1-0.1ubuntu1": {
+          "Mac_Read_POST_Resource": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2014-9674": {
+        "2.6.1-0.1ubuntu1": {
+          "Mac_Read_POST_Resource": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2014-9675": {
+        "2.6.1-0.1ubuntu1": {
+          "_bdf_add_property": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/freetype/sigs/CVE-2014-9675+_bdf_add_property.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/freetype/sigs/CVE-2014-9675+_bdf_add_property.sig"
+          },
+          "_bdf_parse_glyphs": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/freetype/sigs/CVE-2014-9675+_bdf_parse_glyphs.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/freetype/sigs/CVE-2014-9675+_bdf_parse_glyphs.sig"
+          },
+          "_bdf_parse_properties": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/freetype/sigs/CVE-2014-9675+_bdf_parse_properties.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/freetype/sigs/CVE-2014-9675+_bdf_parse_properties.sig"
+          },
+          "_bdf_parse_start": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/freetype/sigs/CVE-2014-9675+_bdf_parse_start.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/freetype/sigs/CVE-2014-9675+_bdf_parse_start.sig"
+          }
+        }
+      },
+      "CVE-2015-9383": {
+        "2.6.1-0.1ubuntu2.3": {
+          "tt_cmap14_validate": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2016-10328": {
+        "2.6.1-0.1ubuntu2.1": {
+          "cff_parser_run": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "2.8.1-2ubuntu1": {
+          "cff_parser_run": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2017-7857": {
+        "2.8.1-2ubuntu1": {
+          "sfnt_init_face": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2017-7858": {
+        "2.8.1-2ubuntu1": {
+          "sfnt_init_face": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2017-7864": {
+        "2.8.1-2ubuntu1": {
+          "tt_size_reset": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2017-8105": {
+        "2.6.1-0.1ubuntu2.1": {
+          "t1_decoder_parse_charstrings": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "2.8.1-2ubuntu1": {
+          "t1_decoder_parse_charstrings": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "2.6.1-0.1ubuntu2.3": {
+          "t1_decoder_parse_charstrings": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2017-8287": {
+        "2.6.1-0.1ubuntu2.1": {
+          "t1_builder_close_contour": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "2.8.1-2ubuntu1": {
+          "t1_builder_close_contour": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "2.6.1-0.1ubuntu2.3": {
+          "t1_builder_close_contour": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      }
+    },
+    "imagemagick": {
+      "CVE-2017-15277": {
+        "8_6.9.7.4+dfsg-16ubuntu6": {
+          "ReadGIFImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2017-14174": {
+        "8_6.9.7.4+dfsg-16ubuntu6": {
+          "ReadPSDChannel": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "ReadPSDLayersInternal": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2017-15032": {
+        "8_6.9.7.4+dfsg-16ubuntu6": {
+          "ReadYCBCRImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2017-15033": {
+        "8_6.9.7.4+dfsg-16ubuntu6": {
+          "ReadYUVImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-12974": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "ReadCAPTIONImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "ReadLABELImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "ReadCAPTIONImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "ReadLABELImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-12979": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "SetImageProperty": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "SetImageProperty": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2019-12978": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "ReadCAPTIONImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "ReadCAPTIONImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-7175": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "DecodeImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "DecodeImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-7395": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "WritePSDChannel": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "WritePSDChannel": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-7396": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "ReadSIXELImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "ReadSIXELImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-7398": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "WriteDIBImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "WriteDIBImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-11470": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "ReadCINImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "ReadCINImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-12975": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "WriteDPXImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "WriteDPXImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-12976": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "ReadPCLImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "ReadPCLImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-10649": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "SVGEndElement": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "SVGEndElement": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-16711": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "Huffman2DEncodeImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "WritePS2Image": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "Huffman2DEncodeImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "WritePS2Image": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-11472": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "ReadXWDImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu2": {
+          "ReadXWDImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-14981": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "MeanShiftImage": {
+            "result": "fail",
+            "status": "N VP no diff",
+            "truth": "-1",
+            "raw_result": "N VP no diff"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "MeanShiftImage": {
+            "result": "fail",
+            "status": "N VP no diff",
+            "truth": "1",
+            "raw_result": "N VP no diff"
+          }
+        }
+      },
+      "CVE-2019-15139": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "ReadXWDImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "RegisterXWDImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "ReadXWDImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "RegisterXWDImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-19949": {
+        "8_6.9.10.23+dfsg-2.1ubuntu11": {
+          "Magick_png_write_raw_profile": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-13137": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "ReadPSImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "ReadPSImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-13307": {
+        "8_6.9.10.23+dfsg-2.1ubuntu8": {
+          "AcquirePixelThreadSet": {
+            "result": "fail",
+            "status": "N VP no diff",
+            "truth": "-1",
+            "raw_result": "N VP no diff"
+          }
+        },
+        "8_6.9.10.23+dfsg-2.1ubuntu9": {
+          "AcquirePixelThreadSet": {
+            "result": "fail",
+            "status": "N VP no diff",
+            "truth": "1",
+            "raw_result": "N VP no diff"
+          }
+        }
+      },
+      "CVE-2020-27756": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "ParseMetaGeometry": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2023-1289": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "DrawPrimitive": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2023-34151": {
+        "8_6.9.10.23+dfsg-2.1ubuntu1": {
+          "AnnotateImage": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "FormatMagickCaption": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "ParseMetaGeometry": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "ReadCAPTIONImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "ReadLABELImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "ReadPCLImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "RenderMVGContent": {
+            "result": "fail",
+            "status": "N VP no diff",
+            "truth": "1",
+            "raw_result": "N VP no diff"
+          },
+          "SVGStartElement": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "ShadowImage": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "ShearRotateImage": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "WritePDFImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "WritePS2Image": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "WritePS3Image": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "WritePSImage": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      }
+    },
+    "libxml2": {
+      "CVE-2016-4658": {
+        "2.9.4+dfsg1-2": {
+          "xmlXPtrNewCollapsedRange": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewCollapsedRange.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewCollapsedRange.sig"
+          },
+          "xmlXPtrNewRangeNodeObject": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodeObject.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodeObject.sig"
+          },
+          "xmlXPtrNewRangeNodes": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodes.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodes.sig"
+          },
+          "xmlXPtrNewRangePoints": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangePoints.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangePoints.sig"
+          },
+          "xmlXPtrNewRangePointNode": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangePointNode.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangePointNode.sig"
+          },
+          "xmlXPtrNewRangeNodePoint": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodePoint.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodePoint.sig"
+          },
+          "xmlXPtrNewRange": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRange.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRange.sig"
+          },
+          "xmlXPtrNewRangeInternal": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeInternal.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeInternal.sig"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlXPtrNewCollapsedRange": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewCollapsedRange.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewCollapsedRange.sig"
+          },
+          "xmlXPtrNewRangeNodeObject": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodeObject.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodeObject.sig"
+          },
+          "xmlXPtrNewRangeNodes": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodes.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodes.sig"
+          },
+          "xmlXPtrNewRangePoints": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangePoints.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangePoints.sig"
+          },
+          "xmlXPtrNewRangePointNode": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangePointNode.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangePointNode.sig"
+          },
+          "xmlXPtrNewRangeNodePoint": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodePoint.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeNodePoint.sig"
+          },
+          "xmlXPtrNewRange": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRange.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRange.sig"
+          },
+          "xmlXPtrNewRangeInternal": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeInternal.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2016-4658+xmlXPtrNewRangeInternal.sig"
+          }
+        }
+      },
+      "CVE-2017-16932": {
+        "2.9.4+dfsg1-6.1ubuntu1": {
+          "xmlPushInput": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlPushInput.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlPushInput.sig"
+          },
+          "xmlParsePEReference": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlParsePEReference.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlParsePEReference.sig"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.2": {
+          "xmlPushInput": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlPushInput.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlPushInput.sig"
+          },
+          "xmlParsePEReference": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlParsePEReference.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlParsePEReference.sig"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlPushInput": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlPushInput.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlPushInput.sig"
+          },
+          "xmlParsePEReference": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlParsePEReference.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2017-16932+xmlParsePEReference.sig"
+          }
+        }
+      },
+      "CVE-2018-14404": {
+        "2.9.4+dfsg1-6.1ubuntu1": {
+          "xmlXPathCompOpEval": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.2": {
+          "xmlXPathCompOpEval": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlXPathCompOpEval": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2019-19956": {
+        "2.9.4+dfsg1-6.1ubuntu1.2": {
+          "xmlParseBalancedChunkMemoryRecover": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2019-19956+xmlParseBalancedChunkMemoryRecover.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2019-19956+xmlParseBalancedChunkMemoryRecover.sig"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.3": {
+          "xmlParseBalancedChunkMemoryRecover": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2019-19956+xmlParseBalancedChunkMemoryRecover.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2019-19956+xmlParseBalancedChunkMemoryRecover.sig"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlParseBalancedChunkMemoryRecover": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2019-19956+xmlParseBalancedChunkMemoryRecover.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2019-19956+xmlParseBalancedChunkMemoryRecover.sig"
+          }
+        }
+      },
+      "CVE-2020-7595": {
+        "2.9.4+dfsg1-6.1ubuntu1.2": {
+          "xmlStringLenDecodeEntities": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2020-7595+xmlStringLenDecodeEntities.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2020-7595+xmlStringLenDecodeEntities.sig"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.3": {
+          "xmlStringLenDecodeEntities": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2020-7595+xmlStringLenDecodeEntities.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2020-7595+xmlStringLenDecodeEntities.sig"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlStringLenDecodeEntities": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2020-7595+xmlStringLenDecodeEntities.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2020-7595+xmlStringLenDecodeEntities.sig"
+          }
+        }
+      },
+      "CVE-2022-23308": {
+        "2.9.4+dfsg1-6.1ubuntu1.4": {
+          "xmlAddRef": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddRef.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddRef.sig"
+          },
+          "xmlRemoveID": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlRemoveID.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlRemoveID.sig"
+          },
+          "xmlAddID": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddID.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddID.sig"
+          },
+          "xmlValidCtxtNormalizeAttributeValue": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidCtxtNormalizeAttributeValue.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidCtxtNormalizeAttributeValue.sig"
+          },
+          "xmlValidNormalizeAttributeValue": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeAttributeValue.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeAttributeValue.sig"
+          },
+          "xmlIsStreaming": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlIsStreaming.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlIsStreaming.sig"
+          },
+          "xmlValidNormalizeString": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeString.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeString.sig"
+          }
+        },
+        "2.9.10+dfsg-5ubuntu0.20.04.1": {
+          "xmlAddRef": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddRef.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddRef.sig"
+          },
+          "xmlRemoveID": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlRemoveID.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlRemoveID.sig"
+          },
+          "xmlAddID": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddID.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddID.sig"
+          },
+          "xmlValidCtxtNormalizeAttributeValue": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidCtxtNormalizeAttributeValue.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidCtxtNormalizeAttributeValue.sig"
+          },
+          "xmlValidNormalizeAttributeValue": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeAttributeValue.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeAttributeValue.sig"
+          },
+          "xmlIsStreaming": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlIsStreaming.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlIsStreaming.sig"
+          },
+          "xmlValidNormalizeString": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeString.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeString.sig"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlAddRef": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddRef.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddRef.sig"
+          },
+          "xmlRemoveID": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlRemoveID.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlRemoveID.sig"
+          },
+          "xmlAddID": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddID.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlAddID.sig"
+          },
+          "xmlValidCtxtNormalizeAttributeValue": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidCtxtNormalizeAttributeValue.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidCtxtNormalizeAttributeValue.sig"
+          },
+          "xmlValidNormalizeAttributeValue": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeAttributeValue.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeAttributeValue.sig"
+          },
+          "xmlIsStreaming": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlIsStreaming.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlIsStreaming.sig"
+          },
+          "xmlValidNormalizeString": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeString.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-23308+xmlValidNormalizeString.sig"
+          }
+        }
+      },
+      "CVE-2022-29824": {
+        "2.9.4+dfsg1-6.1ubuntu1.4": {
+          "xmlBufAdd": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufferCreateSize": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateSize.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateSize.sig"
+          },
+          "xmlBufferCreateStatic": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateStatic.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateStatic.sig"
+          },
+          "xmlBufferResize": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferResize.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferResize.sig"
+          },
+          "xmlBufCreateSize": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufGrowInternal": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlBufResize": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlBufCCat": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufferGrow": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferGrow.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferGrow.sig"
+          },
+          "xmlBufferCCat": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCCat.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCCat.sig"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.6": {
+          "xmlBufAdd": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufferCreateSize": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateSize.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateSize.sig"
+          },
+          "xmlBufferCreateStatic": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateStatic.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateStatic.sig"
+          },
+          "xmlBufferResize": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferResize.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferResize.sig"
+          },
+          "xmlBufCreateSize": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufGrowInternal": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlBufResize": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlBufCCat": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufferGrow": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferGrow.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferGrow.sig"
+          },
+          "xmlBufferCCat": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCCat.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCCat.sig"
+          }
+        },
+        "2.9.10+dfsg-5ubuntu0.20.04.2": {
+          "xmlBufAdd": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufferCreateSize": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateSize.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateSize.sig"
+          },
+          "xmlBufferCreateStatic": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateStatic.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateStatic.sig"
+          },
+          "xmlBufferResize": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferResize.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferResize.sig"
+          },
+          "xmlBufCreateSize": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufGrowInternal": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlBufResize": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlBufCCat": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufferGrow": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferGrow.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferGrow.sig"
+          },
+          "xmlBufferCCat": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCCat.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCCat.sig"
+          }
+        },
+        "2.9.13+dfsg-1build1": {
+          "xmlBufAdd": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufferCreateSize": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateSize.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateSize.sig"
+          },
+          "xmlBufferCreateStatic": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateStatic.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateStatic.sig"
+          },
+          "xmlBufferResize": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferResize.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferResize.sig"
+          },
+          "xmlBufCreateSize": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufGrowInternal": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlBufResize": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlBufCCat": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufferGrow": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferGrow.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferGrow.sig"
+          },
+          "xmlBufferCCat": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCCat.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCCat.sig"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlBufAdd": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufferCreateSize": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateSize.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateSize.sig"
+          },
+          "xmlBufferCreateStatic": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateStatic.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCreateStatic.sig"
+          },
+          "xmlBufferResize": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferResize.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferResize.sig"
+          },
+          "xmlBufCreateSize": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufGrowInternal": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlBufResize": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlBufCCat": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "xmlBufferGrow": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferGrow.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferGrow.sig"
+          },
+          "xmlBufferCCat": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCCat.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/libxml2/sigs/CVE-2022-29824+xmlBufferCCat.sig"
+          }
+        }
+      },
+      "CVE-2022-40303": {
+        "2.9.4+dfsg1-6.1ubuntu1.7": {
+          "xmlParseCDSect": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseStringName": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "xmlParseEntityValue": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNCNameComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNameComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseSystemLiteral": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlFatalErr": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseAttValueInternal": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseAttValueComplex": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseNCName": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseName": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParsePI": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNmtoken": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParsePubidLiteral": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseComment": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseCommentComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.8": {
+          "xmlParseCDSect": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseStringName": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "xmlParseEntityValue": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNCNameComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNameComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseSystemLiteral": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlFatalErr": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseAttValueInternal": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseAttValueComplex": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseNCName": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseName": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParsePI": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNmtoken": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParsePubidLiteral": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseComment": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseCommentComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "2.9.10+dfsg-5ubuntu0.20.04.4": {
+          "xmlParseCDSect": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseStringName": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "xmlParseEntityValue": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNCNameComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNameComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseSystemLiteral": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlFatalErr": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseAttValueInternal": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseAttValueComplex": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseNCName": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseName": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParsePI": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNmtoken": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParsePubidLiteral": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseComment": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseCommentComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "2.9.13+dfsg-1ubuntu0.1": {
+          "xmlParseCDSect": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseStringName": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseEntityValue": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNCNameComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNameComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseSystemLiteral": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlFatalErr": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseAttValueInternal": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseAttValueComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNCName": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseName": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParsePI": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNmtoken": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParsePubidLiteral": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseComment": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlParseCommentComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlParseCDSect": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseStringName": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "xmlParseEntityValue": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNCNameComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNameComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseSystemLiteral": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlFatalErr": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseAttValueInternal": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseAttValueComplex": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseNCName": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlParseName": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParsePI": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseNmtoken": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParsePubidLiteral": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseComment": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "xmlParseCommentComplex": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2022-40304": {
+        "2.9.4+dfsg1-6.1ubuntu1.7": {
+          "xmlFreeEntity": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlCreateEntity": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.8": {
+          "xmlFreeEntity": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlCreateEntity": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "2.9.10+dfsg-5ubuntu0.20.04.4": {
+          "xmlFreeEntity": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlCreateEntity": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "2.9.13+dfsg-1ubuntu0.1": {
+          "xmlFreeEntity": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "xmlCreateEntity": {
+            "result": "V",
+            "status": "TN",
+            "truth": "-1",
+            "raw_result": "V 0.09351375004969775/0.08974358974358974 26/26"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlFreeEntity": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "xmlCreateEntity": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2023-28484": {
+        "2.9.4+dfsg1-6.1ubuntu1.8": {
+          "xmlSchemaFixupComplexType": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "2.9.4+dfsg1-6.1ubuntu1.9": {
+          "xmlSchemaFixupComplexType": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "2.9.10+dfsg-5ubuntu0.20.04.4": {
+          "xmlSchemaFixupComplexType": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "2.9.13+dfsg-1ubuntu0.2": {
+          "xmlSchemaFixupComplexType": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        }
+      }
+    },
+    "sqlite": {
+      "CVE-2018-20346": {
+        "3.22.0": {
+          "fts3ScanInteriorNode": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "fts3SegReaderNext": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "nodeReaderNext": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1",
+            "raw_result": "P 0.1275216370107351/0.12823539161927633 32/31"
+          }
+        }
+      },
+      "CVE-2019-19244": {
+        "3.30.1": {
+          "sqlite3Select": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "3.27.2": {
+          "sqlite3Select": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "3.29.0": {
+          "sqlite3Select": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "3.31.1": {
+          "sqlite3Select": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2019-19923": {
+        "3.30.1": {
+          "flattenSubquery": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "3.22.0": {
+          "flattenSubquery": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.27.2": {
+          "flattenSubquery": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.29.0": {
+          "flattenSubquery": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "3.31.1": {
+          "flattenSubquery": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2019-19924": {
+        "3.30.1": {
+          "codeCompare": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "vdbeVComment": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.22.0": {
+          "codeCompare": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "vdbeVComment": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.27.2": {
+          "codeCompare": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "vdbeVComment": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.29.0": {
+          "codeCompare": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "vdbeVComment": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.31.1": {
+          "codeCompare": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "sqlite3WindowRewrite": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "vdbeVComment": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-19925": {
+        "3.30.1": {
+          "zipfileUpdate": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.22.0": {
+          "zipfileUpdate": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.27.2": {
+          "zipfileUpdate": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.29.0": {
+          "zipfileUpdate": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.31.1": {
+          "zipfileUpdate": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-20218": {
+        "3.22.0": {
+          "selectExpander": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2020-11655": {
+        "3.31.1": {
+          "resetAccumulator": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "3.32.1": {
+          "resetAccumulator": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "3.37.2": {
+          "resetAccumulator": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2020-11656": {
+        "3.31.1": {
+          "unmapColumnIdlistNames": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/sqlite/sigs/CVE-2020-11656+unmapColumnIdlistNames.sig",
+            "truth": "-1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/sqlite/sigs/CVE-2020-11656+unmapColumnIdlistNames.sig"
+          },
+          "renameUnmapSelectCb": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "3.32.0": {
+          "unmapColumnIdlistNames": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/sqlite/sigs/CVE-2020-11656+unmapColumnIdlistNames.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/sqlite/sigs/CVE-2020-11656+unmapColumnIdlistNames.sig"
+          },
+          "renameUnmapSelectCb": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "3.32.1": {
+          "unmapColumnIdlistNames": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/sqlite/sigs/CVE-2020-11656+unmapColumnIdlistNames.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/sqlite/sigs/CVE-2020-11656+unmapColumnIdlistNames.sig"
+          },
+          "renameUnmapSelectCb": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "3.37.2": {
+          "unmapColumnIdlistNames": {
+            "result": "fail",
+            "status": "sig load fail: signature file not found: /binaries/reference/sqlite/sigs/CVE-2020-11656+unmapColumnIdlistNames.sig",
+            "truth": "1",
+            "raw_result": "sig load fail: signature file not found: /binaries/reference/sqlite/sigs/CVE-2020-11656+unmapColumnIdlistNames.sig"
+          },
+          "renameUnmapSelectCb": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2020-15358": {
+        "3.31.1": {
+          "flattenSubquery": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "multiSelect": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "sqlite3Select": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2021-36690": {
+        "3.31.1": {
+          "idxGetTableInfo": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.22.0": {
+          "idxGetTableInfo": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.36.0": {
+          "idxGetTableInfo": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.34.1": {
+          "idxGetTableInfo": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.37.1": {
+          "idxGetTableInfo": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "3.37.2": {
+          "idxGetTableInfo": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      }
+    },
+    "tcpdump": {
+      "CVE-2018-14461": {
+        "4.7.4-1ubuntu1": {
+          "ldp_pdu_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "ldp_tlv_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "ldp_pdu_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "ldp_tlv_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "ldp_pdu_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "ldp_tlv_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "ldp_pdu_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "ldp_tlv_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-14462": {
+        "4.7.4-1ubuntu1": {
+          "icmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "icmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "icmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "icmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2018-14463": {
+        "4.7.4-1ubuntu1": {
+          "vrrp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "vrrp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "vrrp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "vrrp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2018-14464": {
+        "4.7.4-1ubuntu1": {
+          "lmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "lmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "lmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "lmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2018-14465": {
+        "4.7.4-1ubuntu1": {
+          "rsvp_obj_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "rsvp_obj_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "rsvp_obj_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "rsvp_obj_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2018-14466": {
+        "4.7.4-1ubuntu1": {
+          "rx_cache_find": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "rx_cache_insert": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "rx_cache_find": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "rx_cache_insert": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "rx_cache_find": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "rx_cache_insert": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "rx_cache_find": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "rx_cache_insert": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-14467": {
+        "4.7.4-1ubuntu1": {
+          "bgp_capabilities_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "bgp_capabilities_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "bgp_capabilities_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "bgp_capabilities_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-14468": {
+        "4.7.4-1ubuntu1": {
+          "mfr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "mfr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "mfr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "mfr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2018-14469": {
+        "4.7.4-1ubuntu1": {
+          "ikev1_n_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "ikev1_n_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "ikev1_n_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "ikev1_n_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2018-14470": {
+        "4.7.4-1ubuntu1": {
+          "babel_print_v2": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "babel_print_v2": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "babel_print_v2": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "babel_print_v2": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-14880": {
+        "4.7.4-1ubuntu1": {
+          "ospf6_print_lshdr": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1",
+            "raw_result": "P 0.0/0.4088384315381282 7/7"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "ospf6_print_lshdr": {
+            "result": "P",
+            "status": "FP",
+            "truth": "-1",
+            "raw_result": "P 0.0/0.4088384315381282 7/7"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "ospf6_print_lshdr": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1",
+            "raw_result": "P 0.0/0.4088384315381282 5/5"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "ospf6_print_lshdr": {
+            "result": "P",
+            "status": "TP",
+            "truth": "1",
+            "raw_result": "P 0.0/0.4088384315381282 6/6"
+          }
+        }
+      },
+      "CVE-2018-14881": {
+        "4.7.4-1ubuntu1": {
+          "bgp_capabilities_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "bgp_capabilities_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "bgp_capabilities_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "bgp_capabilities_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-14882": {
+        "4.7.4-1ubuntu1": {
+          "icmp6_opt_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "icmp6_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "icmp6_rrenum_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "mldv2_query_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "mldv2_report_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "rpl_dao_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "rpl_daoack_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "rpl_dio_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "rpl_dio_printopt": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "rpl_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "icmp6_opt_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "icmp6_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "icmp6_rrenum_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "mldv2_query_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "mldv2_report_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "rpl_dao_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "rpl_daoack_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "rpl_dio_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          },
+          "rpl_dio_printopt": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          },
+          "rpl_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "icmp6_opt_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "icmp6_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "icmp6_rrenum_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "mldv2_query_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "mldv2_report_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "rpl_dao_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "rpl_daoack_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "rpl_dio_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "rpl_dio_printopt": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "rpl_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "icmp6_opt_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "icmp6_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "icmp6_rrenum_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "mldv2_query_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "mldv2_report_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "rpl_dao_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "rpl_daoack_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "rpl_dio_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          },
+          "rpl_dio_printopt": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          },
+          "rpl_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-16227": {
+        "4.7.4-1ubuntu1": {
+          "ieee802_11_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "ieee802_11_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "ieee802_11_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "ieee802_11_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2018-16228": {
+        "4.7.4-1ubuntu1": {
+          "print_prefix": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "print_prefix": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "print_prefix": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "print_prefix": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2018-16229": {
+        "4.7.4-1ubuntu1": {
+          "dccp_print_option": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "dccp_print_option": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "dccp_print_option": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "dccp_print_option": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-16230": {
+        "4.7.4-1ubuntu1": {
+          "bgp_attr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "bgp_attr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "bgp_attr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "bgp_attr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      },
+      "CVE-2018-16300": {
+        "4.7.4-1ubuntu1": {
+          "bgp_attr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "bgp_update_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "bgp_attr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "bgp_update_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "bgp_attr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "bgp_update_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "bgp_attr_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "bgp_update_print": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-16451": {
+        "4.7.4-1ubuntu1": {
+          "print_trans": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "print_trans": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "print_trans": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "print_trans": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2018-16452": {
+        "4.7.4-1ubuntu1": {
+          "smb_fdata": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "smb_fdata": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "smb_fdata": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "smb_fdata": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "1",
+            "raw_result": "function not found"
+          }
+        }
+      },
+      "CVE-2019-15166": {
+        "4.7.4-1ubuntu1": {
+          "lmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "fail",
+            "status": "function not found",
+            "truth": "-1",
+            "raw_result": "function not found"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "lmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "-1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "lmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "lmp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          },
+          "lmp_print_data_link_subobjs": {
+            "result": "fail",
+            "status": "C can't tell",
+            "truth": "1",
+            "raw_result": "C can't tell"
+          }
+        }
+      },
+      "CVE-2019-15167": {
+        "4.7.4-1ubuntu1": {
+          "vrrp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.2-0ubuntu0.14.04.1": {
+          "vrrp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "-1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-0ubuntu0.16.04.1": {
+          "vrrp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        },
+        "4.9.3-4ubuntu0.3": {
+          "vrrp_print": {
+            "result": "fail",
+            "status": "NA too much diff",
+            "truth": "1",
+            "raw_result": "NA too much diff"
+          }
+        }
+      }
+    }
+  },
+  "project_order": [
+    "curl",
+    "freetype",
+    "imagemagick",
+    "libxml2",
+    "sqlite",
+    "tcpdump"
+  ]
+}

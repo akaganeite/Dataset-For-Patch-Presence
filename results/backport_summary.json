@@ -1,0 +1,97 @@
+{
+  "base_dir": "/home/zhangxb/ClawSpace/robust_test/backportfix/results",
+  "projects": {
+    "binutils": {
+      "backport_cve_count": 8,
+      "affected_versions": [
+        "binutils-2_28",
+        "binutils-2_35",
+        "binutils-2_40"
+      ],
+      "backport_cves": [
+        "CVE-2017-7299",
+        "CVE-2017-7303",
+        "CVE-2017-7304",
+        "CVE-2020-16590",
+        "CVE-2020-16591",
+        "CVE-2020-16593",
+        "CVE-2020-16599",
+        "CVE-2023-25586"
+      ]
+    },
+    "curl": {
+      "backport_cve_count": 1,
+      "affected_versions": [
+        "curl-7_55_0"
+      ],
+      "backport_cves": [
+        "CVE-2017-1000101"
+      ]
+    },
+    "ffmpeg": {
+      "backport_cve_count": 0,
+      "affected_versions": [],
+      "backport_cves": []
+    },
+    "freetype": {
+      "backport_cve_count": 1,
+      "affected_versions": [
+        "VER-2-5-3"
+      ],
+      "backport_cves": [
+        "CVE-2014-9746"
+      ]
+    },
+    "imagemagick": {
+      "backport_cve_count": 8,
+      "affected_versions": [
+        "7.0.10-7",
+        "7.0.3-8",
+        "7.0.5-7",
+        "7.0.8-11",
+        "7.0.8-34",
+        "7.1.1-10",
+        "7.1.1-19"
+      ],
+      "backport_cves": [
+        "CVE-2016-9556",
+        "CVE-2017-9499",
+        "CVE-2018-16644",
+        "CVE-2018-16645",
+        "CVE-2019-12974",
+        "CVE-2020-19667",
+        "CVE-2023-34151",
+        "CVE-2023-5341"
+      ]
+    },
+    "libxml2": {
+      "backport_cve_count": 0,
+      "affected_versions": [],
+      "backport_cves": []
+    },
+    "openjpeg": {
+      "backport_cve_count": 0,
+      "affected_versions": [],
+      "backport_cves": []
+    },
+    "openssl": {
+      "backport_cve_count": 1,
+      "affected_versions": [
+        "openssl-3.0.3"
+      ],
+      "backport_cves": [
+        "CVE-2021-4044"
+      ]
+    },
+    "sqlite": {
+      "backport_cve_count": 0,
+      "affected_versions": [],
+      "backport_cves": []
+    },
+    "tcpdump": {
+      "backport_cve_count": 0,
+      "affected_versions": [],
+      "backport_cves": []
+    }
+  }
+}

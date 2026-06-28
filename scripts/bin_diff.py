@@ -7,7 +7,13 @@ from collections import defaultdict
 import shutil
 import glob
 
-ROOT_DIR = "/data/zhangxb"
+ROOT_DIR = "/data"
+
+# ghidriff Docker image used for binary diffing. Pinned to a release tag because
+# `:latest` currently ships a Ghidra/pyghidra mismatch ("Ghidra version 11.3.1
+# is not supported. The minimum required version is 12.0"). Override with the
+# GHIDRIFF_IMAGE environment variable if a different build is preferred.
+GHIDRIFF_IMAGE = os.environ.get("GHIDRIFF_IMAGE", "ghcr.io/clearbluejar/ghidriff:0.5.2")
 
 def cleanup_binary_dir(binary_dir):
     """
@@ -61,9 +67,11 @@ def run_ghidriff_analysis(project_name, binary_dir):
     Run ghidriff analysis on the specified project and generate JSON result files.
     """
     base_dir = binary_dir
-    # Save results to bin_diff_raw subdirectory
-    project_dest_dir = f"./{project_name}-test/bin_diff_raw"
-    log_dir = f"./{project_name}-test/logs"
+    # Save results to bin_diff_raw subdirectory. Must match the json_dir that
+    # main() later parses (./{project}/bin_diff_raw), otherwise the parse step
+    # finds no files and emits empty *_full_analysis.json / *_bin_diff.json.
+    project_dest_dir = f"./{project_name}/bin_diff_raw"
+    log_dir = f"./{project_name}/logs"
     if not os.path.isdir(base_dir):
         print(f"Error: Project directory '{base_dir}' does not exist.")
         return
@@ -119,7 +127,7 @@ def run_ghidriff_analysis(project_name, binary_dir):
             command = [
                 "docker", "run","--rm",
                 "-v", f"{abs_base_dir}:/ghidriffs",
-                "ghcr.io/clearbluejar/ghidriff:latest",
+                GHIDRIFF_IMAGE,
                 # "ghidriff",
                 f"ghidriffs/{vuln_filename}",
                 f"ghidriffs/{patch_filename}"

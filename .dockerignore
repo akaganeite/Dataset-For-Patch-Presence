@@ -1,0 +1,5 @@
+.git
+demo-output
+**/__pycache__
+*.pyc
+*.log

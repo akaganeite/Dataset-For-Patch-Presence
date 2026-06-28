@@ -1,5 +1,5 @@
 {
-  "base_dir": "/home/zhangxb/ClawSpace/robust_test/backportfix/results",
+  "base_dir": "backportfix/results",
   "projects": {
     "binutils": {
       "backport_cve_count": 8,

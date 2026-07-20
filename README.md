@@ -17,7 +17,8 @@ We apply for the **Available** and **Reusable** badges (see `STATUS.md`).
 
 - **This repository** (metadata, diffs, results, RQ data, scripts): ~43 MB.
   Archived snapshot DOI: https://doi.org/10.5281/zenodo.21004672
-- **Compiled binary corpus** (~43 GB compressed, stored separately due to size):
+- **Compiled binary corpus** (43.08 GB compressed; 73.17 GB as unpacked
+  binaries; stored separately due to size):
   https://doi.org/10.5281/zenodo.18382612
 
 ---
@@ -102,8 +103,8 @@ Every claim below can be inspected directly in the archived data. See
 | Figure 5 — failure-pattern classification & distribution | `RQs/common_failure_patterns.json` |
 | Figure 6 — impact of patch evolution | `RQs/patch_evolution.json` |
 | Figure 7 — real-world deployment scenarios | `RQs/deployed_binaries/*.json` |
-| Table 6 — accuracy across semantic complexity & categories | `RQs/semantic_patterns.json` |
-| Table 7 — accuracy on CWE categories | `RQs/cwe_mapping.json` |
+| Table 5 — accuracy across semantic complexity & categories | `RQs/semantic_patterns.json` |
+| Table 6 — accuracy on CWE categories | `RQs/cwe_mapping.json` |
 | Robustness of chronological test-set selection | `RQs/extended_testset.json` |
 | Backport-fix analysis | `results/backport_summary.json` |
 | Dataset (562 testset / 559 reference / diffs / target functions) | `Dataset/` |
@@ -160,8 +161,11 @@ dataset generation — is documented stage by stage in `scripts/README.md`.
 ## Storage requirements
 
 - This repository snapshot: **~43 MB**.
-- Compiled binary corpus (optional, Zenodo): **~43 GB compressed**, more after
-  extraction.
+- Compiled binary corpus (optional, Zenodo): **43.08 GB compressed** and
+  **73.17 GB** as unpacked binaries after removing intermediate archives. A
+  straightforward in-place extraction that keeps the compressed archives during
+  unpacking may temporarily use about **160.66 GB**; reserve **at least 170 GB
+  of free disk space**.
 - Optional construction demo output: a few hundred MB (clone + compiled binaries).
 
 ## Reuse guide (Reusable badge)

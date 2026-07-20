@@ -34,8 +34,11 @@ The compiled binary corpus is archived separately on Zenodo:
 
 https://doi.org/10.5281/zenodo.18382612
 
-Downloading the full corpus requires about 43 GB for the compressed archives and
-substantially more disk space after extraction.
+The compressed archives total **43.08 GB**. After recursive extraction and
+removal of intermediate archives, the unpacked binaries occupy **73.17 GB**. A
+straightforward in-place extraction that keeps the compressed archives during
+unpacking may temporarily use about **160.66 GB**; reserve **at least 170 GB of
+free disk space**.
 
 ## Construction Pipeline Requirements
 

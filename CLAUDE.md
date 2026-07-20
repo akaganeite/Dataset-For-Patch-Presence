@@ -1,15 +1,14 @@
 # CLAUDE.md
 
-This file gives implementation-level guidance to Claude Code when working in this
-repository. For the run/handoff playbook (how to launch an experiment on a new
+This file gives implementation-level guidance to Claude Code when working on
+CODEX4PPT. For the run/handoff playbook (how to launch an experiment on a new
 machine, dataset checks, troubleshooting, metrics interpretation), see
-**`AGENTS.md`**; for a short user-facing intro and example invocations, see
-**`readme.md`**. The three intentionally overlap; keep them consistent when you
-change runtime behavior.
+**`AGENTS.md`**; for a short user-facing intro, see **`readme.md`**. Keep these
+documents consistent when you change runtime behavior.
 
 ## What this repo does
 
-This is a research harness for **binary patch-presence testing**: given a CVE and a
+CODEX4PPT is a research harness for **binary patch-presence testing**: given a CVE and a
 set of target binaries, decide for each binary whether it contains the *patched*
 behavior (`present`), the *vulnerable* behavior (`absent`), is `not_affected`
 (the bug is inapplicable to this build), is `inconclusive` (evidence not
